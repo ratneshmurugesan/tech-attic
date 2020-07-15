@@ -3,31 +3,30 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  // Link 
 } from 'react-router-dom';
 
 import './App.css';
 import Container from '@material-ui/core/Container';
 
-import TeaserPage from './atoms/TeaserPage';
-import CustomGrid from './atoms/CustomGrid';
+import TeaserPage from './organisms/TeaserPage';
+import CustomGrid from './organisms/CustomGrid';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <div>
-          <Switch>
+      <div>
+        <Switch>
+          <Route path='/' exact>
+            <TeaserPage />
+          </Route>
           <Route path='/everything'>
-              <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
-                <CustomGrid />
-              </Container>
-            </Route>
-            <Route path='/'>
-              <TeaserPage />
-            </Route>
-          </Switch>
-        </div>
+            <Container maxWidth="xl">
+              <CustomGrid />
+            </Container>
+          </Route>
+        </Switch>
+      </div>
       </Router>
     </div>
   );

@@ -27,7 +27,7 @@ const buttonYellowTheme = {
   backgroundColor: 'unset'
 }
 
-export default function TeaserPage() {
+function TeaserPage() {
 
   const classes = LinearBufferuseStyles();
   const [loading, setLoading] = React.useState(false);
@@ -61,7 +61,7 @@ export default function TeaserPage() {
 
   const handleClick = () => {
     setLoading((prevLoading) => !prevLoading);
-    setTimeout(() => window.location.href = '/everything/', 5000);
+    setTimeout(() => window.location.href = '/everything/about-me', 5000);
   };
 
   return (
@@ -70,7 +70,7 @@ export default function TeaserPage() {
         <CardContent>
           <h2 className='title'>Ratnesh's Tech Attic</h2>
           <div className={classes.root}>
-            <Fade in={loading} style={{ transitionDelay: loading ? '800ms' : '0ms' }} unmountOnExit>
+            <Fade in={loading} style={{ transitionDelay: loading ? '100ms' : '0ms' }} unmountOnExit>
               <div className={classes.root} style={{ margin: '30px 0px' }}>
                 <LinearProgress variant="buffer" value={progress} valueBuffer={buffer} />
               </div>
@@ -89,3 +89,5 @@ export default function TeaserPage() {
 
   );
 }
+
+export default (TeaserPage);
