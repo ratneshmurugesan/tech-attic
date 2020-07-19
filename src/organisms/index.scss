@@ -1,0 +1,19 @@
+@import "../base.scss";
+
+// .buttonYellow {
+//     color: $yellowText;
+//     font-family: $font-family-primary;
+//     font-size: 20px;
+//     letter-spacing: 7px;
+//     padding: 0px 30px;
+// }
+
+.MuiPaper-root.paper {
+    padding: 16px;
+    text-align: center;
+    color: $yellowText;
+    background-color: #424242;
+    margin-top: 20px;
+    font-family: $font-family-primary;
+    // width: 200px;
+}

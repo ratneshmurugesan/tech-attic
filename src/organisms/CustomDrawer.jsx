@@ -3,6 +3,9 @@ import {
   Link,
 } from 'react-router-dom';
 
+import { AutoScreenResizer } from '../prototypes/AutoScreenResizer/index.jsx';
+
+
 import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
@@ -33,17 +36,17 @@ const useStyles = makeStyles({
   },
 });
 
-const useStyles_paper = makeStyles((theme) => ({
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-    backgroundColor: '#424242',
-    marginTop: '20px',
-    fontFamily: 'Rajdhani',
-    width: '200px',
-  },
-}));
+// const useStyles_paper = makeStyles((theme) => ({
+//   paper: {
+//     padding: theme.spacing(2),
+//     textAlign: 'center',
+//     color: theme.palette.text.secondary,
+//     backgroundColor: '#424242',
+//     marginTop: '20px',
+//     fontFamily: 'Rajdhani',
+//     width: '200px',
+//   },
+// }));
 
 
 const buttonYellowTheme = {
@@ -54,27 +57,12 @@ const buttonYellowTheme = {
   padding: '0px 30px',
 }
 
-// const useStyles_bg = makeStyles((theme) => ({
-//   root: {
-//     display: 'flex',
-//     flexDirection: 'column',
-//     alignItems: 'center',
-//     backgroundColor: '#000',
-//     '& > *': {
-//       margin: theme.spacing(1),
-//     },
-//   },
-// }));
-// const GroupFlex = {
-//   display: 'flex',
-//   justifyContent: 'center',
-// }
-
 
 function CustomDrawer() {
   const classes = useStyles();
-
-  const classes_paper = useStyles_paper();
+  
+  // const classes_paper = useStyles_paper();
+  const { width } = AutoScreenResizer();
   const [state, setState] = React.useState({
     left: false,
     right: false
@@ -105,7 +93,7 @@ function CustomDrawer() {
             <List>
               {['repo-browser', 'book-store'].map((text) => (
                 <div key={text}>
-                  <Paper elevation={2} className={classes_paper.paper} >
+                  <Paper elevation={2} className="paper" >
                     <Link to={`/everything/${text}`}>{text}</Link>
                   </Paper>
                 </div>
@@ -118,7 +106,7 @@ function CustomDrawer() {
             <List>
               {['reverse-singly-linked-list', '6', '7', '8'].map((text) => (
                 <div key={text}>
-                <Paper elevation={2} className={classes_paper.paper} >
+                <Paper elevation={2} className="paper" >
                   <Link to={`/everything/${text}`}>{text}</Link>
                 </Paper>
               </div>
@@ -133,7 +121,7 @@ function CustomDrawer() {
   // orientation={`${window.innerWidth < 768 ? 'vertical' : 'horizontal'}`}
   return (
     <React.Fragment>
-      <ButtonGroup variant="text" aria-label="text button group" orientation={`${window.innerWidth < 768 ? 'vertical' : 'horizontal'}`}>
+      <ButtonGroup variant="text" aria-label="text button group" orientation={`${width < 620 ? 'vertical' : 'horizontal'}`}>
         <Button style={buttonYellowTheme} onClick={toggleDrawer('left', true)}>Prototypes</Button>
         <Button style={buttonYellowTheme} onClick={() => window.location.href = '/everything/about-me'}>About-Me</Button>
         <Button style={buttonYellowTheme} onClick={toggleDrawer('right', true)}>Micro-Apps</Button>
@@ -142,9 +130,7 @@ function CustomDrawer() {
         <Container maxWidth="sm" style={{ backgroundColor: '#333', height: '100%' }}>
           <Grid container spacing={3} direction="row" justify="center" alignItems="center">
             <Grid item xs={12}>
-              {/* <Paper elevation={4} className={classes_paper.paper}> */}
               {list('left')}
-              {/* </Paper> */}
             </Grid>
           </Grid>
         </Container>
@@ -153,9 +139,7 @@ function CustomDrawer() {
         <Container maxWidth="sm" style={{ backgroundColor: '#333', height: '100%' }}>
           <Grid container spacing={3} direction="row" justify="center" alignItems="center">
             <Grid item xs={12}>
-              {/* <Paper elevation={4} className={classes_paper.paper}> */}
               {list('right')}
-              {/* </Paper> */}
             </Grid>
           </Grid>
         </Container>

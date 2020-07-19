@@ -1,20 +1,10 @@
-/* @media (max-width: 768px) {
-  .App {
-    visibility: hidden;
-  }
-  .App::after {
-    content: "My creations are limited to larger screens!";
-    display: block;
-    background-color: #ffeb3b;
-    width: 100%;
-    height: 100%;
-  }
-} */
+@import './base.scss';
+
 .App {
   text-align: center;
   /* overflow: auto; */
   /* background-color: #4b4b4b; */
-  font-family: "Rajdhani", sans-serif;
+  font-family: $font-family-primary, $font-family-fallback;
   /* font-family: 'Saira Stencil One', cursive; */
 }
 
@@ -38,7 +28,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   /* font-family: 'Saira Stencil One', cursive; */
-  font-family: "Rajdhani", sans-serif;
+  font-family: $font-family-primary, $font-family-fallback;
   font-weight: 200;
 }
 
@@ -56,7 +46,7 @@
 }
 
 .title {
-  color: #ffeb3b;
+  color: $yellowText;
   margin: 15px 15px;
   font-size: "24px";
   font-weight: 300;
@@ -69,15 +59,15 @@
   display: flex;
   justify-content: left;
   font-size: 16px;
-  font-family: "Rajdhani", sans-serif;
+  font-family: $font-family-primary, $font-family-fallback;
 }
 
 .page__title {
   font-size: 24px;
   font-weight: 300;
   letter-spacing: 7px;
-  color: #ffeb3b;
+  color: $yellowText;
   margin: 20px;
   padding: 0;
-  font-family: "Rajdhani", sans-serif;
+  font-family: $font-family-primary, $font-family-fallback;
 }

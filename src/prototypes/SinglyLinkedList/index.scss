@@ -1,3 +1,5 @@
+@import '../../../src/base.scss';
+
 .sll {
     display: flex;
     justify-content: center;
@@ -6,7 +8,7 @@
 }
 
 .node {
-    background-color: #ffeb3b;
+    background-color: $yellowText;
     // border-radius: 5%;
     display: flex;
     justify-content: center;
@@ -15,12 +17,12 @@
     height: 30px;
     flex-direction: row;
     font-size: 20px;
-    border: 1px solid #ffeb3b;
+    border: 1px solid $yellowText;
     margin: 0 15px;
 
     &::after{
         content: '->';
-        color: #ffeb3b;
+        color: $yellowText;
         position: absolute;
         padding-left: 130px;
         font-size: 30px;
@@ -33,7 +35,7 @@
         background-color: black;
         width: 100%;
         height: 100%;
-        color: #ffeb3b;
+        color: $yellowText;
         align-self: center;
     }
 

@@ -23,7 +23,7 @@ const LinearBufferuseStyles = makeStyles({
 
 const buttonYellowTheme = {
   border: '1px solid rgba(203, 245, 0, 0.5)',
-  color: '#ffeb3b',
+  color: '$yellowText',
   fontFamily: 'Rajdhani',
   backgroundColor: 'unset'
 }

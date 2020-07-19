@@ -34,10 +34,6 @@ function PaperWrapper(ActualComponent, pageTitle) {
     return (
         <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
             <Grid container spacing={3} direction="row" justify="center" alignItems="center">
-                {/* <Grid item xs={10}>
-                    <Paper elevation={0} className={classes.paper}>
-                    </Paper>
-                </Grid> */}
                 <Grid item xs={10}>
                     <Paper elevation={4} className={classes.paper}>
                         <h1 className="page__title">{pageTitle}</h1>
@@ -64,7 +60,7 @@ function CustomGrid() {
             <Switch>
                 <Route path='/everything/repo-browser' component={() => PaperWrapper(RepoBrowser, 'Github-Repo-Browser')} />
                 <Route path='/everything/book-store' component={() => PaperWrapper(BookStore, 'Book-Store')} />
-                <Route path='/everything/about-me' component={() => PaperWrapper(AboutMe, 'It\'s All About Me')} />
+                <Route path='/everything/about-me' component={() => PaperWrapper(AboutMe, '')} />
 
                 <Route path="/everything/reverse-singly-linked-list" component={() => PaperWrapper(ReverseLinkedList, 'Reversing a Singly Linked List')} />
             </Switch>
