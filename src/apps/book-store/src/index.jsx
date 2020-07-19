@@ -4,7 +4,7 @@ import App from './components/app.js'
 import { store } from './store/store.js'
 import { Provider } from 'react-redux'
 
-import './styles/index.css'
+import './styles/index.scss'
 
 function BookStore() {
     return (

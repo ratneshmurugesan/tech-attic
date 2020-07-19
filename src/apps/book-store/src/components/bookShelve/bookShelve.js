@@ -11,19 +11,19 @@ export class Sections extends React.Component{
             <div>
               <ul>
                 <li>
-                  <Link to='/book-store/current'>Currently reading</Link>
+                  <Link to='/everything/book-store/current'>Currently reading</Link>
                 </li>
                 <li>
-                  <Link to='/book-store/wishlist'>Want to read</Link>
+                  <Link to='/everything/book-store/wishlist'>Want to read</Link>
                 </li>
                 <li>
-                  <Link to='/book-store/completed'>Done reading</Link>
+                  <Link to='/everything/book-store/completed'>Done reading</Link>
                 </li>
               </ul>
         
-              <Route path='/book-store/current' component={Current} />
-              <Route path='/book-store/wishlist' component={Wishlist} />
-              <Route path='/book-store/completed' component={Completed} />
+              <Route path='/everything/book-store/current' component={Current} />
+              <Route path='/everything/book-store/wishlist' component={Wishlist} />
+              <Route path='/everything/book-store/completed' component={Completed} />
               </div>
             </BrowserRouter>
           );

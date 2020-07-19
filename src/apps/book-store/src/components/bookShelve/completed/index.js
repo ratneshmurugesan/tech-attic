@@ -7,7 +7,7 @@ import { addToCurrentlyReading, addToWishList } from '../../../actions/actions.j
 function DropDown(props) {
     return (
         <span>
-            <select value={props.category} onChange={(event)=>props.handleSelect(props.id, event)}>
+            <select className="dropdown" value={props.category} onChange={(event)=>props.handleSelect(props.id, event)}>
                 <option value="Current">Currently reading</option>
                 <option value="Wishlist">Want to read</option>
                 <option value="Completed">Done reading</option>
@@ -35,7 +35,7 @@ class Completed extends React.Component {
             {
                 DoneReadingBooks.length !== 0 ? DoneReadingBooks.map((book, index) => {
                     return (
-                        <div
+                        <div className="book-name"
                             key={index}>{book.name}
                             <DropDown
                                 category='Completed'

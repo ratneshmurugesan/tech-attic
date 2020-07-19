@@ -6,21 +6,19 @@ import { Sections } from './bookShelve/bookShelve.js'
 export class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <ul>
+      <BrowserRouter >
+        <div className="app">
+          <ul >
             <li>
-              <Link to="/book-store">Book Shelve</Link>
+              <Link to="/everything/book-store">Book Shelve</Link>
             </li>
             <li>
-              <Link to="/book-store/search">Search</Link>
+              <Link to="/everything/book-store/search">Search</Link>
             </li>
           </ul>
 
-          <hr />
-
-          <Route exact path="/book-store" component={Sections} />
-          <Route path="/book-store/search" component={Search} />
+          <Route exact path="/everything/book-store" component={Sections} />
+          <Route path="/everything/book-store/search" component={Search} />
         </div>
       </BrowserRouter>
     );
