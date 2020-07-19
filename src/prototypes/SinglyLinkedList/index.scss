@@ -1,0 +1,47 @@
+.sll {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.node {
+    background-color: #ffeb3b;
+    // border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    flex-direction: row;
+    font-size: 20px;
+    border: 1px solid #ffeb3b;
+    margin: 0 15px;
+
+    &::after{
+        content: '->';
+        color: #ffeb3b;
+        position: absolute;
+        padding-left: 130px;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: 'Rajdhani';
+    }
+
+    &__prev,
+    &__next {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        color: #ffeb3b;
+        align-self: center;
+    }
+
+    &__value {
+        width: 100%;
+        height: 100%;
+        color: rgba(0, 0, 0, 0.486);
+        align-self: center;
+        font-weight: 700;
+    }
+}

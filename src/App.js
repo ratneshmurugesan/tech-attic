@@ -6,12 +6,14 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
-import Container from '@material-ui/core/Container';
+// import Container from '@material-ui/core/Container';
 
 import TeaserPage from './organisms/TeaserPage';
 import CustomGrid from './organisms/CustomGrid';
+import { AutoScreenResizer } from './prototypes/AutoScreenResizer/index.jsx';
 
 function App() {
+  AutoScreenResizer();
   return (
     <div className="App">
       <Router>
@@ -21,9 +23,9 @@ function App() {
             <TeaserPage />
           </Route>
           <Route path='/everything'>
-            <Container maxWidth="xl">
+            {/* <Container maxWidth="xl"> */}
               <CustomGrid />
-            </Container>
+            {/* </Container> */}
           </Route>
         </Switch>
       </div>

@@ -20,18 +20,18 @@ function AboutMe() {
     const classes = useStyles_paper();
     return (
         <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
-            <Grid container spacing={3}>
-                <Grid item xs={12}>
+            <Grid container spacing={3}  direction="row" justify="center" alignItems="center">
+                <Grid item xs={4}>
                     <Paper elevation={4} className={classes.paper}>
                         <a href='https://www.linkedin.com/in/ratnesh-murugesan/' target='_blank' rel="noopener noreferrer">My Linkedin Profile</a>
                     </Paper>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={4}>
                     <Paper elevation={4} className={classes.paper}>
                         <a href='https://github.com/ratneshmurugesan' target='_blank' rel="noopener noreferrer">My GitHub Profile</a>
                     </Paper>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={8}>
                     <Paper elevation={4} className={classes.paper}>xs</Paper>
                 </Grid>
             </Grid>

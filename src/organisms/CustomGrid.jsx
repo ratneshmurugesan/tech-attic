@@ -11,12 +11,14 @@ import Container from '@material-ui/core/Container';
 
 import CustomDrawer from './CustomDrawer';
 import AboutMe from './AboutMe';
-import RepoBrowser from '../apps/repo-browser/src/index.jsx'
+import RepoBrowser from '../apps/repo-browser/src/index.jsx';
+import BookStore from '../apps/book-store/src/index.jsx';
+import ReverseLinkedList from '../prototypes/SinglyLinkedList/ReverseLinkedList';
 
 const useStyles_grid = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        top: '10px', 
+        top: '10px',
         position: 'relative'
     },
     paper: {
@@ -27,19 +29,20 @@ const useStyles_grid = makeStyles((theme) => ({
     },
 }));
 
-function OneComponent() {
+function PaperWrapper(ActualComponent, pageTitle) {
     const classes = useStyles_grid();
     return (
         <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
-            <Grid container spacing={3}>
-                <Grid item xs>
-                    <Paper elevation={4} className={classes.paper}>xs</Paper>
-                </Grid>
-                <Grid item xs>
-                    <Paper elevation={4} className={classes.paper}>xs</Paper>
-                </Grid>
-                <Grid item xs>
-                    <Paper elevation={4} className={classes.paper}>xs</Paper>
+            <Grid container spacing={3} direction="row" justify="center" alignItems="center">
+                {/* <Grid item xs={10}>
+                    <Paper elevation={0} className={classes.paper}>
+                    </Paper>
+                </Grid> */}
+                <Grid item xs={10}>
+                    <Paper elevation={4} className={classes.paper}>
+                        <h1 className="page__title">{pageTitle}</h1>
+                        <ActualComponent />
+                    </Paper>
                 </Grid>
             </Grid>
         </Container>
@@ -51,20 +54,19 @@ function CustomGrid() {
     return (
         <div className={classes.root}>
             <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
-
                 <Grid container spacing={3}>
                     <Grid item xs>
-                        <Paper elevation={4} className={classes.paper}>
-                            <CustomDrawer />
-                        </Paper>
+                        <CustomDrawer />
                     </Grid>
                 </Grid>
             </Container>
 
             <Switch>
-                <Route path='/everything/1' component={() => <OneComponent />} />
-                <Route path='/everything/repo-browser' component={() => <RepoBrowser />} />
-                <Route path='/everything/about-me' component={() => <AboutMe />} />
+                <Route path='/everything/repo-browser' component={() => PaperWrapper(RepoBrowser, 'Github-Repo-Browser')} />
+                <Route path='/everything/book-store' component={() => PaperWrapper(BookStore, 'Book-Store')} />
+                <Route path='/everything/about-me' component={() => PaperWrapper(AboutMe, 'It\'s All About Me')} />
+
+                <Route path="/everything/reverse-singly-linked-list" component={() => PaperWrapper(ReverseLinkedList, 'Reversing a Singly Linked List')} />
             </Switch>
         </div>
     );

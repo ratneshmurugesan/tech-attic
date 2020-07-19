@@ -24,6 +24,7 @@ const LinearBufferuseStyles = makeStyles({
 const buttonYellowTheme = {
   border: '1px solid rgba(203, 245, 0, 0.5)',
   color: '#ffeb3b',
+  fontFamily: 'Rajdhani',
   backgroundColor: 'unset'
 }
 
@@ -68,13 +69,15 @@ function TeaserPage() {
     <header className="App-header">
       <Card style={{ minWidth: 290, minHeight: 200, backgroundColor: '#424242' }}>
         <CardContent>
-          <h2 className='title'>Ratnesh's Tech Attic</h2>
+          <h2 className='title'>RATNESH-MURUGESAN</h2>
+          <p className='title' style={{ color: '#000' }}>Tech Attic</p>
           <div className={classes.root}>
-            <Fade in={loading} style={{ transitionDelay: loading ? '100ms' : '0ms' }} unmountOnExit>
+            <Fade in={loading}
+              style={{ transitionDelay: loading ? '100ms' : '0ms' }}
+              unmountOnExit>
               <div className={classes.root} style={{ margin: '30px 0px' }}>
                 <LinearProgress variant="buffer" value={progress} valueBuffer={buffer} />
               </div>
-              {/* <CircularProgress /> */}
             </Fade>
 
             <Grow in={true} style={{ marginTop: '20px 0px' }}>

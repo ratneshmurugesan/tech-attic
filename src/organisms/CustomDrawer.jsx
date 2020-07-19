@@ -7,44 +7,51 @@ import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 // import Divider from '@material-ui/core/Divider';
-// import Paper from '@material-ui/core/Paper';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
+import Paper from '@material-ui/core/Paper';
+// import ListItem from '@material-ui/core/ListItem';
+// import ListItemIcon from '@material-ui/core/ListItemIcon';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
-import ListItemText from '@material-ui/core/ListItemText';
+// import ListItemText from '@material-ui/core/ListItemText';
 // import Chip from '@material-ui/core/Chip';
-import DonutSmallOutlinedIcon from '@material-ui/icons/DonutSmallOutlined';
+// import DonutSmallOutlinedIcon from '@material-ui/icons/DonutSmallOutlined';
 // import Paper from '@material-ui/core/Paper';
-// import Grid from '@material-ui/core/Grid';
-// import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
+import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
 // import Group from 'antd/lib/input/Group';
 
 const useStyles = makeStyles({
   list: {
-    width: 300,
-    padding: '40px'
+    // width: 300,
+    // padding: '40px',
+    fontFamily: 'Rajdhani',
   },
   fullList: {
     width: 'auto',
+    fontFamily: 'Rajdhani',
   },
 });
 
-// const useStyles_paper = makeStyles((theme) => ({
-//   paper: {
-//     padding: theme.spacing(2),
-//     textAlign: 'center',
-//     color: theme.palette.text.secondary,
-//     backgroundColor: '#e2e2e2',
-//   },
-// }));
+const useStyles_paper = makeStyles((theme) => ({
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    backgroundColor: '#424242',
+    marginTop: '20px',
+    fontFamily: 'Rajdhani',
+    width: '200px',
+  },
+}));
 
 
 const buttonYellowTheme = {
-  border: '1px solid rgba(203, 245, 0, 0.5)',
   color: '#ffeb3b',
-  backgroundColor: '#424242'
+  fontFamily: 'Rajdhani',
+  fontSize: '20px',
+  letterSpacing: '7px',
+  padding: '0px 30px',
 }
 
 // const useStyles_bg = makeStyles((theme) => ({
@@ -67,7 +74,7 @@ const buttonYellowTheme = {
 function CustomDrawer() {
   const classes = useStyles();
 
-  // const classes_paper = useStyles_paper();
+  const classes_paper = useStyles_paper();
   const [state, setState] = React.useState({
     left: false,
     right: false
@@ -89,17 +96,18 @@ function CustomDrawer() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
+      style={{ fontFamily: 'Paprika' }}
     >
       {
         anchor === 'right' ?
-
           <React.Fragment>
             {/* <Chip variant="outlined" label="Advanced" color="secondary" icon={<DonutSmallOutlinedIcon />} /> */}
             <List>
-              {['repo-browser'].map((text) => (
-                <div className="drawer__list__item" key={text}>
-                  <ListItemIcon>{<DonutSmallOutlinedIcon />}</ListItemIcon>
-                  <Link to={`/everything/${text}`}>{text}</Link>
+              {['repo-browser', 'book-store'].map((text) => (
+                <div key={text}>
+                  <Paper elevation={2} className={classes_paper.paper} >
+                    <Link to={`/everything/${text}`}>{text}</Link>
+                  </Paper>
                 </div>
               ))}
             </List>
@@ -108,11 +116,12 @@ function CustomDrawer() {
           <React.Fragment>
             {/* <Chip variant="outlined" label="Data Structures" color="primary" icon={<DonutSmallOutlinedIcon />} /> */}
             <List>
-              {['5', '6', '7', '8'].map((text) => (
-                <ListItem button key={text}>
-                  <ListItemIcon>{<DonutSmallOutlinedIcon />}</ListItemIcon>
-                  <ListItemText primary={text} />
-                </ListItem>
+              {['reverse-singly-linked-list', '6', '7', '8'].map((text) => (
+                <div key={text}>
+                <Paper elevation={2} className={classes_paper.paper} >
+                  <Link to={`/everything/${text}`}>{text}</Link>
+                </Paper>
+              </div>
               ))}
             </List>
           </React.Fragment>
@@ -121,18 +130,35 @@ function CustomDrawer() {
   );
 
   // const classes_bg = useStyles_bg();
+  // orientation={`${window.innerWidth < 768 ? 'vertical' : 'horizontal'}`}
   return (
     <React.Fragment>
-      <ButtonGroup size="small" color="secondary" orientation={`${window.innerWidth < 768 ? 'vertical' : 'horizontal'}`} aria-label="large outlined primary button group">
-        <Button style={buttonYellowTheme} onClick={() => window.location.href = '/everything/about-me'}>About Me</Button>
+      <ButtonGroup variant="text" aria-label="text button group" orientation={`${window.innerWidth < 768 ? 'vertical' : 'horizontal'}`}>
         <Button style={buttonYellowTheme} onClick={toggleDrawer('left', true)}>Prototypes</Button>
+        <Button style={buttonYellowTheme} onClick={() => window.location.href = '/everything/about-me'}>About-Me</Button>
         <Button style={buttonYellowTheme} onClick={toggleDrawer('right', true)}>Micro-Apps</Button>
       </ButtonGroup>
       <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
-        {list('left')}
+        <Container maxWidth="sm" style={{ backgroundColor: '#333', height: '100%' }}>
+          <Grid container spacing={3} direction="row" justify="center" alignItems="center">
+            <Grid item xs={12}>
+              {/* <Paper elevation={4} className={classes_paper.paper}> */}
+              {list('left')}
+              {/* </Paper> */}
+            </Grid>
+          </Grid>
+        </Container>
       </Drawer>
       <Drawer anchor={'right'} open={state['right']} onClose={toggleDrawer('right', false)}>
-        {list('right')}
+        <Container maxWidth="sm" style={{ backgroundColor: '#333', height: '100%' }}>
+          <Grid container spacing={3} direction="row" justify="center" alignItems="center">
+            <Grid item xs={12}>
+              {/* <Paper elevation={4} className={classes_paper.paper}> */}
+              {list('right')}
+              {/* </Paper> */}
+            </Grid>
+          </Grid>
+        </Container>
       </Drawer>
     </React.Fragment>
   );
