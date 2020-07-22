@@ -11,9 +11,15 @@ import Container from '@material-ui/core/Container';
 
 import CustomDrawer from './CustomDrawer';
 import AboutMe from './AboutMe';
+
 import RepoBrowser from '../apps/repo-browser/src/index.jsx';
 import BookStore from '../apps/book-store/src/index.jsx';
+import RenderByConfig from '../apps/render-by-config';
+
 import ReverseLinkedList from '../prototypes/SinglyLinkedList/ReverseLinkedList';
+import CSSShapes from '../prototypes/CSSShapes';
+import CSSClipPath from '../prototypes/CSSClipPath';
+import CSSTransitions from '../prototypes/CSSTransitions';
 
 const useStyles_grid = makeStyles((theme) => ({
     root: {
@@ -60,9 +66,15 @@ function CustomGrid() {
             <Switch>
                 <Route path='/everything/repo-browser' component={() => PaperWrapper(RepoBrowser, 'Github-Repo-Browser')} />
                 <Route path='/everything/book-store' component={() => PaperWrapper(BookStore, 'Book-Store')} />
-                <Route path='/everything/about-me' component={() => PaperWrapper(AboutMe, '')} />
+                <Route path='/everything/render-by-config' component={() => PaperWrapper(RenderByConfig, 'Render by Config App')} />
+                
+                <Route path='/everything/about-me' component={() => <AboutMe />} />
 
                 <Route path="/everything/reverse-singly-linked-list" component={() => PaperWrapper(ReverseLinkedList, 'Reversing a Singly Linked List')} />
+                <Route path="/everything/css-shapes" component={() => PaperWrapper(CSSShapes, 'Shapes in CSS')} />
+                <Route path="/everything/css-clip-path" component={() => PaperWrapper(CSSClipPath, 'ClipPath in CSS')} />
+                <Route path="/everything/css-transitions" component={() => PaperWrapper(CSSTransitions, 'Transitions in CSS')} />
+
             </Switch>
         </div>
     );

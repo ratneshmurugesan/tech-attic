@@ -1,0 +1,25 @@
+@import "../../base.scss";
+
+
+.section{
+    display: block;
+}
+#clipped {
+    margin-bottom: 20px;
+}
+
+.cross {
+    clip-path: url(#cross);
+}
+
+.circle {
+    clip-path: circle(100px at 0px 100px);
+}
+
+.inset{
+    clip-path: inset(20px round 20px);
+}
+
+// .path{
+//     clip-path: path('M 0 200 L 0,110 A 110,90 0,0,1 240,100 L 200 340 z');
+// }

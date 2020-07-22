@@ -6,7 +6,12 @@
   /* background-color: #4b4b4b; */
   font-family: $font-family-primary, $font-family-fallback;
   /* font-family: 'Saira Stencil One', cursive; */
+  & a {
+    text-decoration: none;
+  }
 }
+
+
 
 // .App-logo {
 //   height: 40vmin;

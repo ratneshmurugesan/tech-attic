@@ -19,7 +19,7 @@ export const ScreenSizeProvider = ({ children }) => {
         return () => window.removeEventListener('resize', resizeWindow);
     }, []);
 
-    // console.log('AutoScreenResizer', { width, height });
+    // console.log('ScreenResizer', { width, height });
 
     return (
         <screenSizeContext.Provider value={{ width, height }}>
@@ -28,7 +28,7 @@ export const ScreenSizeProvider = ({ children }) => {
     )
 }
 
-export const AutoScreenResizer = () => {
+export const ScreenResizer = () => {
     //As hooks are composable... i am composing things here!
     const { width, height } = useContext(screenSizeContext);
     return { width, height };

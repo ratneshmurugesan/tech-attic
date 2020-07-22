@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import App from './App';
-import { ScreenSizeProvider } from './prototypes/AutoScreenResizer/index.jsx';
+import { ScreenSizeProvider } from './prototypes/ScreenResizer/index.jsx';
 
 ReactDOM.render(
   <ScreenSizeProvider><App /></ScreenSizeProvider>,

@@ -10,10 +10,10 @@ import './App.scss';
 
 import TeaserPage from './organisms/TeaserPage';
 import CustomGrid from './organisms/CustomGrid';
-import { AutoScreenResizer } from './prototypes/AutoScreenResizer/index.jsx';
+import { ScreenResizer } from './prototypes/ScreenResizer/index.jsx';
 
 function App() {
-  AutoScreenResizer();
+  ScreenResizer();
   return (
     <div className="App">
       <Router>

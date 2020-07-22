@@ -5,3 +5,19 @@ $font-family-fallback: "sans-serif";
 //Colors
 $yellowText: #ffeb3b;
 $whiteText: whitesmoke;
+
+.MuiPaper-root.paper {
+    padding: 16px;
+    text-align: center;
+    color: $yellowText;
+    background-color: #424242;
+    margin-top: 20px;
+    font-family: $font-family-primary;
+}
+
+a {
+    color: $yellowText;
+    &:hover {
+        color: $yellowText;
+    }
+}

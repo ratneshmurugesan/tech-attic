@@ -3,7 +3,7 @@ import {
   Link,
 } from 'react-router-dom';
 
-import { AutoScreenResizer } from '../prototypes/AutoScreenResizer/index.jsx';
+import { ScreenResizer } from '../prototypes/ScreenResizer/index.jsx';
 
 import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
@@ -37,7 +37,7 @@ const buttonYellowTheme = {
 function CustomDrawer() {
   const classes = useStyles();
   
-  const { width } = AutoScreenResizer();
+  const { width } = ScreenResizer();
   const [state, setState] = React.useState({
     left: false,
     right: false
@@ -65,7 +65,7 @@ function CustomDrawer() {
         anchor === 'right' ?
           <React.Fragment>
             <List>
-              {['repo-browser', 'book-store'].map((text) => (
+              {['repo-browser', 'book-store', 'render-by-config'].map((text) => (
                 <div key={text}>
                   <Paper elevation={2} className="paper" >
                     <Link to={`/everything/${text}`}>{text}</Link>
@@ -77,7 +77,17 @@ function CustomDrawer() {
           :
           <React.Fragment>
             <List>
-              {['reverse-singly-linked-list', '6', '7', '8'].map((text) => (
+              {['reverse-singly-linked-list'].map((text) => (
+                <div key={text}>
+                <Paper elevation={2} className="paper" >
+                  <Link to={`/everything/${text}`}>{text}</Link>
+                </Paper>
+              </div>
+              ))}
+            </List>
+            <div>CSS</div>
+            <List>
+              {['css-shapes', 'css-clip-path', 'css-transitions'].map((text) => (
                 <div key={text}>
                 <Paper elevation={2} className="paper" >
                   <Link to={`/everything/${text}`}>{text}</Link>
@@ -94,7 +104,7 @@ function CustomDrawer() {
     <React.Fragment>
       <ButtonGroup variant="text" aria-label="text button group" orientation={`${width < 620 ? 'vertical' : 'horizontal'}`}>
         <Button style={buttonYellowTheme} onClick={toggleDrawer('left', true)}>Prototypes</Button>
-        <Button style={buttonYellowTheme} ><Link to='/everything/about-me' style={{ color: '#ffeb3b' }}>About-Me</Link></Button>
+        <Button style={buttonYellowTheme} ><Link to='/everything/about-me' style={{ color: '#ffeb3b', textDecoration: 'none' }}>About-Me</Link></Button>
         <Button style={buttonYellowTheme} onClick={toggleDrawer('right', true)}>Micro-Apps</Button>
       </ButtonGroup>
       <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
