@@ -17,7 +17,15 @@ $whiteText: whitesmoke;
 
 a {
     color: $yellowText;
+    border-top: 0px solid $yellowText;
+    border-right: 0px solid $yellowText;
+    padding: 2px;
+    transition: border-top 2s linear .5s, border-right 1s linear .5s;
     &:hover {
         color: $yellowText;
+        border-top: 1px solid $yellowText;
+        border-right: 1px solid $yellowText;
+        transition:  border-top 1s linear 100ms, border-right 2s linear 100ms;
+        text-decoration: none;
     }
 }

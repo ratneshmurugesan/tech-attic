@@ -1,37 +1,43 @@
 import React, { useState } from 'react';
 
+import { Button } from '@material-ui/core';
+// import { CSSTransition } from 'react-transition-group';
+// import clsx from 'clsx';
+
 import Node from './Node';
+
+
+class _Node {
+    constructor(value) {
+        // this.id =
+        this.value = value;
+        this.next = null;
+    }
+}
+
+class _SLL {
+    constructor() {
+        this.head = null;
+        this.tail = null;
+        this.length = 0;
+    }
+
+    addAtTail(value) {
+        const newNode = new _Node(value);
+        if (this.head === null) {
+            this.head = newNode;
+            this.tail = this.head;
+        } else {
+            this.tail.next = newNode;
+            this.tail = newNode;
+        }
+        this.length++;
+        return this;
+    }
+}
 
 const ReverseSLL = () => {
     const [isReverseEnabled, toggleReverse] = useState(false);
-    class _Node {
-        constructor(value) {
-            // this.id =
-            this.value = value;
-            this.next = null;
-        }
-    }
-
-    class _SLL {
-        constructor() {
-            this.head = null;
-            this.tail = null;
-            this.length = 0;
-        }
-
-        addAtTail(value) {
-            const newNode = new _Node(value);
-            if (this.head === null) {
-                this.head = newNode;
-                this.tail = this.head;
-            } else {
-                this.tail.next = newNode;
-                this.tail = newNode;
-            }
-            this.length++;
-            return this;
-        }
-    }
 
     let SLL = new _SLL();
 
@@ -49,7 +55,6 @@ const ReverseSLL = () => {
     let current = singly.head;
     const finalList = [];
 
-    // console.log('isREvers', isReverseEnabled);
     if (isReverseEnabled) {
         let temp = singly.tail;
         singly.tail = singly.head;
@@ -75,15 +80,27 @@ const ReverseSLL = () => {
 
     return (
         <React.Fragment>
-            <div className="sll">
-                {
-                    finalList.map((obj, i) => {
-                        // console.log('obj', obj);
-                        return <Node key={`${obj.value}-${i}`} value={obj.value} prev={null} next={obj.next ? '@' : null} />
-                    })
-                }
+            {/* <CSSTransition
+                // in={isReverseEnabled}
+                // timeout={350}
+                // className={clsx('display')}
+                // unmountOnExit
+            > */}
+
+                <div className="sll">
+                    {
+                        finalList.map((obj, i) => {
+                            // console.log('obj', obj);
+                            return <Node key={`${obj.value}-${i}`} value={obj.value} prev={null} next={obj.next ? '@' : null} />
+                        })
+                    }
+                </div>
+                {/* <input type="button" value="REVERSE" onClick={() => toggleReverse((prev) => !prev)} /> */}
+
+            {/* </CSSTransition> */}
+            <div className="button">
+                <Button onClick={() => toggleReverse((prev) => !prev)}>Reverse</Button>
             </div>
-            <input type="button" value="REVERSE" onClick={() => toggleReverse((prev) => !prev)} />
         </React.Fragment>
     );
 }

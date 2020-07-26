@@ -77,7 +77,7 @@ function CustomDrawer() {
           :
           <React.Fragment>
             <List>
-              {['reverse-singly-linked-list'].map((text) => (
+              {['reverse-singly-linked-list', 'priority-is-priority'].map((text) => (
                 <div key={text}>
                 <Paper elevation={2} className="paper" >
                   <Link to={`/everything/${text}`}>{text}</Link>

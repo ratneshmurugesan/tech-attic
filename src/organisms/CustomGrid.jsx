@@ -11,6 +11,7 @@ import Container from '@material-ui/core/Container';
 
 import CustomDrawer from './CustomDrawer';
 import AboutMe from './AboutMe';
+import Information from './Information';
 
 import RepoBrowser from '../apps/repo-browser/src/index.jsx';
 import BookStore from '../apps/book-store/src/index.jsx';
@@ -20,6 +21,7 @@ import ReverseLinkedList from '../prototypes/SinglyLinkedList/ReverseLinkedList'
 import CSSShapes from '../prototypes/CSSShapes';
 import CSSClipPath from '../prototypes/CSSClipPath';
 import CSSTransitions from '../prototypes/CSSTransitions';
+import PriorityIsPriority from '../prototypes/PriorityQueue/PriorityIsPriority';
 
 const useStyles_grid = makeStyles((theme) => ({
     root: {
@@ -43,6 +45,7 @@ function PaperWrapper(ActualComponent, pageTitle) {
                 <Grid item xs={10}>
                     <Paper elevation={4} className={classes.paper}>
                         <h1 className="page__title">{pageTitle}</h1>
+                        <Information />
                         <ActualComponent />
                     </Paper>
                 </Grid>
@@ -71,6 +74,8 @@ function CustomGrid() {
                 <Route path='/everything/about-me' component={() => <AboutMe />} />
 
                 <Route path="/everything/reverse-singly-linked-list" component={() => PaperWrapper(ReverseLinkedList, 'Reversing a Singly Linked List')} />
+                <Route path="/everything/priority-is-priority" component={() => PaperWrapper(PriorityIsPriority, 'Priority Is Priority')} />
+
                 <Route path="/everything/css-shapes" component={() => PaperWrapper(CSSShapes, 'Shapes in CSS')} />
                 <Route path="/everything/css-clip-path" component={() => PaperWrapper(CSSClipPath, 'ClipPath in CSS')} />
                 <Route path="/everything/css-transitions" component={() => PaperWrapper(CSSTransitions, 'Transitions in CSS')} />

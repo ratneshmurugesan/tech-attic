@@ -44,6 +44,8 @@
   },
   "devDependencies": {
     "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "react-transition-group": "^4.4.1",
     "reactstrap": "^8.5.1"
   }
 }
