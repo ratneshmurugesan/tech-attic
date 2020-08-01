@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { Button } from '@material-ui/core';
 // import { CSSTransition } from 'react-transition-group';
 // import clsx from 'clsx';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+
 
 import Node from './Node';
 
@@ -80,24 +82,29 @@ const ReverseSLL = () => {
 
     return (
         <React.Fragment>
-            {/* <CSSTransition
-                // in={isReverseEnabled}
-                // timeout={350}
-                // className={clsx('display')}
-                // unmountOnExit
-            > */}
+            <TransitionGroup>
+            <div className="sll">
+                {
+                    finalList.map((obj) => {
+                        // console.log('obj', obj);
+                        return (
+                            <CSSTransition
+                                // in={isReverseEnabled}
+                                key={`${obj.value}`} 
+                                timeout={750}
+                                classNames='fade'
+                                // unmountOnExit
+                            >
+                                <Node key={`${obj.value}`} value={obj.value} prev={null} next={obj.next ? '@' : null} />
 
-                <div className="sll">
-                    {
-                        finalList.map((obj, i) => {
-                            // console.log('obj', obj);
-                            return <Node key={`${obj.value}-${i}`} value={obj.value} prev={null} next={obj.next ? '@' : null} />
-                        })
-                    }
-                </div>
-                {/* <input type="button" value="REVERSE" onClick={() => toggleReverse((prev) => !prev)} /> */}
+                            </CSSTransition>
+                        )
+                    })
+                }
+            </div>
+            </TransitionGroup>
+            {/* <input type="button" value="REVERSE" onClick={() => toggleReverse((prev) => !prev)} /> */}
 
-            {/* </CSSTransition> */}
             <div className="button">
                 <Button onClick={() => toggleReverse((prev) => !prev)}>Reverse</Button>
             </div>

@@ -12,6 +12,7 @@ import Container from '@material-ui/core/Container';
 import CustomDrawer from './CustomDrawer';
 import AboutMe from './AboutMe';
 import Information from './Information';
+import InfoConfig from './infoConfig';
 
 import RepoBrowser from '../apps/repo-browser/src/index.jsx';
 import BookStore from '../apps/book-store/src/index.jsx';
@@ -39,13 +40,14 @@ const useStyles_grid = makeStyles((theme) => ({
 
 function PaperWrapper(ActualComponent, pageTitle) {
     const classes = useStyles_grid();
+    const { details, techs, steps, alive } = InfoConfig[pageTitle]; // A clone of headless CMS config.
     return (
         <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
             <Grid container spacing={3} direction="row" justify="center" alignItems="center">
                 <Grid item xs={10}>
                     <Paper elevation={4} className={classes.paper}>
                         <h1 className="page__title">{pageTitle}</h1>
-                        <Information />
+                        <Information details={details} techs={techs} steps={steps} alive={alive} />
                         <ActualComponent />
                     </Paper>
                 </Grid>

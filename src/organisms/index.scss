@@ -1,11 +1,38 @@
 @import "../base.scss";
 
-// .buttonYellow {
-//     color: $yellowText;
-//     font-family: $font-family-primary;
-//     font-size: 20px;
-//     letter-spacing: 7px;
-//     padding: 0px 30px;
-// }
+p {
+    font-size: 19px;
+    color: $whiteText;
+}
 
+.makeStyles-root-5 {
+    display: flex;
+    justify-content: center;
+}
 
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+    background-color: $GreyBg;
+    color: $whiteText;
+}
+
+.MuiTypography-root.MuiTypography-caption {
+    font-weight: bolder;
+    p {
+        font-weight: normal;
+    }
+}
+
+.MuiIconButton-label {
+    background-color: #ffff001f;
+    border-radius: 20%;
+}
+
+.MuiAccordionDetails-root .MuiTypography-root.MuiTypography-caption {
+    font-family: $font-family-primary;
+    font-size: 16px;
+    color: $yellowText;
+}
+
+.MuiDivider-root + .MuiAccordionActions-root {
+    justify-content: center;
+}

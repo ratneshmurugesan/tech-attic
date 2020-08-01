@@ -33,10 +33,15 @@ const buttonYellowTheme = {
   padding: '0px 30px',
 }
 
+const buttonWhiteTheme = {
+  ...buttonYellowTheme,
+  color: '#fff',
+  padding: '20px 0px 0px 0px',
+}
 
 function CustomDrawer() {
   const classes = useStyles();
-  
+
   const { width } = ScreenResizer();
   const [state, setState] = React.useState({
     left: false,
@@ -76,23 +81,24 @@ function CustomDrawer() {
           </React.Fragment>
           :
           <React.Fragment>
+            <Button style={buttonWhiteTheme} disabled>DSA</Button>
             <List>
               {['reverse-singly-linked-list', 'priority-is-priority'].map((text) => (
                 <div key={text}>
-                <Paper elevation={2} className="paper" >
-                  <Link to={`/everything/${text}`}>{text}</Link>
-                </Paper>
-              </div>
+                  <Paper elevation={2} className="paper" >
+                    <Link to={`/everything/${text}`}>{text}</Link>
+                  </Paper>
+                </div>
               ))}
             </List>
-            <div>CSS</div>
+            <div style={buttonWhiteTheme}>CSS</div>
             <List>
               {['css-shapes', 'css-clip-path', 'css-transitions'].map((text) => (
                 <div key={text}>
-                <Paper elevation={2} className="paper" >
-                  <Link to={`/everything/${text}`}>{text}</Link>
-                </Paper>
-              </div>
+                  <Paper elevation={2} className="paper" >
+                    <Link to={`/everything/${text}`}>{text}</Link>
+                  </Paper>
+                </div>
               ))}
             </List>
           </React.Fragment>

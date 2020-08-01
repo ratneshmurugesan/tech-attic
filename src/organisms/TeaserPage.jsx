@@ -21,12 +21,12 @@ const LinearBufferuseStyles = makeStyles({
   },
 });
 
-const buttonYellowTheme = {
-  border: '1px solid rgba(203, 245, 0, 0.5)',
-  color: '$yellowText',
-  fontFamily: 'Rajdhani',
-  backgroundColor: 'unset'
-}
+// const buttonYellowTheme = {
+//   border: '1px solid rgba(203, 245, 0, 0.5)',
+//   color: '$yellowText',
+//   fontFamily: 'Rajdhani',
+//   backgroundColor: 'unset'
+// }
 
 function TeaserPage() {
 
@@ -70,10 +70,10 @@ function TeaserPage() {
       <Card style={{ minWidth: 290, minHeight: 200, backgroundColor: '#424242' }}>
         <CardContent>
           <h2 className='title'>RATNESH-MURUGESAN</h2>
-          <p className='title' style={{ color: '#000' }}>Tech Attic</p>
+          <p className='title' style={{ color: '#fff' }}>Tech Attic</p>
           <div className={classes.root}>
             <Fade in={loading}
-              style={{ transitionDelay: loading ? '100ms' : '0ms' }}
+              style={{ transitionDelay: loading ? '1ms' : '0ms' }}
               unmountOnExit>
               <div className={classes.root} style={{ margin: '30px 0px' }}>
                 <LinearProgress variant="buffer" value={progress} valueBuffer={buffer} />
@@ -81,7 +81,7 @@ function TeaserPage() {
             </Fade>
 
             <Grow in={true} style={{ marginTop: '20px 0px' }}>
-              <Button variant="contained" style={buttonYellowTheme} onClick={handleClick}>
+              <Button variant="contained" onClick={handleClick}>
                 Explore
               </Button>
             </Grow>
