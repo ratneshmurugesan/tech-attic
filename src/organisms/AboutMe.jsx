@@ -89,7 +89,7 @@ function AboutMe() {
                 </Grid>
             </Grid>
             <Grid container spacing={3} direction={gridDirection} justify="center" alignItems="center">
-                <Grid item xs={gridSize === 4 ? 8 : gridSize} style={{ opacity: `${areTwitterCardsReady ? 1 : 0}` }}>
+                <Grid item xs={gridSize} style={{ opacity: `${areTwitterCardsReady ? 1 : 0}` }}>
                     <blockquote className="twitter-tweet">
                         <p lang="en" dir="ltr">
                             Future Sci-Fi Pistol with Scope!
@@ -108,7 +108,7 @@ function AboutMe() {
                     </blockquote>
                     <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
                 </Grid>
-                <Grid item xs={gridSize === 4 ? 8 : gridSize} style={{ opacity: `${areTwitterCardsReady ? 1 : 0}` }}>
+                <Grid item xs={gridSize} style={{ opacity: `${areTwitterCardsReady ? 1 : 0}` }}>
                     <blockquote className="twitter-tweet">
                         <p lang="en" dir="ltr">
                             BACK TO 1948!
@@ -124,7 +124,7 @@ function AboutMe() {
                         <a href="https://twitter.com/RatneshRay10/status/722748389377581056?ref_src=twsrc%5Etfw">April 20, 2016</a></blockquote>
                     <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
                 </Grid>
-                <Grid item xs={gridSize === 4 ? 8 : gridSize} style={{ opacity: `${areTwitterCardsReady ? 1 : 0}` }}>
+                <Grid item xs={gridSize} style={{ opacity: `${areTwitterCardsReady ? 1 : 0}` }}>
                     <blockquote className="twitter-tweet">
                         <p lang="en" dir="ltr">Harley Davidson.... on the way!
                         <a href="https://twitter.com/hashtag/maya?src=hash&amp;ref_src=twsrc%5Etfw">#maya</a>

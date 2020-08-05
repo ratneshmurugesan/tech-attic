@@ -1,0 +1,69 @@
+.parent1 {
+    height: 300px;
+    background-color: green;
+    display: grid;
+    place-items: center;
+    
+    & .input_text {
+        font-size: 24px;
+        color: ivory;
+        background-color: lighten($color: orange, $amount: 0);
+    }
+}
+
+.pancakes{
+    background-color: blueviolet;
+}
+.parent2{
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+
+    & .box--stretch {
+        display: grid;
+        place-items: center;
+        flex: 1 1 150px;    // streching
+        margin: 5px;
+        border-radius: 5%;
+        background-color: palegreen;
+    }
+    & .box {
+        display: grid;
+        place-items: center;
+        flex: 0 1 150px; // no streching
+        margin: 5px;
+        border-radius: 5%;
+        background-color: paleturquoise;
+    }
+}
+
+.parent3{
+    height: 300px;
+    display: grid;
+    place-items: center;
+    
+    & .card {
+        background-color: black;
+        width: clamp(23ch, 50%, 46ch);
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: space-between;
+
+    }
+    
+    .title{
+        color: white
+    }
+
+    .image{
+        background-color: cornflowerblue;
+    }
+
+    .desc {
+        background-color: crimson;
+    }
+}

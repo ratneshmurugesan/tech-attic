@@ -1,0 +1,201 @@
+import React, { useState, useEffect } from 'react';
+
+import { Button } from '@material-ui/core';
+import { plugToSwitch } from '../../utils';
+
+import Node from './Node';
+
+import * as am4core from "@amcharts/amcharts4/core";
+import * as am4plugins_forceDirected from "@amcharts/amcharts4/plugins/forceDirected";
+import am4themes_animated from "@amcharts/amcharts4/themes/animated";
+
+am4core.useTheme(am4themes_animated);
+
+class _Node {
+    constructor(value) {
+        this.name = value;
+        this.value = value;
+        this.next = null;
+    }
+}
+
+class _SLL {
+    constructor() {
+        this.head = null;
+        this.tail = null;
+        this.length = 0;
+    }
+
+    addAtTail(value) {
+        const newNode = new _Node(value);
+        if (this.head === null) {
+            this.head = newNode;
+            this.tail = this.head;
+        } else {
+            this.tail.next = newNode;
+            this.tail = newNode;
+        }
+        this.length++;
+        return this;
+    }
+}
+
+const SLL = new _SLL();
+SLL.addAtTail('Alpha');
+SLL.addAtTail('Charlie');
+SLL.addAtTail('Bravo');
+SLL.addAtTail('Delta');
+
+const singly = SLL;
+let curr = singly.head;
+const list = []
+for (let count = 0; count < singly.length; count++) {
+    if (curr) {
+        console.log('push');
+        list.push({ name: curr.name, value: curr.value, next: curr.next })
+        if (curr.next) curr = curr.next;
+    }
+}
+
+const ReverseSLL = () => {
+    const [isReverseEnabled, toggleReverse] = useState(false);
+    const [oldSchoolView, changeView] = useState(true);
+    const [oldViewList, setOldViewList] = useState(list);
+
+    const callReverse = (() => toggleReverse(state => !state));
+    const toggleSwitchState = (() => changeView(state => !state));
+    console.log('states', { oldSchoolView, oldViewList, isReverseEnabled });
+   
+    let reversedList = [];
+    if (isReverseEnabled) {
+        console.log('isReverseEnabled', isReverseEnabled);
+        let current = singly.head;
+        let temp = singly.tail;
+        singly.tail = singly.head;
+        singly.head = temp;
+        let prev = null;
+        let following = null;
+        
+        while (current !== null) {
+            following = current.next;
+            current.next = prev; // reversing happens here!
+            prev = current;
+            current = following;
+        }
+
+        let curr = singly.head;
+        for (let count = 0; count < singly.length; count++) {
+            if (curr) {
+                reversedList.push({ name: curr.name, value: curr.value, next: curr.next });
+                if (curr.next) curr = curr.next;
+            }
+        }
+    }
+
+    useEffect(() => {
+        let chart = am4core.create("chartdiv", am4plugins_forceDirected.ForceDirectedTree);
+        if(chart){
+            let networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries());
+            let amList = isReverseEnabled ? reversedList : oldViewList;
+            networkSeries.data = [
+                {
+                    "name": amList[0].name,
+                    "value": 200,
+                    "linkWith": [
+                        amList[1].name
+                    ],
+                },
+                {
+                    "name": amList[1].name,
+                    "value": 200,
+                    "linkWith": [
+                        amList[2].name
+                    ],
+                },
+                {
+                    "name": amList[2].name,
+                    "value": 200,
+                    "linkWith": [
+                        amList[3].name
+                    ],
+                },
+                {
+                    "name": amList[3].name,
+                    "value": 200,
+                    "linkWith": [
+                        // "Joey",
+                    ],
+                }
+            ];
+            networkSeries.dataFields.linkWith = "linkWith";
+            networkSeries.dataFields.name = "name";
+            networkSeries.dataFields.id = "name";
+            networkSeries.dataFields.value = "value";
+            networkSeries.dataFields.children = "children";
+    
+            networkSeries.nodes.template.label.text = "{name}"
+            networkSeries.fontSize = 16;
+            networkSeries.linkWithStrength = 0;
+    
+            let nodeTemplate = networkSeries.nodes.template;
+            nodeTemplate.tooltipText = "{name}";
+            nodeTemplate.fillOpacity = 1;
+            nodeTemplate.label.hideOversized = true;
+            nodeTemplate.label.truncate = true;
+    
+            let linkTemplate = networkSeries.links.template;
+            linkTemplate.strokeWidth = 4;
+            let linkHoverState = linkTemplate.states.create("hover");
+            linkHoverState.properties.strokeOpacity = 1;
+            linkHoverState.properties.strokeWidth = 2;
+    
+            nodeTemplate.events.on("over", function (event) {
+                let dataItem = event.target.dataItem;
+                dataItem.childLinks.each(function (link) {
+                    link.isHover = true;
+                })
+            })
+    
+            nodeTemplate.events.on("out", function (event) {
+                let dataItem = event.target.dataItem;
+                dataItem.childLinks.each(function (link) {
+                    link.isHover = false;
+                })
+            })
+    
+            chart.currrent = chart;
+            // setOldViewList(amList);
+        }
+        
+        return () => {
+            //Unmount
+            chart.dispose();
+        }
+    }, [oldViewList, oldSchoolView, isReverseEnabled, reversedList]);
+
+    return (
+        <React.Fragment>
+                <div id="chartdiv" style={{ width: "100%", height: "500px", display: `${!oldSchoolView ? 'block' : 'none'}` }} />
+                <div className="sll" style={{ display: `${oldSchoolView ? 'flex' : 'none'}` }}>
+                    {
+                        !isReverseEnabled ? (oldViewList.length && oldViewList.map((obj) => {
+                            return (
+                                <Node key={`${obj.value}`} value={obj.value} prev={null} next={obj.next ? '@' : null} />
+                            )
+                        })) :
+                        (reversedList.length && reversedList.map((obj) => {
+                            return (
+                                <Node key={`${obj.value}`} value={obj.value} prev={null} next={obj.next ? '@' : null} />
+                            )
+                        }))
+                    }
+                </div>
+            <div className="button">
+                <Button onClick={callReverse}>Reverse</Button>
+                {plugToSwitch(oldSchoolView, 'isOldSchoolView', toggleSwitchState, 'OldSchool View')}
+            </div>
+        </React.Fragment>
+    );
+}
+
+export default (ReverseSLL);

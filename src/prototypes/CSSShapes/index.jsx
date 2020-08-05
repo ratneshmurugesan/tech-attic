@@ -1,7 +1,9 @@
 import React from 'react';
 import './index.scss';
 
-import Switch from '@material-ui/core/Switch';
+// import Switch from '@material-ui/core/Switch';
+
+import { plugToSwitch } from '../../utils';
 
 const getContent = () => {
     return (
@@ -16,23 +18,12 @@ const getContent = () => {
     );
 };
 
-const dashcard = (state, name, toggleChecked) => {
-    return (
-        <React.Fragment>
-            <div>Shape featue: </div>
-            <span>OFF</span>
-            <Switch size="small" name={name} checked={state[name]} onChange={toggleChecked} />
-            <span>ON</span>
-        </React.Fragment>
-    );
-}
-
 const CSSShapes = () => {
 
-    const [state, setChecked] = React.useState({ isTriangleChecked: false, isCircleChecked: false, isSquareChecked: false });
-
-    const toggleChecked = (e) => {
-        setChecked({ ...state, [e.target.name]: e.target.checked });
+    const [state, setSwitchState] = React.useState({ isTriangleChecked: false, isCircleChecked: false, isSquareChecked: false });
+    const viewName = 'Shape feature';
+    const toggleSwitchState = (e) => {
+        setSwitchState({ ...state, [e.target.name]: e.target.checked });
     };
 
     return (
@@ -40,17 +31,17 @@ const CSSShapes = () => {
             <div className="section">
                 <div className={`triangle ${state.isTriangleChecked ? '' : 'without-shape-feature'}`}></div>
                 {getContent()}
-                {dashcard(state, 'isTriangleChecked', toggleChecked)}
+                {plugToSwitch(state, 'isTriangleChecked', toggleSwitchState, viewName)}
             </div>
             <div className="section">
                 <div className={`circle ${state.isCircleChecked ? 'without-shape-feature' : ''}`}></div>
                 {getContent()}
-                {dashcard(state, 'isCircleChecked', toggleChecked)}
+                {plugToSwitch(state, 'isCircleChecked', toggleSwitchState, viewName)}
             </div>
             <div className="section">
                 <div className={`square ${state.isSquareChecked ? 'without-shape-feature' : ''}`}></div>
                 {getContent()}
-                {dashcard(state, 'isSquareChecked', toggleChecked)}
+                {plugToSwitch(state, 'isSquareChecked', toggleSwitchState, viewName)}
             </div>
         </React.Fragment>
     )

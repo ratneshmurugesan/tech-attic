@@ -17,8 +17,11 @@ import InfoConfig from './infoConfig';
 import RepoBrowser from '../apps/repo-browser/src/index.jsx';
 import BookStore from '../apps/book-store/src/index.jsx';
 import RenderByConfig from '../apps/render-by-config';
+import UserJourney from '../apps/user-journey';
 
 import ReverseLinkedList from '../prototypes/SinglyLinkedList/ReverseLinkedList';
+
+import CSSLayouts from '../prototypes/CSSLayouts';
 import CSSShapes from '../prototypes/CSSShapes';
 import CSSClipPath from '../prototypes/CSSClipPath';
 import CSSTransitions from '../prototypes/CSSTransitions';
@@ -40,7 +43,7 @@ const useStyles_grid = makeStyles((theme) => ({
 
 function PaperWrapper(ActualComponent, pageTitle) {
     const classes = useStyles_grid();
-    const { details, techs, steps, alive } = InfoConfig[pageTitle]; // A clone of headless CMS config.
+    const { details, techs, steps, alive } = InfoConfig[pageTitle] || ''; // A clone of headless CMS config.
     return (
         <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
             <Grid container spacing={3} direction="row" justify="center" alignItems="center">
@@ -72,12 +75,14 @@ function CustomGrid() {
                 <Route path='/everything/repo-browser' component={() => PaperWrapper(RepoBrowser, 'Github-Repo-Browser')} />
                 <Route path='/everything/book-store' component={() => PaperWrapper(BookStore, 'Book-Store')} />
                 <Route path='/everything/render-by-config' component={() => PaperWrapper(RenderByConfig, 'Render by Config App')} />
+                <Route path='/everything/user-journey' component={() => PaperWrapper(UserJourney, 'User Journey App')} />
                 
                 <Route path='/everything/about-me' component={() => <AboutMe />} />
 
                 <Route path="/everything/reverse-singly-linked-list" component={() => PaperWrapper(ReverseLinkedList, 'Reversing a Singly Linked List')} />
                 <Route path="/everything/priority-is-priority" component={() => PaperWrapper(PriorityIsPriority, 'Priority Is Priority')} />
-
+                
+                <Route path="/everything/css-layouts" component={() => PaperWrapper(CSSLayouts, 'Layouts in CSS')} />
                 <Route path="/everything/css-shapes" component={() => PaperWrapper(CSSShapes, 'Shapes in CSS')} />
                 <Route path="/everything/css-clip-path" component={() => PaperWrapper(CSSClipPath, 'ClipPath in CSS')} />
                 <Route path="/everything/css-transitions" component={() => PaperWrapper(CSSTransitions, 'Transitions in CSS')} />

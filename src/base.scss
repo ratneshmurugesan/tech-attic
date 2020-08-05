@@ -21,12 +21,17 @@ a:not([href="/everything/about-me"]) {
     border-top: 0px solid $yellowText;
     border-right: 0px solid $yellowText;
     padding: 2px;
-    transition: border-top 1s linear .5s, border-right 500ms linear .5s;
+    transition: border-top 1s linear 0.5s, border-right 500ms linear 0.5s;
     &:hover {
         color: $yellowText;
         border-top: 1px solid $yellowText;
         border-right: 1px solid $yellowText;
-        transition:  border-top 500ms linear 100ms, border-right 1s linear 100ms;
+        transition: border-top 500ms linear 100ms, border-right 1s linear 100ms;
         text-decoration: none;
     }
+}
+
+#chartdiv {
+    width: 100%;
+    height: 550px;
 }
