@@ -1,0 +1,90 @@
+$userJourney: ".user-journey";
+
+#{$userJourney} {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    margin: 25px;
+
+    &__tray {
+        padding: 25px;
+        background-color: palevioletred;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        #{$userJourney}__icon {
+            background-color: none;
+            padding: 10px;
+            &:hover {
+                cursor: grab;
+            }
+        }
+    }
+
+    &__playground {
+        padding: 25px;
+        background-color: rosybrown;
+
+        // #{$userJourney}__playground div{
+
+        $tile: ".tile";
+
+        #{$tile} {
+            display: inline-block;
+            // flex-direction: row-reverse;
+            // justify-content: flex-end;
+
+            #{$tile}__box {
+                float: left;
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+                padding: 10px;
+                border: 2.5px solid rgba(0, 0, 0, 0.5);
+                display: grid;
+                place-items: center;
+                border-radius: 50%;
+
+                // & #{$userJourney}__icon {
+                //     animation-name: animationX;
+                //     animation-duration: 2s;
+                //     animation-iteration-count: infinite;
+                //     animation-timing-function: ease;
+                //     // background-color: royalblue;
+                // }
+            }
+            #{$tile}__cancel {
+                position: relative;
+                right: 75px;
+                bottom: 10px;
+                float: right;
+                cursor: pointer;
+                height: 0;
+            }
+            #{$tile}__forward {
+                position: relative;
+                top: 35px;
+                right: 25px;
+            }
+        }
+        // }
+    }
+}
+
+// @keyframes animationX {
+//     from {
+//         margin-top: -10px;
+//     }
+//     // 25% {
+//     //     margin-top: -5px;
+//     // }
+//     50% {
+//         margin-top: 0px;
+//     }
+//     // 75% {
+//     //     margin-top: -5px;
+//     // }
+//     to {
+//         margin-top: -10px;
+//     }
+// }

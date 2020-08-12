@@ -1,0 +1,26 @@
+        //     const iconNames = [
+            //         { e: <ChildFriendlyIcon style={{ color: 'green', fontSize: 40 }} />, key: 'ChildFriendlyIcon', id: 'ChildFriendlyIcon' },
+            //         { e: <AcUnitIcon style={{ color: 'green', fontSize: 40 }} />, key: 'AcUnitIcon', id: 'AcUnitIcon' },
+            //         { e: <HomeWorkIcon style={{ color: 'green', fontSize: 40 }} />, key: 'HomeWorkIcon', id: 'HomeWorkIcon' },
+        //         { e: <MotorcycleIcon style={{ color: 'green', fontSize: 40 }} />, key: 'MotorcycleIcon', id: 'MotorcycleIcon' },
+        //         { e: <OfflineBoltIcon style={{ color: 'green', fontSize: 40 }} />, key: 'OfflineBoltIcon', id: 'OfflineBoltIcon' },
+        //         { e: <ShutterSpeedIcon style={{ color: 'green', fontSize: 40 }} />, key: 'ShutterSpeedIcon', id: 'ShutterSpeedIcon' },
+        //         { e: <QueuePlayNextIcon style={{ color: 'green', fontSize: 40 }} />, key: 'QueuePlayNextIcon', id: 'QueuePlayNextIcon' },
+        //         { e: <WhatshotIcon style={{ color: 'green', fontSize: 40 }} />, key: 'WhatshotIcon', id: 'WhatshotIcon' },
+        //         { e: <SportsEsportsIcon style={{ color: 'green', fontSize: 40 }} />, key: 'SportsEsportsIcon', id: 'SportsEsportsIcon' }
+        //     ];
+        
+        //     let final = iconNames.map(component => {
+            //         console.log('iconName', component);
+            //         // const Element = React.createElement(name);
+            //         return React.createElement('span',
+            //             {
+                //                 className: 'user-journey__icon',
+                //                 key: component.key,
+                //                 id: component.id,
+                //                 draggable: 'true',
+                //                 onDragStart: drag,
+                //             },
+                //             component.e);
+                //     });
+        //     return final;
