@@ -43,7 +43,7 @@ $userJourney: ".user-journey";
                 border: 2.5px solid rgba(0, 0, 0, 0.5);
                 display: grid;
                 place-items: center;
-                border-radius: 50%;
+                border-radius: 25%;
 
                 // & #{$userJourney}__icon {
                 //     animation-name: animationX;
@@ -59,12 +59,17 @@ $userJourney: ".user-journey";
                 bottom: 10px;
                 float: right;
                 cursor: pointer;
-                height: 0;
+                height: auto;
+
+                &:hover{
+                    background-color: white;
+                    border-radius: 50%;
+                }
             }
             #{$tile}__forward {
                 position: relative;
                 top: 35px;
-                right: 25px;
+                right: 10px;
             }
         }
         // }
