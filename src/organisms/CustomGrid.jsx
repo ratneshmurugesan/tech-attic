@@ -43,14 +43,14 @@ const useStyles_grid = makeStyles((theme) => ({
 
 function PaperWrapper(ActualComponent, pageTitle) {
     const classes = useStyles_grid();
-    const { details, techs, steps, alive } = InfoConfig[pageTitle] || ''; // A clone of headless CMS config.
+    const { details, techs, steps, alive, codeLink } = InfoConfig[pageTitle] || ''; // A clone of headless CMS config.
     return (
         <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
             <Grid container spacing={3} direction="row" justify="center" alignItems="center">
                 <Grid item xs={10}>
                     <Paper elevation={4} className={classes.paper}>
                         <h1 className="page__title">{pageTitle}</h1>
-                        <Information details={details} techs={techs} steps={steps} alive={alive} />
+                        <Information details={details} techs={techs} steps={steps} alive={alive} codeLink={codeLink} />
                         <ActualComponent />
                     </Paper>
                 </Grid>
@@ -72,8 +72,8 @@ function CustomGrid() {
             </Container>
 
             <Switch>
-                <Route path='/everything/repo-browser' component={() => PaperWrapper(RepoBrowser, 'Github-Repo-Browser')} />
-                <Route path='/everything/book-store' component={() => PaperWrapper(BookStore, 'Book-Store')} />
+                <Route path='/everything/repo-browser' component={() => PaperWrapper(RepoBrowser, 'Github Repo Browser')} />
+                <Route path='/everything/book-store' component={() => PaperWrapper(BookStore, 'Book Store')} />
                 <Route path='/everything/render-by-config' component={() => PaperWrapper(RenderByConfig, 'Render by Config App')} />
                 <Route path='/everything/user-journey' component={() => PaperWrapper(UserJourney, 'User Journey App')} />
                 
@@ -86,7 +86,6 @@ function CustomGrid() {
                 <Route path="/everything/css-shapes" component={() => PaperWrapper(CSSShapes, 'Shapes in CSS')} />
                 <Route path="/everything/css-clip-path" component={() => PaperWrapper(CSSClipPath, 'ClipPath in CSS')} />
                 <Route path="/everything/css-transitions" component={() => PaperWrapper(CSSTransitions, 'Transitions in CSS')} />
-
             </Switch>
         </div>
     );

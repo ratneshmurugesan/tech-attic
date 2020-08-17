@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Information({ details, techs, steps, alive }) {
+export default function Information({ details, techs, steps, alive, codeLink }) {
   const classes = useStyles();
 
   return alive ? (
@@ -80,6 +80,9 @@ export default function Information({ details, techs, steps, alive }) {
         <Divider />
         <AccordionActions>
           <p>{steps}</p>
+        </AccordionActions>
+        <AccordionActions>
+          <a href={codeLink} rel="noopener noreferrer" target='_blank'>view code in github</a>
         </AccordionActions>
       </Accordion>
     </div>

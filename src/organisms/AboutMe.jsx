@@ -42,12 +42,14 @@ function AboutMe() {
     const [areTwitterCardsReady, setTwitterCard] = useState(false);
 
     useEffect(() => {
-        window.twttr.ready().then((data) => {
+        // if (window && window.twttr) {
+            window.twttr.ready().then((data) => {
             window.twttr.widgets.load();
             setTimeout(() => {
                 setTwitterCard(data.init);
             }, 3000);
         });
+        // }
     }, [areTwitterCardsReady]);
 
     return (

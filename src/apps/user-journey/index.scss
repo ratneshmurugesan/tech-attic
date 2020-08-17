@@ -2,7 +2,7 @@ $userJourney: ".user-journey";
 
 #{$userJourney} {
     display: grid;
-    grid-template-columns: minmax(150px, 25%) 1fr;
+    grid-template-columns: minmax(100px, 15%) 1fr;
     margin: 25px;
 
     &__tray {
@@ -30,14 +30,14 @@ $userJourney: ".user-journey";
         $tile: ".tile";
 
         #{$tile} {
-            display: inline-block;
-            // flex-direction: row-reverse;
-            // justify-content: flex-end;
+            display: flex;
+            flex-direction: row-reverse;
+            // background-color: rgba(160, 81, 45, 0.384);
 
             #{$tile}__box {
-                float: left;
-                width: 100px;
-                height: 100px;
+                // float: left;
+                width: 70px;
+                height: 70px;
                 margin: 10px;
                 padding: 10px;
                 border: 2.5px solid rgba(0, 0, 0, 0.5);
@@ -55,21 +55,21 @@ $userJourney: ".user-journey";
             }
             #{$tile}__cancel {
                 position: relative;
-                right: 75px;
+                right: 70px;
                 bottom: 10px;
-                float: right;
                 cursor: pointer;
-                height: auto;
+                height: 30px;
 
-                &:hover{
+                &:hover {
                     background-color: white;
                     border-radius: 50%;
+                    height: 30px;
                 }
             }
             #{$tile}__forward {
                 position: relative;
-                top: 35px;
-                right: 10px;
+                left: -10px;
+                top: 18px;
             }
         }
         // }

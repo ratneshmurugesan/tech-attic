@@ -1,4 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import {
+    // useSpring, 
+    animated,
+    useTransition
+} from 'react-spring';
 
 // import Button from '@material-ui/core/Button';
 import ChildFriendlyIcon from '@material-ui/icons/ChildFriendly';
@@ -14,6 +19,9 @@ import HomeWorkIcon from '@material-ui/icons/HomeWork';
 // import CancelIcon from '@material-ui/icons/Cancel';
 import ForwardIcon from '@material-ui/icons/Forward';
 import HighlightOffIcon from '@material-ui/icons/HighlightOff';
+
+// import ConnectElements from 'react-connect-elements';
+
 
 import './index.scss';
 
@@ -194,13 +202,38 @@ const UserJourneyWithHooks = () => {
 
     const [superState, setSuperState] = useState({
         tiles: [],
-        tileID: 0,
+        tileProp: { tileID: 0, lastNode: 0 },
     });
-    const { tiles, tileID } = superState;
+    // const props = useSpring({ opacity: 1, from: { opacity: 0 } });
+    const { tiles, tileProp } = superState;
+    // const [toggle, set] = useState(false)
+
     const drag = (ev) => {
         ev.dataTransfer.setData("text", ev.target.id);
-    }
-    const [icons] = useState([
+        const ghostImage = ev.target.cloneNode(true);
+        ghostImage.style.zIndex = 0;
+        ghostImage.style.position = "absolute";
+        ghostImage.style.top = "-100px";
+        ghostImage.id = 'ghost';
+        document.body.appendChild(ghostImage);
+        ev.dataTransfer.setDragImage(ghostImage, 0, 0);
+
+    };
+
+    // const dragging = (ev) => {
+    //     // console.log('dragging');
+    //     if(tiles.length)  {
+    //         console.log('last tile', tiles);
+    //         const emptyTile = document.getElementById(tiles[tiles.length - 1].id);
+    //         emptyTile.style.border = "3px solid red";
+    //     } else {
+    //         const emptyTile = document.getElementById("tile__box0");
+    //         emptyTile.style.border = "3px solid red";
+    //     }
+    // };
+    //onDrag={dragging}
+
+    const icons = [
         <span key="ChildFriendlyIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ChildFriendlyIcon"><ChildFriendlyIcon style={{ color: 'green', fontSize: 40 }} /></span>,
         <span key="AcUnitIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="AcUnitIcon"><AcUnitIcon style={{ color: 'green', fontSize: 40 }} /></span>,
         <span key="HomeWorkIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="HomeWorkIcon"><HomeWorkIcon style={{ color: 'green', fontSize: 40 }} /></span>,
@@ -210,14 +243,15 @@ const UserJourneyWithHooks = () => {
         <span key="QueuePlayNextIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="QueuePlayNextIcon"><QueuePlayNextIcon style={{ color: 'green', fontSize: 40 }} /></span>,
         <span key="WhatshotIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="WhatshotIcon"><WhatshotIcon style={{ color: 'green', fontSize: 40 }} /></span>,
         <span key="SportsEsportsIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="SportsEsportsIcon"><SportsEsportsIcon style={{ color: 'green', fontSize: 40 }} /></span>
-    ]);
+    ];
     /* 
         drop variable will have always the same function object of the callback function 
         between renderings of this UserJourney component.
     */
     const drop = useCallback((ev) => {
         ev.preventDefault();
-        var data = ev.dataTransfer.getData("text");
+        document.getElementById('ghost').remove();
+        const data = ev.dataTransfer.getData("text");
         const droppedIconClone = document.getElementById(data).cloneNode(true);
         ev.target.appendChild(droppedIconClone);
         const droppedItem = [...ev.target.children];
@@ -225,7 +259,8 @@ const UserJourneyWithHooks = () => {
             obj.setAttribute('draggable', 'false');
         });
         setSuperState(prevState => {
-            return ({ ...prevState, tileID: prevState.tileID + 1 });
+            const lastNode = prevState.tiles.length;
+            return ({ ...prevState, tileProp: { ...prevState.tileProp, tileID: prevState.tileProp.tileID + 1, lastNode } });
         });
     }, []);
 
@@ -242,24 +277,34 @@ const UserJourneyWithHooks = () => {
             });
         };
 
-        const createTiles = (tileID) => {
+        const createTiles = ({ tileID }) => {
             return (
+                // <animated.div style={props}>
                 <div className="tile" key={`tile${tileID}`} id={`tile${tileID}`}>
-                    <span id={`tile__cancel${tileID}`} className="tile__cancel" onClick={() => removeTile(`tile${tileID}`)}>
+                    <span key={`tile__cancel${tileID}`} id={`tile__cancel${tileID}`} className="tile__cancel" onClick={() => removeTile(`tile${tileID}`)}>
                         <HighlightOffIcon style={{ color: 'grey', fontSize: 30 }} />
                     </span>
-                    <span id={`tile__forward${tileID}`} className="tile__forward">
+                    <span key={`tile__forward${tileID}`} id={`tile__forward${tileID}`} className="tile__forward">
                         <ForwardIcon style={{ color: 'grey', fontSize: 50 }} />
                     </span>
-                    <div id={`tile__box${tileID}`} className="tile__box" onDrop={drop} onDragOver={allowDrop}></div>
+                    <div key={`tile__box${tileID}`} id={`tile__box${tileID}`} className="tile__box" onDrop={drop} onDragOver={allowDrop}></div>
                 </div>
+                // </animated.div>
             );
         };
-
-        setSuperState(prevState => ({ ...prevState, tiles: [...prevState.tiles, createTiles(tileID)] }));
-    }, [tileID, drop]);
+        const newTile = createTiles(tileProp);
+        // newTile.filter(obj => obj.props.children.key !== `tile__cancel${tileID}`);
+        // console.log('newTile', newTile);
+        setSuperState(prevState => ({ ...prevState, tiles: [...prevState.tiles, newTile] }));
+    }, [tileProp, drop]);
 
     console.log('#state', superState);
+
+    const transitions = useTransition(tiles, item => item.key, {
+        from: { display: 'inline-flex', width: 120, opacity: 0 },
+        enter: { opacity: 1 },
+        leave: { opacity: 0 },
+    })
 
     return (
         <React.Fragment>
@@ -271,7 +316,21 @@ const UserJourneyWithHooks = () => {
                 <div className="user-journey__playground">
                     <p>PlayGround</p>
                     <div>
-                        {tiles}
+                        {/* {tiles} */}
+                        {
+                            transitions.map(({ item, key, props }) => <animated.div key={key} style={props}>{item}</animated.div>)
+                        }
+                        {/* <div>
+                            <div className="elements">
+                                <div className="element element1">e1</div>
+                                <div className="element element2">e2</div>
+                            </div>
+                            <ConnectElements
+                                selector=".elements"
+                                overlay={2}
+                                elements={[{ from: '.element1', to: '.element2' }]}
+                            />
+                        </div> */}
                     </div>
                 </div>
             </div>

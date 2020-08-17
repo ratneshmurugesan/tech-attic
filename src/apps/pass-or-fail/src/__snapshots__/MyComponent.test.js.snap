@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render correctly 1`] = `
+<div>
+  <h1>
+    React+hooks+testing
+  </h1>
+  <p />
+  <p />
+  <button
+    id="button-one"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`MyComponent should render correctly in "debug" mode 1`] = `
+<div>
+  <h1>
+    React+hooks+testing
+  </h1>
+  <p />
+  <p />
+  <button
+    id="button-one"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`MyComponent should render with child "button" to trigger EVENTS 1`] = `
+<MyComponent
+  list={
+    Object {
+      "one": "1",
+      "two": "2",
+    }
+  }
+>
+  <div>
+    <h1>
+      React+hooks+testing
+    </h1>
+    <p />
+    <p />
+    <button
+      id="button-one"
+      onClick={[Function]}
+    />
+  </div>
+</MyComponent>
+`;

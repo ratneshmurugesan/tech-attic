@@ -46,9 +46,28 @@
     "@amcharts/amcharts4": "^4.9.34",
     "@amcharts/amcharts4-fonts": "^4.0.1",
     "@amcharts/amcharts4-geodata": "^4.1.16",
+    "babel-jest": "24.9.0",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3",
+    "enzyme-to-json": "^3.5.0",
+    "jest": "24.9.0",
+    "react-connect-elements": "^0.1.1",
+    "react-spring": "^8.0.27",
     "react-transition-group": "^4.4.1",
     "reactstrap": "^8.5.1"
-  }
+  },
+  "//": [
+    "enzyme-to-json - provides a better component format for snapshot comparison than Enzyme’s internal component representation",
+    "snapshotSerializers - allows you to minimise code duplication when working with snapshots."
+  ],
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "setupFiles": [
+    "./src/apps/pass-or-fail/src/setupTests.js"
+  ]
 }
