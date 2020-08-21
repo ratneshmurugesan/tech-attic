@@ -5,8 +5,6 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "antd": "^4.4.2",
     "antd-init": "^2.0.7",
@@ -46,6 +44,9 @@
     "@amcharts/amcharts4": "^4.9.34",
     "@amcharts/amcharts4-fonts": "^4.0.1",
     "@amcharts/amcharts4-geodata": "^4.1.16",
+    "@react-mock/fetch": "^0.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
     "babel-jest": "24.9.0",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
@@ -54,6 +55,7 @@
     "enzyme-to-json": "^3.5.0",
     "jest": "24.9.0",
     "react-connect-elements": "^0.1.1",
+    "react-mock": "^6.0.1",
     "react-spring": "^8.0.27",
     "react-transition-group": "^4.4.1",
     "reactstrap": "^8.5.1"

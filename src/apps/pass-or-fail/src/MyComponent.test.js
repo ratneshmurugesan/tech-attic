@@ -42,13 +42,13 @@ describe('MyComponent', () => {
         expect(clickFn).toHaveBeenCalled();
         component.unmount();
     });
-    it('should set storage on save button click', () => {
-        mockTryGetValue.mockReturnValueOnce(true);
-        const component = mount(<MyComponent />); 
-        component.find('button#my-button-three').simulate('click');
-        expect(mockTryGetValue).toHaveBeenCalled();
-        console.log(component.debug())
-        expect(component).toMatchSnapshot();
-        component.unmount();   
-      }); 
+    // it('should set storage on save button click', () => {
+    //     mockTryGetValue.mockReturnValueOnce(true);
+    //     const component = mount(<MyComponent />); 
+    //     component.find('button#my-button-three').simulate('click');
+    //     expect(mockTryGetValue).toHaveBeenCalled();
+    //     console.log(component.debug())
+    //     expect(component).toMatchSnapshot();
+    //     component.unmount();   
+    //   }); 
 });

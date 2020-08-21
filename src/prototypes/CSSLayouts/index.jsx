@@ -29,7 +29,6 @@ const CSSLayouts = () => {
                 </div>
             </div>
             <div className="parent3">
-                
                 <div className="card">
                     <div className="title"><p>Clamped Card</p></div>
                     <div className="image"><img alt="sample" width="100" height="100" /></div>

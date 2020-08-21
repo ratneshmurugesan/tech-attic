@@ -1,4 +1,11 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, {
+    useState,
+    useEffect,
+    useCallback,
+    // useRef,
+    // useComponentDidMount,
+    // useComponentWillMount
+} from 'react';
 import {
     // useSpring, 
     animated,
@@ -200,38 +207,30 @@ console.log(dll);
 
 const UserJourneyWithHooks = () => {
 
+    const initialTileProps = {
+        tileID: 0,
+    };
     const [superState, setSuperState] = useState({
         tiles: [],
-        tileProp: { tileID: 0, lastNode: 0 },
+        currentTileProps: initialTileProps,
+        addedIcon: null,
     });
-    // const props = useSpring({ opacity: 1, from: { opacity: 0 } });
-    const { tiles, tileProp } = superState;
-    // const [toggle, set] = useState(false)
+    const {
+        tiles,
+        currentTileProps,
+        addedIcon
+    } = superState;
 
     const drag = (ev) => {
         ev.dataTransfer.setData("text", ev.target.id);
         const ghostImage = ev.target.cloneNode(true);
-        ghostImage.style.zIndex = 0;
+        ghostImage.style.zIndex = -1;
         ghostImage.style.position = "absolute";
-        ghostImage.style.top = "-100px";
+        ghostImage.style.top = "0px";
         ghostImage.id = 'ghost';
         document.body.appendChild(ghostImage);
         ev.dataTransfer.setDragImage(ghostImage, 0, 0);
-
     };
-
-    // const dragging = (ev) => {
-    //     // console.log('dragging');
-    //     if(tiles.length)  {
-    //         console.log('last tile', tiles);
-    //         const emptyTile = document.getElementById(tiles[tiles.length - 1].id);
-    //         emptyTile.style.border = "3px solid red";
-    //     } else {
-    //         const emptyTile = document.getElementById("tile__box0");
-    //         emptyTile.style.border = "3px solid red";
-    //     }
-    // };
-    //onDrag={dragging}
 
     const icons = [
         <span key="ChildFriendlyIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ChildFriendlyIcon"><ChildFriendlyIcon style={{ color: 'green', fontSize: 40 }} /></span>,
@@ -245,7 +244,7 @@ const UserJourneyWithHooks = () => {
         <span key="SportsEsportsIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="SportsEsportsIcon"><SportsEsportsIcon style={{ color: 'green', fontSize: 40 }} /></span>
     ];
     /* 
-        drop variable will have always the same function object of the callback function 
+        drop variable will have always the same function object of the useCallback function 
         between renderings of this UserJourney component.
     */
     const drop = useCallback((ev) => {
@@ -254,13 +253,25 @@ const UserJourneyWithHooks = () => {
         const data = ev.dataTransfer.getData("text");
         const droppedIconClone = document.getElementById(data).cloneNode(true);
         ev.target.appendChild(droppedIconClone);
-        const droppedItem = [...ev.target.children];
-        droppedItem.forEach(obj => {
+        const addedIcon = [...ev.target.children];
+        addedIcon.forEach(obj => {
             obj.setAttribute('draggable', 'false');
         });
-        setSuperState(prevState => {
-            const lastNode = prevState.tiles.length;
-            return ({ ...prevState, tileProp: { ...prevState.tileProp, tileID: prevState.tileProp.tileID + 1, lastNode } });
+        setSuperState(pState => {
+            const tileProp = {
+                tileID: pState.currentTileProps.tileID + 1,
+            }
+            return {
+                ...pState,
+                tiles: [
+                    ...pState.tiles,
+                ],
+                currentTileProps: {
+                    ...pState.currentTileProps,
+                    ...tileProp,
+                },
+                addedIcon,
+            };
         });
     }, []);
 
@@ -271,43 +282,123 @@ const UserJourneyWithHooks = () => {
 
     useEffect(() => {
         const removeTile = (id) => {
-            setSuperState(prevState => {
-                const newTileList = prevState.tiles.filter(obj => obj.key !== id);
-                return ({ ...prevState, tiles: newTileList })
+            setSuperState(pState => {
+                const newTileList = pState.tiles.filter(obj => obj.tileID !== id);
+                return ({ ...pState, tiles: newTileList })
             });
         };
 
-        const createTiles = ({ tileID }) => {
-            return (
-                // <animated.div style={props}>
-                <div className="tile" key={`tile${tileID}`} id={`tile${tileID}`}>
-                    <span key={`tile__cancel${tileID}`} id={`tile__cancel${tileID}`} className="tile__cancel" onClick={() => removeTile(`tile${tileID}`)}>
-                        <HighlightOffIcon style={{ color: 'grey', fontSize: 30 }} />
-                    </span>
-                    <span key={`tile__forward${tileID}`} id={`tile__forward${tileID}`} className="tile__forward">
-                        <ForwardIcon style={{ color: 'grey', fontSize: 50 }} />
-                    </span>
-                    <div key={`tile__box${tileID}`} id={`tile__box${tileID}`} className="tile__box" onDrop={drop} onDragOver={allowDrop}></div>
-                </div>
-                // </animated.div>
-            );
+        const createTiles = ({
+            tileID,
+            addedIcon,
+        }) => {
+            return {
+                tileID,
+                addedIcon,
+                ele: React.createElement(
+                    'div',
+                    {
+                        className: "tile",
+                        key: `tile${tileID}`,
+                        id: tileID,
+                        children: [
+                            React.createElement('span', {
+                                key: `tile__cancel${tileID}`,
+                                id: `tile__cancel${tileID}`,
+                                className: "tile__cancel--hidden",
+                                onClick: () => removeTile(tileID),
+                                children: <HighlightOffIcon style={{ color: 'grey', fontSize: 30 }} />
+                            }),
+                            React.createElement('span', {
+                                key: `tile__forward${tileID}`,
+                                id: `tile__forward${tileID}`,
+                                className: "tile__forward--hidden",
+                                children: <ForwardIcon style={{ color: 'grey', fontSize: 50 }} />
+                            }),
+                            React.createElement('div', {
+                                key: `tile__box${tileID}`,
+                                id: `tile__box${tileID}`,
+                                className: "tile__box",
+                                onDrop: drop,
+                                onDragOver: allowDrop,
+                                children: addedIcon
+                            })
+                        ]
+                    })
+            }
         };
-        const newTile = createTiles(tileProp);
-        // newTile.filter(obj => obj.props.children.key !== `tile__cancel${tileID}`);
-        // console.log('newTile', newTile);
-        setSuperState(prevState => ({ ...prevState, tiles: [...prevState.tiles, newTile] }));
-    }, [tileProp, drop]);
+
+        const createTilesWithClose = ({
+            tileID,
+            addedIcon,
+        }) => {
+            return {
+                tileID,
+                addedIcon,
+                ele: React.createElement(
+                    'div',
+                    {
+                        className: "tile",
+                        key: `tile${tileID}`,
+                        id: tileID,
+                        children: [
+                            React.createElement('span', {
+                                key: `tile__cancel${tileID}`,
+                                id: `tile__cancel${tileID}`,
+                                className: "tile__cancel",
+                                onClick: () => removeTile(tileID),
+                                children: <HighlightOffIcon style={{ color: 'grey', fontSize: 30 }} />
+                            }),
+                            React.createElement('span', {
+                                key: `tile__forward${tileID}`,
+                                id: `tile__forward${tileID}`,
+                                className: "tile__forward",
+                                children: <ForwardIcon style={{ color: 'grey', fontSize: 50 }} />
+                            }),
+                            React.createElement('div', {
+                                key: `tile__box${tileID}`,
+                                id: `tile__box${tileID}`,
+                                className: "tile__box",
+                                onDrop: drop,
+                                onDragOver: allowDrop,
+                                children: addedIcon
+                            })
+                        ]
+                    })
+            }
+        };
+
+        setSuperState(pState => {
+            const currentTilePropWithIcon = { ...currentTileProps, ...addedIcon };
+            if (!currentTileProps.tileID) {
+                const finalItems = [...pState.tiles, createTiles(currentTilePropWithIcon)];
+                // console.log('finalItems - if', finalItems);
+                return ({ ...pState, tiles: finalItems });
+            } else {
+                // console.log('pState.tiles', pState.tiles);
+                const modifiedTilesWithClose = pState.tiles.map(tile => {
+                    const toBeModifiedTileProp = { ...tile };
+                    // toBeModifiedTileProp.isCloseAvailable = true;
+                    delete toBeModifiedTileProp.ele;
+                    const tileWithClose = createTilesWithClose(toBeModifiedTileProp);
+                    return { ...tileWithClose };
+                });
+                // console.log('modifiedTilesWithClose', modifiedTilesWithClose);
+                return ({ ...pState, tiles: [...modifiedTilesWithClose, createTiles(currentTilePropWithIcon)] });
+            }
+        });
+    }, [currentTileProps, addedIcon, drop]);
 
     console.log('#state', superState);
 
-    const transitions = useTransition(tiles, item => item.key, {
+    const transitions = useTransition(tiles, item => item.ele.key, {
         from: { display: 'inline-flex', width: 120, opacity: 0 },
         enter: { opacity: 1 },
         leave: { opacity: 0 },
     })
 
     return (
-        <React.Fragment>
+        <>
             <div className="user-journey">
                 <div className="user-journey__tray">
                     <p>Tray</p>
@@ -318,7 +409,7 @@ const UserJourneyWithHooks = () => {
                     <div>
                         {/* {tiles} */}
                         {
-                            transitions.map(({ item, key, props }) => <animated.div key={key} style={props}>{item}</animated.div>)
+                            transitions.map(({ item, key, props }) => <animated.div key={key} style={props}>{item.ele}</animated.div>)
                         }
                         {/* <div>
                             <div className="elements">
@@ -334,129 +425,8 @@ const UserJourneyWithHooks = () => {
                     </div>
                 </div>
             </div>
-        </React.Fragment>
+        </>
     )
 };
 
-// class UserJourney extends React.Component {
-//     constructor() {
-//         super();
-//         this.state = {
-//             tiles: [],
-//             iconID: 0,
-//             tileID: 0,
-//             icons: [
-//                 <span key="ChildFriendlyIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="ChildFriendlyIcon"><ChildFriendlyIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-//                 <span key="AcUnitIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="AcUnitIcon"><AcUnitIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-//                 <span key="HomeWorkIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="HomeWorkIcon"><HomeWorkIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-//                 <span key="MotorcycleIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="MotorcycleIcon"><MotorcycleIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-//                 <span key="OfflineBoltIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="OfflineBoltIcon"><OfflineBoltIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-//                 <span key="ShutterSpeedIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="ShutterSpeedIcon"><ShutterSpeedIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-//                 <span key="QueuePlayNextIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="QueuePlayNextIcon"><QueuePlayNextIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-//                 <span key="WhatshotIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="WhatshotIcon"><WhatshotIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-//                 <span key="SportsEsportsIcon" draggable="true" onDragStart={this.drag} className="user-journey__icon" id="SportsEsportsIcon"><SportsEsportsIcon style={{ color: 'green', fontSize: 40 }} /></span>
-//             ]
-//         }
-//     }
-
-//     // const [tiles, setTiles] = useState([]);
-//     // const [iconID, incrementId] = useState(0);
-//     // const [tileID, incrementTileId] = useState(0);
-//     drag = (ev) => {
-//         ev.dataTransfer.setData("text", ev.target.id);
-//     }
-
-//     componentWillMount() {
-//         const { tileID } = this.state;
-//         this.setState(state => ({ tiles: [...state.tiles, this.createTiles(tileID)] }));
-//     }
-
-//     drop = (ev) => {
-//         const { iconID, tileID } = this.state;
-//         ev.preventDefault();
-//         var data = ev.dataTransfer.getData("text");
-//         let victimId = document.getElementById(data).id;
-//         let clone = document.getElementById(data).cloneNode(true);
-//         clone.id = `${victimId}${iconID}`;
-//         ev.target.appendChild(clone);
-//         const droppedItem = [...ev.target.children];
-
-//         console.log('dropped', { data, victimId, clone, droppedItem });
-
-//         droppedItem.forEach(obj => {
-//             obj.setAttribute('draggable', 'false');
-//         });
-//         // incrementId(stateIconID => stateIconID + 1);
-//         // incrementTileId(stateTileID => stateTileID + 1);
-//         this.setState(state => ({ iconID: state.iconID + 1, tileID: state.tileID + 1 }), () => {
-//             const { tileID } = this.state;
-//             this.setState(state => ({ tiles: [...state.tiles, this.createTiles(tileID)] }));
-//         });
-//         // this.setState(state => ({  }));
-//         // const { tileID } = this.state;
-//         console.log('drop - setTiles', tileID);
-//         // this.setState(tilesState => {
-//         //     console.log('tilesState', tilesState);
-//         //     return [...tilesState, this.createTiles(tileID)];
-//         // });
-//         // this.setState(state => ({  }));
-//         console.log('Id\'s updated', this.state);
-//     };
-//     allowDrop = (ev) => {
-//         // const { tileID } = this.state;
-//         ev.preventDefault();
-//         // this.setState(state => ({ tiles: [...state.tiles, this.createTiles(tileID)] }));
-//     }
-//     removeTile = (id) => {
-//         const { tiles } = this.state;
-//         console.log('removeTile', id);
-//         console.log('removeTile - before tiles', tiles);
-//         const newTileList = tiles.filter(obj => {
-//             console.log('newTileList', { objKey: obj.key, id });
-//             return obj.key !== id;
-//         });
-//         console.log('removeTile - after tiles', newTileList);
-//         this.setState({ tiles: newTileList });
-//     };
-//     createTiles = (tileID) => {
-//         // const { tiles } = this.state;
-
-//         // console.log('createTiles fn', tiles);
-//         return (
-//             <div className="tile" key={`tile${tileID}`} id={`tile${tileID}`}>
-//                 <span id={`tile__cancel${tileID}`} className="tile__cancel" onClick={() => this.removeTile(`tile${tileID}`)}>
-//                     <HighlightOffIcon style={{ color: 'grey', fontSize: 30 }} />
-//                 </span>
-//                 <span id={`tile__forward${tileID}`} className="tile__forward">
-//                     <ForwardIcon style={{ color: 'grey', fontSize: 50 }} />
-//                 </span>
-//                 <div id={`tile__box${tileID}`} className="tile__box" onDrop={this.drop} onDragOver={this.allowDrop}></div>
-//             </div>
-//         );
-//     };
-
-//     render() {
-//         const { icons, tiles } = this.state;
-//         console.log('render state', this.state);
-
-//         return (
-//             <React.Fragment>
-//                 <div className="user-journey">
-//                     <div className="user-journey__tray">
-//                         <p>Tray</p>
-//                         {icons}
-//                     </div>
-//                     <div className="user-journey__playground">
-//                         <p>PlayGround</p>
-//                         <div>
-//                             {tiles}
-//                         </div>
-//                     </div>
-//                 </div>
-//             </React.Fragment>
-//         )
-//     }
-// }
-
-// export default UserJourney;
 export default UserJourneyWithHooks;

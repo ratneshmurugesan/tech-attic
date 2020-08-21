@@ -1,0 +1,41 @@
+        // console.log('closeButton - useEffect', closeButtonRefs);
+        // // console.log('closeButton', closeButtonRefs);
+        // (async () => {
+        // let localCloseButtonRefs = closeButtonRefs;
+        // const lastNode = closeButtonRefs.current.length;
+        // console.log('localCloseButtonRefs', localCloseButtonRefs);
+        // console.log('localCloseButtonRefs.current[lastNode]', localCloseButtonRefs.current.filter(span => span.id === `tile__cancel${tileProp.tileID}`));
+        // if(closeButtonRefs.current[lastNode]) {
+        //     closeButtonRefs.current[lastNode].style.display = 'none';
+        // } else {
+        // console.log('closeButtonRefs.current[lastNode]', closeButtonRefs.current[lastNode]);
+        // }
+        // console.log('lastNode', lastNode);
+        // console.log('tileID', tileProp.tileID);
+        // })();
+
+
+                    // return (
+            //     <div >
+            //         <span
+            //             ref={(closeButton) => closeButtonRefs.current.push(closeButton)}
+            //             key={`tile__cancel${tileID}`}
+            //             id={`tile__cancel${tileID}`}
+            //             className="tile__cancel"
+            //             onClick={() => removeTile(`tile${tileID}`)}>
+            //             <HighlightOffIcon style={{ color: 'grey', fontSize: 30 }} />
+            //         </span>
+            //         <span
+            //             key={`tile__forward${tileID}`}
+            //             id={`tile__forward${tileID}`}
+            //             className="tile__forward">
+                        
+            //         </span>
+            //         <div
+            //             key={`tile__box${tileID}`}
+            //             id={`tile__box${tileID}`}
+            //             className="tile__box"
+            //             onDrop={drop}
+            //             onDragOver={allowDrop}></div>
+            //     </div>
+            // );

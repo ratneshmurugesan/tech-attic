@@ -66,10 +66,17 @@ $userJourney: ".user-journey";
                     height: 30px;
                 }
             }
+            #{$tile}__cancel--hidden{
+                visibility: hidden;
+            }
             #{$tile}__forward {
                 position: relative;
                 left: -10px;
                 top: 18px;
+            }
+
+            #{$tile}__forward--hidden{
+                display: none;
             }
         }
         // }
