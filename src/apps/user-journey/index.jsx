@@ -353,7 +353,10 @@ const UserJourneyWithHooks = () => {
                                 key: `tile__forward${tileID}`,
                                 id: `tile__forward${tileID}`,
                                 className: "tile__forward",
-                                children: <ForwardIcon style={{ color: 'grey', fontSize: 50 }} />
+                                children: <div className="arrow-group">
+                                    <ForwardIcon style={{ color: 'rgba(0, 0, 0, 0.5)', fontSize: 30, transform: 'rotate(180deg)' }} />
+                                    <ForwardIcon style={{ color: 'rgba(0, 0, 0, 0.5)', fontSize: 30 }} />
+                                </div>
                             }),
                             React.createElement('div', {
                                 key: `tile__box${tileID}`,

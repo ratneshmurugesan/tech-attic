@@ -55,7 +55,7 @@ $userJourney: ".user-journey";
             }
             #{$tile}__cancel {
                 position: relative;
-                right: 70px;
+                right: 50px;
                 bottom: 10px;
                 cursor: pointer;
                 height: 30px;
@@ -66,16 +66,21 @@ $userJourney: ".user-journey";
                     height: 30px;
                 }
             }
-            #{$tile}__cancel--hidden{
+            #{$tile}__cancel--hidden {
                 visibility: hidden;
             }
             #{$tile}__forward {
                 position: relative;
-                left: -10px;
+                left: 0px;
                 top: 18px;
+
+                & .arrow-group {
+                    display: flex;
+                    flex-direction: column;
+                }
             }
 
-            #{$tile}__forward--hidden{
+            #{$tile}__forward--hidden {
                 display: none;
             }
         }
