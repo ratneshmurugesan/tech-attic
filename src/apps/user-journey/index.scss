@@ -7,7 +7,8 @@ $userJourney: ".user-journey";
 
     &__tray {
         padding: 25px;
-        background-color: palevioletred;
+        // background-color: palevioletred;
+        border: 2px solid rgba(0, 0, 0, 0.5);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -23,7 +24,8 @@ $userJourney: ".user-journey";
 
     &__playground {
         padding: 25px;
-        background-color: rosybrown;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        // background-color: rosybrown;
 
         // #{$userJourney}__playground div{
 
@@ -68,6 +70,7 @@ $userJourney: ".user-journey";
             }
             #{$tile}__cancel--hidden {
                 visibility: hidden;
+                width: 1px;
             }
             #{$tile}__forward {
                 position: relative;

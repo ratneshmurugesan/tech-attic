@@ -32,178 +32,178 @@ import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 
 import './index.scss';
 
-class Node {
-    constructor(val) {
-        this.val = val;
-        this.prev = null;
-        this.next = null;
-    }
-}
+// class Node {
+//     constructor(val) {
+//         this.val = val;
+//         this.prev = null;
+//         this.next = null;
+//     }
+// }
 
-class DoublyLL {
-    constructor() {
-        this.head = null;
-        this.tail = null;
-        this.length = 0;
-    }
+// class DoublyLL {
+//     constructor() {
+//         this.head = null;
+//         this.tail = null;
+//         this.length = 0;
+//     }
 
-    push(val) {
-        let newNode = new Node(val);
-        if (!this.head) {
-            this.head = newNode;
-            this.tail = this.head;
-        } else {
-            this.tail.next = newNode;
-            newNode.prev = this.tail;
-            this.tail = newNode;
-            //             newNode.next = null;
-        }
-        this.length++;
-        return this;
-    }
+//     push(val) {
+//         let newNode = new Node(val);
+//         if (!this.head) {
+//             this.head = newNode;
+//             this.tail = this.head;
+//         } else {
+//             this.tail.next = newNode;
+//             newNode.prev = this.tail;
+//             this.tail = newNode;
+//             //             newNode.next = null;
+//         }
+//         this.length++;
+//         return this;
+//     }
 
-    pop() {
-        if (!this.length) return null;
-        let delNode = this.tail;
-        if (this.length === 1) {
-            this.head = null;
-            this.tail = null;
-        } else {
-            this.tail = delNode.prev;
-            this.tail.next = null;
-            delNode.prev = null;
-        }
-        this.length--;
-        return delNode;
-    }
+//     pop() {
+//         if (!this.length) return null;
+//         let delNode = this.tail;
+//         if (this.length === 1) {
+//             this.head = null;
+//             this.tail = null;
+//         } else {
+//             this.tail = delNode.prev;
+//             this.tail.next = null;
+//             delNode.prev = null;
+//         }
+//         this.length--;
+//         return delNode;
+//     }
 
-    shift() {
-        if (!this.length) return null;
-        let delNode = this.head;
-        if (this.length === 1) {
-            this.head = null;
-            this.tail = null;
-        } else {
-            this.head = delNode.next;
-            this.head.prev = null;
-            delNode.next = null;
-        }
-        this.length--;
-        return delNode;
-    }
+//     shift() {
+//         if (!this.length) return null;
+//         let delNode = this.head;
+//         if (this.length === 1) {
+//             this.head = null;
+//             this.tail = null;
+//         } else {
+//             this.head = delNode.next;
+//             this.head.prev = null;
+//             delNode.next = null;
+//         }
+//         this.length--;
+//         return delNode;
+//     }
 
-    unshift(value) {
-        let newNode = new Node(value);
-        if (this.length === 0) {
-            this.head = newNode;
-            this.tail = newNode;
-        } else {
-            this.head.prev = newNode;
-            newNode.next = this.head;
-            this.head = newNode;
-        }
-        this.length++;
-        return this;
-    }
+//     unshift(value) {
+//         let newNode = new Node(value);
+//         if (this.length === 0) {
+//             this.head = newNode;
+//             this.tail = newNode;
+//         } else {
+//             this.head.prev = newNode;
+//             newNode.next = this.head;
+//             this.head = newNode;
+//         }
+//         this.length++;
+//         return this;
+//     }
 
-    get(pos) {
-        if (this.length === 0) return null;
-        if (pos < 0 || pos >= this.length) return null;
-        let current;
-        if (pos <= this.length / 2) {
-            console.log('From HEAD');
-            current = this.head;
-            let count = 0;
-            while (pos !== count) {
-                current = current.next;
-                count++;
-            }
-            return current;
-        } else {
-            console.log('From Tail');
-            current = this.tail;
-            let count = this.length - 1;
-            while (pos !== count) {
-                current = current.prev;
-                count--;
-            }
-            return current;
-        }
-    }
+//     get(pos) {
+//         if (this.length === 0) return null;
+//         if (pos < 0 || pos >= this.length) return null;
+//         let current;
+//         if (pos <= this.length / 2) {
+//             console.log('From HEAD');
+//             current = this.head;
+//             let count = 0;
+//             while (pos !== count) {
+//                 current = current.next;
+//                 count++;
+//             }
+//             return current;
+//         } else {
+//             console.log('From Tail');
+//             current = this.tail;
+//             let count = this.length - 1;
+//             while (pos !== count) {
+//                 current = current.prev;
+//                 count--;
+//             }
+//             return current;
+//         }
+//     }
 
-    set(pos, val) {
-        if (this.length === 0) return null;
-        if (pos < 0 || pos >= this.length) return null;
-        let target = this.get(pos)
-        if (target) {
-            target.val = val;
-            return true;
-        }
-        return false;
-    }
+//     set(pos, val) {
+//         if (this.length === 0) return null;
+//         if (pos < 0 || pos >= this.length) return null;
+//         let target = this.get(pos)
+//         if (target) {
+//             target.val = val;
+//             return true;
+//         }
+//         return false;
+//     }
 
-    insert(pos, val) {
-        if (pos < 0 || pos > this.length) return null;
-        if (pos === 0) return !!this.unshift(val);
-        if (pos === this.length) return !!this.push(val);
-        let prevNode = this.get(pos - 1);
-        let newNode = new Node(val);
-        let nextNode = prevNode.next;
-        //first part: prevNode & newNode
-        prevNode.next = newNode;
-        newNode.prev = prevNode;
-        //second part: nextNode & newNode
-        newNode.next = nextNode;
-        nextNode.prev = newNode;
+//     insert(pos, val) {
+//         if (pos < 0 || pos > this.length) return null;
+//         if (pos === 0) return !!this.unshift(val);
+//         if (pos === this.length) return !!this.push(val);
+//         let prevNode = this.get(pos - 1);
+//         let newNode = new Node(val);
+//         let nextNode = prevNode.next;
+//         //first part: prevNode & newNode
+//         prevNode.next = newNode;
+//         newNode.prev = prevNode;
+//         //second part: nextNode & newNode
+//         newNode.next = nextNode;
+//         nextNode.prev = newNode;
 
-        this.length++;
-        console.log({ prevNode, newNode, nextNode });
-        return true;
-    }
+//         this.length++;
+//         console.log({ prevNode, newNode, nextNode });
+//         return true;
+//     }
 
-    remove(pos) {
-        if (pos < 0 || pos > this.length) return null;
-        if (pos === 0) return !!this.shift();
-        if (pos === this.length) return !!this.pop();
+//     remove(pos) {
+//         if (pos < 0 || pos > this.length) return null;
+//         if (pos === 0) return !!this.shift();
+//         if (pos === this.length) return !!this.pop();
 
-        let prevNode = this.get(pos - 1);
-        let targetNode = prevNode.next;
-        let nextNode = targetNode.next;
+//         let prevNode = this.get(pos - 1);
+//         let targetNode = prevNode.next;
+//         let nextNode = targetNode.next;
 
-        prevNode.next = targetNode.next;
-        nextNode.prev = targetNode.prev;
-        //Clean-up of removed refs
-        targetNode.next = null;
-        targetNode.prev = null;
+//         prevNode.next = targetNode.next;
+//         nextNode.prev = targetNode.prev;
+//         //Clean-up of removed refs
+//         targetNode.next = null;
+//         targetNode.prev = null;
 
 
-        this.length--;
-        return targetNode;
-    }
+//         this.length--;
+//         return targetNode;
+//     }
 
-    reverse() {
-        let current = this.head;
-        let temp = null;
+//     reverse() {
+//         let current = this.head;
+//         let temp = null;
 
-        while (current !== null) {
-            temp = current.prev;
-            current.prev = current.next;
-            current.next = temp;
-            // move forward
-            current = current.prev;
-        }
-        if (temp !== null) {
-            let swap = this.head;
-            this.head = this.tail;
-            this.tail = swap;
-        }
+//         while (current !== null) {
+//             temp = current.prev;
+//             current.prev = current.next;
+//             current.next = temp;
+//             // move forward
+//             current = current.prev;
+//         }
+//         if (temp !== null) {
+//             let swap = this.head;
+//             this.head = this.tail;
+//             this.tail = swap;
+//         }
 
-        return this;
-    }
-}
+//         return this;
+//     }
+// }
 
-var dll = new DoublyLL();
-console.log(dll);
+// var dll = new DoublyLL();
+// console.log(dll);
 
 const UserJourneyWithHooks = () => {
 
@@ -233,15 +233,15 @@ const UserJourneyWithHooks = () => {
     };
 
     const icons = [
-        <span key="ChildFriendlyIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ChildFriendlyIcon"><ChildFriendlyIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-        <span key="AcUnitIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="AcUnitIcon"><AcUnitIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-        <span key="HomeWorkIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="HomeWorkIcon"><HomeWorkIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-        <span key="MotorcycleIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="MotorcycleIcon"><MotorcycleIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-        <span key="OfflineBoltIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="OfflineBoltIcon"><OfflineBoltIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-        <span key="ShutterSpeedIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ShutterSpeedIcon"><ShutterSpeedIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-        <span key="QueuePlayNextIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="QueuePlayNextIcon"><QueuePlayNextIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-        <span key="WhatshotIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="WhatshotIcon"><WhatshotIcon style={{ color: 'green', fontSize: 40 }} /></span>,
-        <span key="SportsEsportsIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="SportsEsportsIcon"><SportsEsportsIcon style={{ color: 'green', fontSize: 40 }} /></span>
+        <span key="ChildFriendlyIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ChildFriendlyIcon"><ChildFriendlyIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
+        <span key="AcUnitIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="AcUnitIcon"><AcUnitIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
+        <span key="HomeWorkIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="HomeWorkIcon"><HomeWorkIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
+        <span key="MotorcycleIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="MotorcycleIcon"><MotorcycleIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
+        <span key="OfflineBoltIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="OfflineBoltIcon"><OfflineBoltIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
+        <span key="ShutterSpeedIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ShutterSpeedIcon"><ShutterSpeedIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
+        <span key="QueuePlayNextIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="QueuePlayNextIcon"><QueuePlayNextIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
+        <span key="WhatshotIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="WhatshotIcon"><WhatshotIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
+        <span key="SportsEsportsIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="SportsEsportsIcon"><SportsEsportsIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>
     ];
     /* 
         drop variable will have always the same function object of the useCallback function 
@@ -392,10 +392,10 @@ const UserJourneyWithHooks = () => {
         });
     }, [currentTileProps, addedIcon, drop]);
 
-    console.log('#state', superState);
+    // console.log('#state', superState);
 
     const transitions = useTransition(tiles, item => item.ele.key, {
-        from: { display: 'inline-flex', width: 120, opacity: 0 },
+        from: { display: 'inline-flex', maxWidth: '120px', opacity: 0 },
         enter: { opacity: 1 },
         leave: { opacity: 0 },
     })
