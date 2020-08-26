@@ -19,7 +19,6 @@
     "redux": "^4.0.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
-    "//": "---------Below packages are for pixel-art app---------",
     "@apollo/react-hooks": "^3.1.3",
     "apollo-boost": "^0.4.7",
     "apollo-link-ws": "^1.0.19",
@@ -68,10 +67,6 @@
     "react-transition-group": "^4.4.1",
     "reactstrap": "^8.5.1"
   },
-  "//": [
-    "enzyme-to-json - provides a better component format for snapshot comparison than Enzyme’s internal component representation",
-    "snapshotSerializers - allows you to minimise code duplication when working with snapshots."
-  ],
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
