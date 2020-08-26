@@ -412,7 +412,10 @@ const UserJourneyWithHooks = () => {
                     <div>
                         {/* {tiles} */}
                         {
-                            transitions.map(({ item, key, props }) => <animated.div key={key} style={props}>{item.ele}</animated.div>)
+                            transitions.map(({ item, key, props }) =>
+                                <animated.div key={key} style={props}>
+                                    {item.ele}
+                                </animated.div>)
                         }
                         {/* <div>
                             <div className="elements">

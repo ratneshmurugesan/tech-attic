@@ -1,8 +1,14 @@
 const InfoConfig = {
     //Micro-apps
-    'Github-Repo-Browser': {},
-    'Book-Store': {},
-    'Render by Config App': {},
+    'Github-Repo-Browser': {
+        alive: true,
+    },
+    'Book-Store': {
+        alive: true,
+    },
+    'Render by Config App': {
+        alive: true,
+    },
     'User Journey App': {
         alive: true,
         details: `This App lets you create a clear roadmap structure to show things involved in the journey`,
@@ -12,7 +18,7 @@ const InfoConfig = {
     },
     //DSA
     'Reversing a Singly Linked List': {},
-    'Priority Is Priority': {
+    'Priority Queue': {
         alive: true,
         details: `This prototype shows how to develop a simple priortized-todo task list,
         which pushes the high-priortized task to top of surface.`,
@@ -21,9 +27,15 @@ const InfoConfig = {
         // codeLink: '#'
     },
     //CSS
-    'Shapes in CSS': {},
-    'ClipPath in CSS': {},
-    'Transitions in CSS': {}
+    'Shapes in CSS': {
+        alive: true,
+    },
+    'ClipPath in CSS': {
+        alive: true,
+    },
+    'Transitions in CSS': {
+        alive: false,
+    }
 }
 
 export default InfoConfig;

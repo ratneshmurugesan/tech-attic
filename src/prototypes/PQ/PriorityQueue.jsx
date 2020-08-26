@@ -14,7 +14,7 @@ class _Node {
     }
 }
 
-class PriorityQueue {
+class PQ {
     constructor() {
         this.values = [];
     }
@@ -145,9 +145,9 @@ class PriorityQueue {
     }
 }
 
-let RatneshPQ = new PriorityQueue();
+let RatneshPQ = new PQ();
 
-const PriorityIsPriority = () => {
+const PriorityQueue = () => {
 
     const [priorityQueue, setPriorityQueue] = useState(RatneshPQ.values);
     const [high, setHigh] = useState({});
@@ -253,4 +253,4 @@ const PriorityIsPriority = () => {
     );
 }
 
-export default (PriorityIsPriority);
+export default (PriorityQueue);

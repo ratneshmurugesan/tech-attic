@@ -18,14 +18,18 @@ import RepoBrowser from '../apps/repo-browser/src/index.jsx';
 import BookStore from '../apps/book-store/src/index.jsx';
 import RenderByConfig from '../apps/render-by-config';
 import UserJourney from '../apps/user-journey';
+import PixelArt from '../apps/pixel-art';
 
 import ReverseLinkedList from '../prototypes/SinglyLinkedList/ReverseLinkedList';
+import PriorityQueue from '../prototypes/PQ/PriorityQueue';
 
 import CSSLayouts from '../prototypes/CSSLayouts';
 import CSSShapes from '../prototypes/CSSShapes';
 import CSSClipPath from '../prototypes/CSSClipPath';
 import CSSTransitions from '../prototypes/CSSTransitions';
-import PriorityIsPriority from '../prototypes/PriorityQueue/PriorityIsPriority';
+
+import Async from '../prototypes/Async';
+import ReactCodePatterns from '../prototypes/React-code-patterns';
 
 const useStyles_grid = makeStyles((theme) => ({
     root: {
@@ -76,16 +80,20 @@ function CustomGrid() {
                 <Route path='/everything/book-store' component={() => PaperWrapper(BookStore, 'Book Store')} />
                 <Route path='/everything/render-by-config' component={() => PaperWrapper(RenderByConfig, 'Render by Config App')} />
                 <Route path='/everything/user-journey' component={() => PaperWrapper(UserJourney, 'User Journey App')} />
+                <Route path='/everything/pixel-art' component={() => PaperWrapper(PixelArt, 'Pixel Art')} />
                 
                 <Route path='/everything/about-me' component={() => <AboutMe />} />
 
                 <Route path="/everything/reverse-singly-linked-list" component={() => PaperWrapper(ReverseLinkedList, 'Reversing a Singly Linked List')} />
-                <Route path="/everything/priority-is-priority" component={() => PaperWrapper(PriorityIsPriority, 'Priority Is Priority')} />
+                <Route path="/everything/priority-queue" component={() => PaperWrapper(PriorityQueue, 'Priority Queue')} />
                 
                 <Route path="/everything/css-layouts" component={() => PaperWrapper(CSSLayouts, 'Layouts in CSS')} />
                 <Route path="/everything/css-shapes" component={() => PaperWrapper(CSSShapes, 'Shapes in CSS')} />
                 <Route path="/everything/css-clip-path" component={() => PaperWrapper(CSSClipPath, 'ClipPath in CSS')} />
                 <Route path="/everything/css-transitions" component={() => PaperWrapper(CSSTransitions, 'Transitions in CSS')} />
+
+                <Route path="/everything/async" component={() => PaperWrapper(Async, 'async')} />
+                <Route path="/everthing/react-code-patterns" component={() => PaperWrapper(ReactCodePatterns, 'React Code Patterns')} />
             </Switch>
         </div>
     );

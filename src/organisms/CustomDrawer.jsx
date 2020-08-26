@@ -70,7 +70,7 @@ function CustomDrawer() {
         anchor === 'right' ?
           <React.Fragment>
             <List>
-              {['repo-browser', 'book-store', 'render-by-config', 'user-journey'].map((text) => (
+              {['repo-browser', 'book-store', 'render-by-config', 'user-journey', 'pixel-art'].map((text) => (
                 <div key={text}>
                   <Paper elevation={2} className="paper" >
                     <Link to={`/everything/${text}`}>{text}</Link>
@@ -83,7 +83,7 @@ function CustomDrawer() {
           <React.Fragment>
             <Button style={buttonWhiteTheme} disabled>DSA</Button>
             <List>
-              {['reverse-singly-linked-list', 'priority-is-priority'].map((text) => (
+              {['reverse-singly-linked-list', 'priority-queue'].map((text) => (
                 <div key={text}>
                   <Paper elevation={2} className="paper" >
                     <Link to={`/everything/${text}`}>{text}</Link>
@@ -94,6 +94,16 @@ function CustomDrawer() {
             <div style={buttonWhiteTheme}>CSS</div>
             <List>
               {['css-layouts', 'css-shapes', 'css-clip-path', 'css-transitions'].map((text) => (
+                <div key={text}>
+                  <Paper elevation={2} className="paper" >
+                    <Link to={`/everything/${text}`}>{text}</Link>
+                  </Paper>
+                </div>
+              ))}
+            </List>
+            <div style={buttonWhiteTheme}>JavaScript</div>
+            <List>
+              {['async', 'react-code-patterns'].map((text) => (
                 <div key={text}>
                   <Paper elevation={2} className="paper" >
                     <Link to={`/everything/${text}`}>{text}</Link>
