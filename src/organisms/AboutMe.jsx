@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 // import TextField from '@material-ui/core/TextField'; 
 import Paper from '@material-ui/core/Paper';
@@ -36,21 +36,21 @@ const useStyles = makeStyles((theme) => ({
 
 function AboutMe() {
     const { width } = ScreenResizer();
-    const gridDirection = `${width < 1024 ? 'column' : 'row'}`;
+    // const gridDirection = `${width < 1024 ? 'column' : 'row'}`;
     const gridSize = width < 620 ? 12 : 4;
 
-    const [areTwitterCardsReady, setTwitterCard] = useState(false);
+    // const [areTwitterCardsReady, setTwitterCard] = useState(false);
 
-    useEffect(() => {
+    // useEffect(() => {
         // if (window && window.twttr) {
-            window.twttr.ready().then((data) => {
-            window.twttr.widgets.load();
-            setTimeout(() => {
-                setTwitterCard(data.init);
-            }, 3000);
-        });
+            // window.twttr.ready().then((data) => {
+            // window.twttr.widgets.load();
+            // setTimeout(() => {
+            //     setTwitterCard(data.init);
+            // }, 3000);
+        // });
         // }
-    }, [areTwitterCardsReady]);
+    // }, [areTwitterCardsReady]);
 
     return (
         <Container maxWidth="xl" style={{ backgroundColor: '#333' }}>
@@ -90,7 +90,7 @@ function AboutMe() {
                     </Paper>
                 </Grid>
             </Grid>
-            <Grid container spacing={3} direction={gridDirection} justify="center" alignItems="center">
+            {/* <Grid container spacing={3} direction={gridDirection} justify="center" alignItems="center">
                 <Grid item xs={gridSize} style={{ opacity: `${areTwitterCardsReady ? 1 : 0}` }}>
                     <blockquote className="twitter-tweet">
                         <p lang="en" dir="ltr">
@@ -140,7 +140,7 @@ function AboutMe() {
                     </blockquote>
                     <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
                 </Grid>
-            </Grid>
+            </Grid> */}
         </Container >
     );
 }

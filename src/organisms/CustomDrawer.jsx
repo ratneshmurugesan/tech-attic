@@ -70,7 +70,7 @@ function CustomDrawer() {
         anchor === 'right' ?
           <React.Fragment>
             <List>
-              {['repo-browser', 'book-store', 'render-by-config', 'user-journey', 'pixel-art'].map((text) => (
+              {['repo-browser', 'book-store', 'render-by-config', 'user-journey', 'pixel-art', 'timesheet'].map((text) => (
                 <div key={text}>
                   <Paper elevation={2} className="paper" >
                     <Link to={`/everything/${text}`}>{text}</Link>
@@ -103,7 +103,7 @@ function CustomDrawer() {
             </List>
             <div style={buttonWhiteTheme}>JavaScript</div>
             <List>
-              {['async', 'react-code-patterns'].map((text) => (
+              {['async', 'react-code-patterns', 'webpack-essentials'].map((text) => (
                 <div key={text}>
                   <Paper elevation={2} className="paper" >
                     <Link to={`/everything/${text}`}>{text}</Link>
