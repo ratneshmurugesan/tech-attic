@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import TimesheetUserContext from 'context/timesheetUserContext';
-import TimesheetUser from 'components/pages/TimesheetUser';
+import TimesheetUser from 'components/4pages/TimesheetUser';
 
 const TimesheetUserContainer = (props) => {
   return (
@@ -12,11 +12,11 @@ const TimesheetUserContainer = (props) => {
 };
 
 TimesheetUserContainer.propTypes = {
-  history: PropTypes.object
+  props: PropTypes.object
 }
 
 TimesheetUserContainer.defaultProps = {
-  history: {},
+  props: {},
 }
 
 export default TimesheetUserContainer;
