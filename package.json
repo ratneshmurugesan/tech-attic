@@ -33,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "push": "git push -u origin master && git push heroku master",
-    "mock-server": "nodemon mock-server.js"
+    "mock-server": "nodemon src/mock/mock-server.js"
   },
   "eslintConfig": {
     "extends": "react-app"

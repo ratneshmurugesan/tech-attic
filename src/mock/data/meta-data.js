@@ -142,7 +142,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Joseph",
               "last_name": "Fantetti",
-              "email": "joseph.fantetti@galepartners.com"
+              "email": "joseph.fantetti@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -157,11 +157,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Eric Little",
-                  "email": "eric.little@galepartners.com"
+                  "email": "eric.little@abc.com"
                 },
                 {
                   "name": "Vadiraj Deshpande",
-                  "email": "vadiraj.deshpande@galepartners.com"
+                  "email": "vadiraj.deshpande@abc.com"
                 }
               ]
             },
@@ -174,7 +174,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Ryan",
               "last_name": "MacLean",
-              "email": "ryan.maclean@galepartners.com"
+              "email": "ryan.maclean@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -189,7 +189,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Deb Korono",
-                  "email": "deborah.korono@galepartners.com"
+                  "email": "deborah.korono@abc.com"
                 }
               ]
             },
@@ -202,13 +202,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Ryan",
               "last_name": "MacLean",
-              "email": "ryan.maclean@galepartners.com"
+              "email": "ryan.maclean@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vadiraj Deshpande",
-                  "email": "vadiraj.deshpande@galepartners.com"
+                  "email": "vadiraj.deshpande@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -222,11 +222,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Deb Korono",
-                  "email": "deborah.korono@galepartners.com"
+                  "email": "deborah.korono@abc.com"
                 },
                 {
                   "name": "Pat Frend",
-                  "email": "pat.frend@galepartners.com"
+                  "email": "pat.frend@abc.com"
                 }
               ]
             },
@@ -239,7 +239,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -254,7 +254,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -267,7 +267,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Norah",
               "last_name": "Rahamim",
-              "email": "norah@galepartners.com"
+              "email": "norah@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -282,7 +282,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Stacy Schuman",
-                  "email": "stacy.schuman@galepartners.com"
+                  "email": "stacy.schuman@abc.com"
                 }
               ]
             },
@@ -295,7 +295,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jessica",
               "last_name": "Chee",
-              "email": "jessica.chee@galepartners.com"
+              "email": "jessica.chee@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -310,7 +310,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Rae Naidoo",
-                  "email": "rae.naidoo@galepartners.com"
+                  "email": "rae.naidoo@abc.com"
                 }
               ]
             },
@@ -323,13 +323,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjay",
               "last_name": "Krishnamurthy",
-              "email": "sanjay@galepartners.com"
+              "email": "sanjay@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Arun Thekkuden",
-                  "email": "arun.thekkuden@galepartners.com"
+                  "email": "arun.thekkuden@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -343,7 +343,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ]
             },
@@ -356,7 +356,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marc ",
               "last_name": "Parillo",
-              "email": "marc.parillo@galepartners.com"
+              "email": "marc.parillo@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -371,11 +371,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Marc Parillo",
-                  "email": "marc.parillo@galepartners.com"
+                  "email": "marc.parillo@abc.com"
                 },
                 {
                   "name": "Marsha Pautler",
-                  "email": "marsha.pautler@galepartners.com"
+                  "email": "marsha.pautler@abc.com"
                 }
               ]
             },
@@ -388,13 +388,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Shaon",
               "last_name": "Habibullah",
-              "email": "shaon.habibullah@galepartners.com"
+              "email": "shaon.habibullah@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -408,7 +408,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Shaon Habibullah",
-                  "email": "shaon.habibullah@galepartners.com"
+                  "email": "shaon.habibullah@abc.com"
                 }
               ]
             },
@@ -421,7 +421,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -436,7 +436,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -449,7 +449,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -464,7 +464,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Arun Thekkuden",
-                  "email": "arun.thekkuden@galepartners.com"
+                  "email": "arun.thekkuden@abc.com"
                 }
               ]
             },
@@ -477,7 +477,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjay",
               "last_name": "Krishnamurthy",
-              "email": "sanjay@galepartners.com"
+              "email": "sanjay@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -492,11 +492,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Norah Rahamim",
-                  "email": "norah@galepartners.com"
+                  "email": "norah@abc.com"
                 },
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ]
             },
@@ -509,13 +509,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Shaon",
               "last_name": "Habibullah",
-              "email": "shaon.habibullah@galepartners.com"
+              "email": "shaon.habibullah@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -529,7 +529,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Shaon Habibullah",
-                  "email": "shaon.habibullah@galepartners.com"
+                  "email": "shaon.habibullah@abc.com"
                 }
               ]
             },
@@ -542,7 +542,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -557,7 +557,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrew McDougall",
-                  "email": "andrew.mcdougall@galepartners.com"
+                  "email": "andrew.mcdougall@abc.com"
                 }
               ]
             },
@@ -570,7 +570,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jessica",
               "last_name": "Chee",
-              "email": "jessica.chee@galepartners.com"
+              "email": "jessica.chee@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -585,7 +585,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Stacy Schuman",
-                  "email": "stacy.schuman@galepartners.com"
+                  "email": "stacy.schuman@abc.com"
                 }
               ]
             },
@@ -598,7 +598,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jessica",
               "last_name": "Chee",
-              "email": "jessica.chee@galepartners.com"
+              "email": "jessica.chee@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -621,13 +621,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Munna Singh",
-                  "email": "munna.singh@galepartners.com"
+                  "email": "munna.singh@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -641,7 +641,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -654,7 +654,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -669,7 +669,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Norah Rahamim",
-                  "email": "norah@galepartners.com"
+                  "email": "norah@abc.com"
                 }
               ]
             },
@@ -682,7 +682,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jessica",
               "last_name": "Chee",
-              "email": "jessica.chee@galepartners.com"
+              "email": "jessica.chee@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -705,7 +705,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jessica",
               "last_name": "Chee",
-              "email": "jessica.chee@galepartners.com"
+              "email": "jessica.chee@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -728,7 +728,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Tayag",
-              "email": "mike@galepartners.com"
+              "email": "mike@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -743,7 +743,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Michael Tayag",
-                  "email": "mike@galepartners.com"
+                  "email": "mike@abc.com"
                 }
               ]
             },
@@ -756,7 +756,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Deborah",
               "last_name": "Korono",
-              "email": "deborah.korono@galepartners.com"
+              "email": "deborah.korono@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -771,7 +771,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Heather Lanning",
-                  "email": "heather.lanning@galepartners.com"
+                  "email": "heather.lanning@abc.com"
                 }
               ]
             },
@@ -784,7 +784,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nadia ",
               "last_name": "English",
-              "email": "nadia.english@galepartners.com"
+              "email": "nadia.english@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -799,7 +799,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ]
             },
@@ -812,13 +812,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vishnu Ratheesh",
-                  "email": "vishnu.ratheesh@galepartners.com"
+                  "email": "vishnu.ratheesh@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -832,7 +832,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -845,7 +845,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -860,7 +860,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -873,7 +873,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jessica",
               "last_name": "Chee",
-              "email": "jessica.chee@galepartners.com"
+              "email": "jessica.chee@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -888,7 +888,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Stacy Schuman",
-                  "email": "stacy.schuman@galepartners.com"
+                  "email": "stacy.schuman@abc.com"
                 }
               ]
             },
@@ -901,26 +901,26 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
               "toronto_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -931,7 +931,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -944,7 +944,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -959,7 +959,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -972,20 +972,20 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
               "toronto_approver": [
                 {
                   "name": "Kevin Doyle",
-                  "email": "kevin.doyle@galepartners.com"
+                  "email": "kevin.doyle@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Kevin Doyle",
-                  "email": "kevin.doyle@galepartners.com"
+                  "email": "kevin.doyle@abc.com"
                 }
               ],
               "singapore_approver": [],
@@ -997,7 +997,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -1010,7 +1010,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Stacy",
               "last_name": "Schuman",
-              "email": "stacy.schuman@galepartners.com"
+              "email": "stacy.schuman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1025,7 +1025,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Deb Korono",
-                  "email": "deborah.korono@galepartners.com"
+                  "email": "deborah.korono@abc.com"
                 }
               ]
             },
@@ -1038,7 +1038,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1053,7 +1053,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -1066,7 +1066,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Deborah",
               "last_name": "Korono",
-              "email": "deborah.korono@galepartners.com"
+              "email": "deborah.korono@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1081,7 +1081,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Diana Ricciardi",
-                  "email": "diana.ricciardi@galepartners.com"
+                  "email": "diana.ricciardi@abc.com"
                 }
               ]
             },
@@ -1094,7 +1094,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1109,7 +1109,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -1122,7 +1122,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1137,7 +1137,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -1150,13 +1150,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -1170,7 +1170,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Michael Tayag",
-                  "email": "mike@galepartners.com"
+                  "email": "mike@abc.com"
                 }
               ]
             },
@@ -1183,13 +1183,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Harsha Ashok",
-                  "email": "harsha.ashok@galepartners.com"
+                  "email": "harsha.ashok@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -1203,7 +1203,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -1216,7 +1216,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1231,7 +1231,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -1244,7 +1244,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1259,7 +1259,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -1272,7 +1272,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1287,7 +1287,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -1300,13 +1300,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -1320,7 +1320,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -1333,7 +1333,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1348,7 +1348,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1361,7 +1361,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Alyssa LeShea ",
               "last_name": "Taylor",
-              "email": "leshea.taylor@galepartners.com"
+              "email": "leshea.taylor@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1384,7 +1384,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1407,7 +1407,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1422,7 +1422,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -1435,7 +1435,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kelly",
               "last_name": "DeRosa",
-              "email": "kelly.derosa@galepartners.com"
+              "email": "kelly.derosa@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1450,7 +1450,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -1463,7 +1463,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1486,7 +1486,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1509,7 +1509,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sophia",
               "last_name": "Zhang",
-              "email": "sophia.zhang@galepartners.com"
+              "email": "sophia.zhang@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1524,7 +1524,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -1537,7 +1537,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1552,7 +1552,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1565,7 +1565,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1580,7 +1580,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1593,7 +1593,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1608,7 +1608,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1621,7 +1621,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1636,7 +1636,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1649,7 +1649,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1664,7 +1664,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1677,7 +1677,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1692,7 +1692,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1705,7 +1705,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1720,7 +1720,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1733,7 +1733,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1748,7 +1748,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1761,7 +1761,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1776,7 +1776,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1789,7 +1789,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1804,7 +1804,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1817,7 +1817,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1832,7 +1832,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1845,7 +1845,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1860,7 +1860,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1873,7 +1873,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1888,7 +1888,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1901,7 +1901,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1916,7 +1916,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1929,7 +1929,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1944,7 +1944,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1957,7 +1957,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -1972,7 +1972,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -1985,7 +1985,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2000,7 +2000,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -2013,7 +2013,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2028,7 +2028,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -2041,7 +2041,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2056,7 +2056,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -2069,7 +2069,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2084,7 +2084,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -2097,7 +2097,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2112,7 +2112,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -2125,7 +2125,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2148,7 +2148,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sophia",
               "last_name": "Zhang",
-              "email": "sophia.zhang@galepartners.com"
+              "email": "sophia.zhang@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2171,7 +2171,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2186,7 +2186,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -2199,7 +2199,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2214,7 +2214,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -2227,7 +2227,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2242,7 +2242,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -2255,7 +2255,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2270,7 +2270,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -2283,7 +2283,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2298,7 +2298,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -2311,7 +2311,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2326,7 +2326,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -2339,7 +2339,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2354,7 +2354,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -2367,31 +2367,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -2402,7 +2402,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -2415,7 +2415,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nadia ",
               "last_name": "English",
-              "email": "nadia.english@galepartners.com"
+              "email": "nadia.english@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2430,7 +2430,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Stacy Schuman",
-                  "email": "stacy.schuman@galepartners.com"
+                  "email": "stacy.schuman@abc.com"
                 }
               ]
             },
@@ -2443,7 +2443,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Patrick",
               "last_name": "Craig",
-              "email": "patrick.craig@galepartners.com"
+              "email": "patrick.craig@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2466,7 +2466,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2481,7 +2481,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -2494,7 +2494,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2509,7 +2509,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -2522,7 +2522,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2537,7 +2537,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -2550,7 +2550,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2565,7 +2565,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -2578,31 +2578,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -2613,7 +2613,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -2626,7 +2626,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2641,7 +2641,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -2654,7 +2654,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2669,7 +2669,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -2682,13 +2682,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Pelchovitz",
-              "email": "michael.pelchovitz@galepartners.com"
+              "email": "michael.pelchovitz@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Harsha Ashok",
-                  "email": "harsha.ashok@galepartners.com"
+                  "email": "harsha.ashok@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -2702,7 +2702,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -2715,7 +2715,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kara",
               "last_name": "Buckley",
-              "email": "kara.buckley@galepartners.com"
+              "email": "kara.buckley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2730,11 +2730,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kara Buckley",
-                  "email": "kara.buckley@galepartners.com"
+                  "email": "kara.buckley@abc.com"
                 },
                 {
                   "name": "Michael Tayag",
-                  "email": "mike@galepartners.com"
+                  "email": "mike@abc.com"
                 }
               ]
             },
@@ -2747,7 +2747,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bryan",
               "last_name": "McKenzie",
-              "email": "bryan@galepartners.com"
+              "email": "bryan@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2762,7 +2762,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bryan McKenzie",
-                  "email": "bryan@galepartners.com"
+                  "email": "bryan@abc.com"
                 }
               ]
             },
@@ -2775,7 +2775,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2790,7 +2790,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bryan McKenzie",
-                  "email": "bryan@galepartners.com"
+                  "email": "bryan@abc.com"
                 }
               ]
             },
@@ -2803,7 +2803,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2818,7 +2818,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -2831,7 +2831,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2846,7 +2846,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -2859,7 +2859,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2874,7 +2874,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -2887,7 +2887,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2902,7 +2902,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -2915,7 +2915,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2930,7 +2930,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -2943,7 +2943,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2958,7 +2958,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Arun Thekkuden",
-                  "email": "arun.thekkuden@galepartners.com"
+                  "email": "arun.thekkuden@abc.com"
                 }
               ]
             },
@@ -2971,7 +2971,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -2986,7 +2986,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -2999,13 +2999,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Mevin Chirayath",
-                  "email": "mevin.chirayath@galepartners.com"
+                  "email": "mevin.chirayath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -3019,7 +3019,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -3032,7 +3032,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3047,7 +3047,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ]
             },
@@ -3060,7 +3060,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3075,7 +3075,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Norah Rahamim",
-                  "email": "norah@galepartners.com"
+                  "email": "norah@abc.com"
                 }
               ]
             },
@@ -3088,7 +3088,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3103,7 +3103,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Arun Thekkuden",
-                  "email": "arun.thekkuden@galepartners.com"
+                  "email": "arun.thekkuden@abc.com"
                 }
               ]
             },
@@ -3116,7 +3116,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3131,7 +3131,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Arun Thekkuden",
-                  "email": "arun.thekkuden@galepartners.com"
+                  "email": "arun.thekkuden@abc.com"
                 }
               ]
             },
@@ -3144,7 +3144,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3159,7 +3159,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Arun Thekkuden",
-                  "email": "arun.thekkuden@galepartners.com"
+                  "email": "arun.thekkuden@abc.com"
                 }
               ]
             },
@@ -3172,7 +3172,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3195,7 +3195,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3218,7 +3218,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3241,7 +3241,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3264,7 +3264,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3287,7 +3287,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3310,7 +3310,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3325,7 +3325,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -3338,7 +3338,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3353,7 +3353,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -3366,7 +3366,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jonathan",
               "last_name": "Spindel",
-              "email": "jonathan.spindel@galepartners.com"
+              "email": "jonathan.spindel@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3381,7 +3381,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -3394,7 +3394,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jonathan",
               "last_name": "Spindel",
-              "email": "jonathan.spindel@galepartners.com"
+              "email": "jonathan.spindel@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3409,7 +3409,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -3422,7 +3422,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bryan",
               "last_name": "McKenzie",
-              "email": "bryan@galepartners.com"
+              "email": "bryan@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3437,7 +3437,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bryan McKenzie",
-                  "email": "bryan@galepartners.com"
+                  "email": "bryan@abc.com"
                 }
               ]
             },
@@ -3450,13 +3450,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Munna Singh",
-                  "email": "munna.singh@galepartners.com"
+                  "email": "munna.singh@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -3470,7 +3470,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -3483,7 +3483,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3506,7 +3506,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3529,7 +3529,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3544,7 +3544,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -3557,13 +3557,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Nabiya Aman",
-                  "email": "nabiya.aman@galepartners.com"
+                  "email": "nabiya.aman@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -3577,7 +3577,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -3590,7 +3590,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3605,7 +3605,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -3618,7 +3618,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3641,7 +3641,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3664,7 +3664,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3687,7 +3687,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3710,7 +3710,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3733,7 +3733,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3748,7 +3748,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -3761,7 +3761,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3776,7 +3776,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -3789,7 +3789,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3804,7 +3804,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -3817,7 +3817,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3832,7 +3832,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -3845,7 +3845,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Elizabeth",
               "last_name": "Landreth",
-              "email": "ebie.landreth@galepartners.com"
+              "email": "ebie.landreth@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3860,7 +3860,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -3873,7 +3873,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Deborah",
               "last_name": "Korono",
-              "email": "deborah.korono@galepartners.com"
+              "email": "deborah.korono@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3888,7 +3888,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Diana Ricciardi",
-                  "email": "diana.ricciardi@galepartners.com"
+                  "email": "diana.ricciardi@abc.com"
                 }
               ]
             },
@@ -3901,7 +3901,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Deborah",
               "last_name": "Korono",
-              "email": "deborah.korono@galepartners.com"
+              "email": "deborah.korono@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3916,7 +3916,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Diana Ricciardi",
-                  "email": "diana.ricciardi@galepartners.com"
+                  "email": "diana.ricciardi@abc.com"
                 }
               ]
             },
@@ -3929,13 +3929,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -3949,7 +3949,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -3962,7 +3962,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Deborah",
               "last_name": "Korono",
-              "email": "deborah.korono@galepartners.com"
+              "email": "deborah.korono@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -3977,7 +3977,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Diana Ricciardi",
-                  "email": "diana.ricciardi@galepartners.com"
+                  "email": "diana.ricciardi@abc.com"
                 }
               ]
             },
@@ -3990,7 +3990,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4005,7 +4005,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -4018,31 +4018,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -4053,7 +4053,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4066,7 +4066,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4081,7 +4081,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -4094,7 +4094,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4109,7 +4109,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -4122,7 +4122,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4137,7 +4137,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4150,7 +4150,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4165,7 +4165,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kelly DeRosa",
-                  "email": "kelly.derosa@galepartners.com"
+                  "email": "kelly.derosa@abc.com"
                 }
               ]
             },
@@ -4178,7 +4178,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kate",
               "last_name": "Collazo",
-              "email": "kate.collazo@galepartners.com"
+              "email": "kate.collazo@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4193,7 +4193,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4206,31 +4206,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -4241,7 +4241,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4254,7 +4254,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Pelchovitz",
-              "email": "michael.pelchovitz@galepartners.com"
+              "email": "michael.pelchovitz@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4269,7 +4269,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -4282,7 +4282,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4297,7 +4297,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -4310,31 +4310,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -4345,7 +4345,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4358,7 +4358,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4373,7 +4373,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrew McDougall",
-                  "email": "andrew.mcdougall@galepartners.com"
+                  "email": "andrew.mcdougall@abc.com"
                 }
               ]
             },
@@ -4386,13 +4386,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vishnu Ratheesh",
-                  "email": "vishnu.ratheesh@galepartners.com"
+                  "email": "vishnu.ratheesh@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -4406,7 +4406,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -4419,20 +4419,20 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
               "toronto_approver": [
                 {
                   "name": "Kevin Doyle",
-                  "email": "kevin.doyle@galepartners.com"
+                  "email": "kevin.doyle@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Kevin Doyle",
-                  "email": "kevin.doyle@galepartners.com"
+                  "email": "kevin.doyle@abc.com"
                 }
               ],
               "singapore_approver": [],
@@ -4444,7 +4444,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -4457,7 +4457,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4472,7 +4472,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -4485,7 +4485,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4500,7 +4500,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -4513,7 +4513,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Natalie",
               "last_name": "Marcogliese",
-              "email": "natalie.marcogliese@galepartners.com"
+              "email": "natalie.marcogliese@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4528,7 +4528,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Natalie  Marcogliese",
-                  "email": "natalie.marcogliese@galepartners.com"
+                  "email": "natalie.marcogliese@abc.com"
                 }
               ]
             },
@@ -4541,7 +4541,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Diana",
               "last_name": "Ricciardi",
-              "email": "diana.ricciardi@galepartners.com"
+              "email": "diana.ricciardi@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4556,7 +4556,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Diana Ricciardi",
-                  "email": "diana.ricciardi@galepartners.com"
+                  "email": "diana.ricciardi@abc.com"
                 }
               ]
             },
@@ -4569,31 +4569,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -4604,7 +4604,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4617,7 +4617,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4632,7 +4632,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -4645,7 +4645,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4660,7 +4660,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4673,13 +4673,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -4693,11 +4693,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 },
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -4710,7 +4710,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Norah",
               "last_name": "Rahamim",
-              "email": "norah@galepartners.com"
+              "email": "norah@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4725,7 +4725,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Stacy Schuman",
-                  "email": "stacy.schuman@galepartners.com"
+                  "email": "stacy.schuman@abc.com"
                 }
               ]
             },
@@ -4738,7 +4738,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Stacy",
               "last_name": "Schuman",
-              "email": "stacy.schuman@galepartners.com"
+              "email": "stacy.schuman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4753,7 +4753,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Deb Korono",
-                  "email": "deborah.korono@galepartners.com"
+                  "email": "deborah.korono@abc.com"
                 }
               ]
             },
@@ -4766,31 +4766,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -4801,7 +4801,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4814,31 +4814,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -4849,7 +4849,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -4862,7 +4862,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4877,7 +4877,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -4890,7 +4890,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4905,7 +4905,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -4918,7 +4918,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4933,7 +4933,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -4946,7 +4946,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4961,7 +4961,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -4974,7 +4974,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marc ",
               "last_name": "Parillo",
-              "email": "marc.parillo@galepartners.com"
+              "email": "marc.parillo@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -4989,11 +4989,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Marc Parillo",
-                  "email": "marc.parillo@galepartners.com"
+                  "email": "marc.parillo@abc.com"
                 },
                 {
                   "name": "Marsha Pautler",
-                  "email": "marsha.pautler@galepartners.com"
+                  "email": "marsha.pautler@abc.com"
                 }
               ]
             },
@@ -5006,31 +5006,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -5041,7 +5041,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -5054,7 +5054,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5069,7 +5069,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -5082,13 +5082,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Shaon",
               "last_name": "Habibullah",
-              "email": "shaon.habibullah@galepartners.com"
+              "email": "shaon.habibullah@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -5102,7 +5102,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Shaon Habibullah",
-                  "email": "shaon.habibullah@galepartners.com"
+                  "email": "shaon.habibullah@abc.com"
                 }
               ]
             },
@@ -5115,13 +5115,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Harsha Ashok",
-                  "email": "harsha.ashok@galepartners.com"
+                  "email": "harsha.ashok@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -5135,7 +5135,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -5148,13 +5148,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Shaon",
               "last_name": "Habibullah",
-              "email": "shaon.habibullah@galepartners.com"
+              "email": "shaon.habibullah@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -5168,7 +5168,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Shaon Habibullah",
-                  "email": "shaon.habibullah@galepartners.com"
+                  "email": "shaon.habibullah@abc.com"
                 }
               ]
             },
@@ -5181,7 +5181,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5196,7 +5196,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -5209,7 +5209,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5224,7 +5224,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -5237,31 +5237,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -5272,7 +5272,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -5285,7 +5285,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5300,7 +5300,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -5313,31 +5313,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -5348,7 +5348,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -5361,7 +5361,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5376,7 +5376,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5389,7 +5389,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5404,7 +5404,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -5417,13 +5417,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Harsha Ashok",
-                  "email": "harsha.ashok@galepartners.com"
+                  "email": "harsha.ashok@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -5437,7 +5437,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -5450,7 +5450,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5473,7 +5473,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5488,7 +5488,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -5501,7 +5501,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5516,7 +5516,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -5529,7 +5529,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5544,7 +5544,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5557,7 +5557,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5572,7 +5572,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5585,7 +5585,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5600,7 +5600,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5613,7 +5613,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5628,7 +5628,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5641,7 +5641,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5656,7 +5656,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5669,7 +5669,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5692,7 +5692,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5707,7 +5707,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5720,7 +5720,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5735,7 +5735,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -5748,7 +5748,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5763,7 +5763,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -5776,7 +5776,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5791,7 +5791,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -5804,7 +5804,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5827,7 +5827,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5842,7 +5842,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5855,7 +5855,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5870,7 +5870,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5883,7 +5883,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5898,7 +5898,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -5911,7 +5911,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5926,7 +5926,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -5939,7 +5939,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -5954,7 +5954,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -5967,31 +5967,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -6002,7 +6002,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -6015,7 +6015,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6030,7 +6030,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -6043,7 +6043,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6066,7 +6066,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6089,7 +6089,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jessica",
               "last_name": "Chee",
-              "email": "jessica.chee@galepartners.com"
+              "email": "jessica.chee@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6104,7 +6104,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Tom Pickles",
-                  "email": "thomas.pickles@galepartners.com"
+                  "email": "thomas.pickles@abc.com"
                 }
               ]
             },
@@ -6117,13 +6117,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Nabiya Aman",
-                  "email": "nabiya.aman@galepartners.com"
+                  "email": "nabiya.aman@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -6137,7 +6137,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bryan McKenzie",
-                  "email": "bryan@galepartners.com"
+                  "email": "bryan@abc.com"
                 }
               ]
             },
@@ -6150,7 +6150,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6165,7 +6165,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -6178,7 +6178,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6193,7 +6193,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -6206,7 +6206,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Norah",
               "last_name": "Rahamim",
-              "email": "norah@galepartners.com"
+              "email": "norah@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6221,7 +6221,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Stacy Schuman",
-                  "email": "stacy.schuman@galepartners.com"
+                  "email": "stacy.schuman@abc.com"
                 }
               ]
             },
@@ -6234,7 +6234,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Norah",
               "last_name": "Rahamim",
-              "email": "norah@galepartners.com"
+              "email": "norah@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6249,7 +6249,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Norah Rahamim",
-                  "email": "norah@galepartners.com"
+                  "email": "norah@abc.com"
                 }
               ]
             },
@@ -6262,7 +6262,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6277,7 +6277,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -6290,7 +6290,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6305,7 +6305,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -6318,7 +6318,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6333,7 +6333,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -6346,7 +6346,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6361,7 +6361,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -6374,13 +6374,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -6394,7 +6394,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -6407,7 +6407,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6422,7 +6422,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -6435,7 +6435,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "David",
               "last_name": "Norton",
-              "email": "david.norton@galepartners.com"
+              "email": "david.norton@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6450,7 +6450,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "David Norton",
-                  "email": "david.norton@galepartners.com"
+                  "email": "david.norton@abc.com"
                 }
               ]
             },
@@ -6463,7 +6463,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6478,7 +6478,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -6491,7 +6491,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6506,7 +6506,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -6519,7 +6519,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6534,7 +6534,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -6547,7 +6547,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6562,7 +6562,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -6575,7 +6575,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6590,7 +6590,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -6603,7 +6603,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6618,7 +6618,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -6631,7 +6631,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Valarie ",
               "last_name": "McCubbins",
-              "email": "valarie.mccubbins@galepartners.com"
+              "email": "valarie.mccubbins@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6646,7 +6646,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -6659,7 +6659,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Alyssa LeShea ",
               "last_name": "Taylor",
-              "email": "leshea.taylor@galepartners.com"
+              "email": "leshea.taylor@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6682,31 +6682,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -6717,7 +6717,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -6730,19 +6730,19 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vinu Thomas",
-                  "email": "vinu.thomas@galepartners.com"
+                  "email": "vinu.thomas@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Vu Pham-Tran",
-                  "email": "vu@galepartners.com"
+                  "email": "vu@abc.com"
                 }
               ],
               "new_york_approver": [],
@@ -6755,7 +6755,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -6768,7 +6768,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6783,7 +6783,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ]
             },
@@ -6796,7 +6796,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6811,7 +6811,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -6824,7 +6824,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nadia ",
               "last_name": "English",
-              "email": "nadia.english@galepartners.com"
+              "email": "nadia.english@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6839,7 +6839,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ]
             },
@@ -6852,7 +6852,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6867,7 +6867,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -6880,7 +6880,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6895,7 +6895,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -6908,7 +6908,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6923,7 +6923,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -6936,13 +6936,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nabiya",
               "last_name": "Aman",
-              "email": "nabiya.aman@galepartners.com"
+              "email": "nabiya.aman@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Nabiya Aman",
-                  "email": "nabiya.aman@galepartners.com"
+                  "email": "nabiya.aman@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -6956,7 +6956,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -6969,7 +6969,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -6992,7 +6992,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7015,7 +7015,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7038,7 +7038,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7061,7 +7061,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7084,7 +7084,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7107,19 +7107,19 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vinu Thomas",
-                  "email": "vinu.thomas@galepartners.com"
+                  "email": "vinu.thomas@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Vu Pham-Tran",
-                  "email": "vu@galepartners.com"
+                  "email": "vu@abc.com"
                 }
               ],
               "new_york_approver": [],
@@ -7132,7 +7132,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -7145,19 +7145,19 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vinu Thomas",
-                  "email": "vinu.thomas@galepartners.com"
+                  "email": "vinu.thomas@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Vu Pham-Tran",
-                  "email": "vu@galepartners.com"
+                  "email": "vu@abc.com"
                 }
               ],
               "new_york_approver": [],
@@ -7170,7 +7170,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -7183,7 +7183,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7198,7 +7198,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -7211,7 +7211,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7226,7 +7226,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -7239,7 +7239,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7254,7 +7254,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Ken Huang",
-                  "email": "ken.huang@galepartners.com"
+                  "email": "ken.huang@abc.com"
                 }
               ]
             },
@@ -7267,7 +7267,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Alyssa LeShea ",
               "last_name": "Taylor",
-              "email": "leshea.taylor@galepartners.com"
+              "email": "leshea.taylor@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7290,7 +7290,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7305,7 +7305,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -7318,13 +7318,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -7338,7 +7338,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Marsha Pautler",
-                  "email": "marsha.pautler@galepartners.com"
+                  "email": "marsha.pautler@abc.com"
                 }
               ]
             },
@@ -7351,13 +7351,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Dipti Vijay Kant",
-                  "email": "dipti.kant@galepartners.com"
+                  "email": "dipti.kant@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -7371,7 +7371,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Luana Pereira",
-                  "email": "luana.pereira@galepartners.com"
+                  "email": "luana.pereira@abc.com"
                 }
               ]
             },
@@ -7384,25 +7384,25 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Dipti Vijay Kant",
-                  "email": "dipti.kant@galepartners.com"
+                  "email": "dipti.kant@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Sarah Quigley",
-                  "email": "sarah.quigley@galepartners.com"
+                  "email": "sarah.quigley@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Sarah Quigley",
-                  "email": "sarah.quigley@galepartners.com"
+                  "email": "sarah.quigley@abc.com"
                 }
               ],
               "singapore_approver": [],
@@ -7414,7 +7414,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Luana Pereira",
-                  "email": "luana.pereira@galepartners.com"
+                  "email": "luana.pereira@abc.com"
                 }
               ]
             },
@@ -7427,13 +7427,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -7447,7 +7447,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Marsha Pautler",
-                  "email": "marsha.pautler@galepartners.com"
+                  "email": "marsha.pautler@abc.com"
                 }
               ]
             },
@@ -7460,25 +7460,25 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Dipti Vijay Kant",
-                  "email": "dipti.kant@galepartners.com"
+                  "email": "dipti.kant@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Sarah Quigley",
-                  "email": "sarah.quigley@galepartners.com"
+                  "email": "sarah.quigley@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Sarah Quigley",
-                  "email": "sarah.quigley@galepartners.com"
+                  "email": "sarah.quigley@abc.com"
                 }
               ],
               "singapore_approver": [],
@@ -7490,7 +7490,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Luana Pereira",
-                  "email": "luana.pereira@galepartners.com"
+                  "email": "luana.pereira@abc.com"
                 }
               ]
             },
@@ -7503,7 +7503,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7518,7 +7518,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -7531,7 +7531,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7546,7 +7546,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -7559,7 +7559,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Alyssa LeShea ",
               "last_name": "Taylor",
-              "email": "leshea.taylor@galepartners.com"
+              "email": "leshea.taylor@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7582,7 +7582,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Alyssa LeShea ",
               "last_name": "Taylor",
-              "email": "leshea.taylor@galepartners.com"
+              "email": "leshea.taylor@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7605,7 +7605,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7628,7 +7628,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Alyssa LeShea ",
               "last_name": "Taylor",
-              "email": "leshea.taylor@galepartners.com"
+              "email": "leshea.taylor@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7651,7 +7651,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7674,7 +7674,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Alyssa LeShea ",
               "last_name": "Taylor",
-              "email": "leshea.taylor@galepartners.com"
+              "email": "leshea.taylor@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7697,13 +7697,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -7717,7 +7717,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Marc Parillo",
-                  "email": "marc.parillo@galepartners.com"
+                  "email": "marc.parillo@abc.com"
                 }
               ]
             },
@@ -7730,7 +7730,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7745,7 +7745,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -7758,19 +7758,19 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vinu Thomas",
-                  "email": "vinu.thomas@galepartners.com"
+                  "email": "vinu.thomas@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Vu Pham-Tran",
-                  "email": "vu@galepartners.com"
+                  "email": "vu@abc.com"
                 }
               ],
               "new_york_approver": [],
@@ -7783,7 +7783,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -7796,7 +7796,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7811,7 +7811,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -7824,7 +7824,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7839,7 +7839,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -7852,7 +7852,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7867,7 +7867,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -7880,7 +7880,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7895,7 +7895,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -7908,7 +7908,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7923,7 +7923,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Michael Tayag",
-                  "email": "mike@galepartners.com"
+                  "email": "mike@abc.com"
                 }
               ]
             },
@@ -7936,31 +7936,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -7971,7 +7971,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -7984,7 +7984,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Tayag",
-              "email": "mike@galepartners.com"
+              "email": "mike@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -7999,7 +7999,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -8012,13 +8012,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -8032,7 +8032,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -8045,31 +8045,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -8080,7 +8080,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8093,31 +8093,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -8128,7 +8128,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8141,13 +8141,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -8161,7 +8161,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Michael Tayag",
-                  "email": "mike@galepartners.com"
+                  "email": "mike@abc.com"
                 }
               ]
             },
@@ -8174,31 +8174,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -8209,7 +8209,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8222,31 +8222,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -8257,7 +8257,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8270,7 +8270,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8285,7 +8285,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -8298,7 +8298,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8313,7 +8313,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8326,7 +8326,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8341,7 +8341,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8354,7 +8354,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8369,7 +8369,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "David Norton",
-                  "email": "david.norton@galepartners.com"
+                  "email": "david.norton@abc.com"
                 }
               ]
             },
@@ -8382,31 +8382,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -8417,7 +8417,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8430,7 +8430,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kaitlyn",
               "last_name": "Czajkowski",
-              "email": "kaitlyn.czajkowski@galepartners.com"
+              "email": "kaitlyn.czajkowski@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8445,7 +8445,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8458,7 +8458,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8473,7 +8473,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kelly DeRosa",
-                  "email": "kelly.derosa@galepartners.com"
+                  "email": "kelly.derosa@abc.com"
                 }
               ]
             },
@@ -8486,7 +8486,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8509,17 +8509,17 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Dipti Vijay Kant",
-                  "email": "dipti.kant@galepartners.com"
+                  "email": "dipti.kant@abc.com"
                 },
                 {
                   "name": "Geetha  Shamanna",
-                  "email": "geetha.shamanna@galepartners.com"
+                  "email": "geetha.shamanna@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -8533,7 +8533,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Marsha Pautler",
-                  "email": "marsha.pautler@galepartners.com"
+                  "email": "marsha.pautler@abc.com"
                 }
               ]
             },
@@ -8546,7 +8546,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8561,7 +8561,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -8574,31 +8574,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -8609,7 +8609,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8622,7 +8622,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bryan",
               "last_name": "McKenzie",
-              "email": "bryan@galepartners.com"
+              "email": "bryan@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8645,7 +8645,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8660,7 +8660,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -8673,7 +8673,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8688,7 +8688,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Norah Rahamim",
-                  "email": "norah@galepartners.com"
+                  "email": "norah@abc.com"
                 }
               ]
             },
@@ -8701,7 +8701,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8716,7 +8716,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ]
             },
@@ -8729,7 +8729,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Tayag",
-              "email": "mike@galepartners.com"
+              "email": "mike@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8744,7 +8744,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Michael Tayag",
-                  "email": "mike@galepartners.com"
+                  "email": "mike@abc.com"
                 }
               ]
             },
@@ -8757,20 +8757,20 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
               "toronto_approver": [
                 {
                   "name": "Kevin Doyle",
-                  "email": "kevin.doyle@galepartners.com"
+                  "email": "kevin.doyle@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Kevin Doyle",
-                  "email": "kevin.doyle@galepartners.com"
+                  "email": "kevin.doyle@abc.com"
                 }
               ],
               "singapore_approver": [],
@@ -8782,7 +8782,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -8795,7 +8795,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8810,7 +8810,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8823,7 +8823,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8838,7 +8838,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8851,31 +8851,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -8886,7 +8886,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8899,7 +8899,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8914,7 +8914,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -8927,7 +8927,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -8942,7 +8942,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -8955,13 +8955,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Munna Singh",
-                  "email": "munna.singh@galepartners.com"
+                  "email": "munna.singh@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -8975,7 +8975,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -8988,7 +8988,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9003,7 +9003,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Luana Pereira",
-                  "email": "luana.pereira@galepartners.com"
+                  "email": "luana.pereira@abc.com"
                 }
               ]
             },
@@ -9016,7 +9016,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Andrea",
               "last_name": "Toop",
-              "email": "andrea.toop@galepartners.com"
+              "email": "andrea.toop@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9031,7 +9031,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -9044,13 +9044,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Andrea",
               "last_name": "Toop",
-              "email": "andrea.toop@galepartners.com"
+              "email": "andrea.toop@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Gaurav Ganeriwal",
-                  "email": "gaurav.ganeriwal@galepartners.com"
+                  "email": "gaurav.ganeriwal@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -9064,7 +9064,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -9077,7 +9077,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Andrea",
               "last_name": "Toop",
-              "email": "andrea.toop@galepartners.com"
+              "email": "andrea.toop@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9100,7 +9100,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9115,7 +9115,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9128,7 +9128,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9143,7 +9143,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9156,7 +9156,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Andrea",
               "last_name": "Toop",
-              "email": "andrea.toop@galepartners.com"
+              "email": "andrea.toop@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9171,7 +9171,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -9184,7 +9184,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9199,7 +9199,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9212,7 +9212,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9227,7 +9227,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9240,7 +9240,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9255,7 +9255,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9268,7 +9268,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9283,7 +9283,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9296,7 +9296,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9311,7 +9311,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9324,7 +9324,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9339,7 +9339,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9352,31 +9352,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -9387,7 +9387,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -9400,7 +9400,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9415,7 +9415,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kelly DeRosa",
-                  "email": "kelly.derosa@galepartners.com"
+                  "email": "kelly.derosa@abc.com"
                 }
               ]
             },
@@ -9428,7 +9428,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9443,7 +9443,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -9456,7 +9456,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9471,7 +9471,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -9484,13 +9484,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Vindhya",
               "last_name": "Ashwath",
-              "email": "vindhya.ashwath@galepartners.com"
+              "email": "vindhya.ashwath@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -9504,7 +9504,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -9517,7 +9517,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bradley",
               "last_name": "Nunn",
-              "email": "bradley.nunn@galepartners.com"
+              "email": "bradley.nunn@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9532,7 +9532,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -9545,7 +9545,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9560,7 +9560,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -9573,7 +9573,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marc ",
               "last_name": "Parillo",
-              "email": "marc.parillo@galepartners.com"
+              "email": "marc.parillo@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9588,11 +9588,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kelly DeRosa",
-                  "email": "kelly.derosa@galepartners.com"
+                  "email": "kelly.derosa@abc.com"
                 },
                 {
                   "name": "Leo Schnayer",
-                  "email": "leo.schnayer@galepartners.com"
+                  "email": "leo.schnayer@abc.com"
                 }
               ]
             },
@@ -9605,7 +9605,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Leo",
               "last_name": "Schnayer",
-              "email": "leo.schnayer@galepartners.com"
+              "email": "leo.schnayer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9620,7 +9620,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Leo Schnayer",
-                  "email": "leo.schnayer@galepartners.com"
+                  "email": "leo.schnayer@abc.com"
                 }
               ]
             },
@@ -9633,7 +9633,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9648,7 +9648,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9661,7 +9661,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9676,7 +9676,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -9689,7 +9689,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9712,31 +9712,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -9747,7 +9747,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -9760,7 +9760,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9775,7 +9775,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9788,7 +9788,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjay",
               "last_name": "Krishnamurthy",
-              "email": "sanjay@galepartners.com"
+              "email": "sanjay@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9803,7 +9803,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ]
             },
@@ -9816,7 +9816,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nadia ",
               "last_name": "English",
-              "email": "nadia.english@galepartners.com"
+              "email": "nadia.english@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9831,7 +9831,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ]
             },
@@ -9844,31 +9844,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -9879,7 +9879,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -9892,7 +9892,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9907,7 +9907,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9920,7 +9920,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9935,7 +9935,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -9948,7 +9948,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Pelchovitz",
-              "email": "michael.pelchovitz@galepartners.com"
+              "email": "michael.pelchovitz@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9963,7 +9963,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -9976,7 +9976,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -9991,7 +9991,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10004,7 +10004,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Vindhya",
               "last_name": "Ashwath",
-              "email": "vindhya.ashwath@galepartners.com"
+              "email": "vindhya.ashwath@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10019,7 +10019,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Vindhya Ashwath",
-                  "email": "vindhya.ashwath@galepartners.com"
+                  "email": "vindhya.ashwath@abc.com"
                 }
               ]
             },
@@ -10032,26 +10032,26 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
               "toronto_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -10062,7 +10062,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -10075,7 +10075,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Patrick",
               "last_name": "Craig",
-              "email": "patrick.craig@galepartners.com"
+              "email": "patrick.craig@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10090,7 +10090,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10103,7 +10103,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10118,7 +10118,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10131,31 +10131,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -10166,7 +10166,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10179,7 +10179,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bryan",
               "last_name": "McKenzie",
-              "email": "bryan@galepartners.com"
+              "email": "bryan@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10194,7 +10194,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Andrea Toop",
-                  "email": "andrea.toop@galepartners.com"
+                  "email": "andrea.toop@abc.com"
                 }
               ]
             },
@@ -10207,7 +10207,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Rachel",
               "last_name": "Shearer",
-              "email": "rachel.shearer@galepartners.com"
+              "email": "rachel.shearer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10222,7 +10222,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10235,7 +10235,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kelly",
               "last_name": "DeRosa",
-              "email": "kelly.derosa@galepartners.com"
+              "email": "kelly.derosa@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10250,7 +10250,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kelly DeRosa",
-                  "email": "kelly.derosa@galepartners.com"
+                  "email": "kelly.derosa@abc.com"
                 }
               ]
             },
@@ -10263,7 +10263,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10278,7 +10278,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -10291,7 +10291,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10306,7 +10306,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -10319,7 +10319,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10342,7 +10342,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10357,7 +10357,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -10370,7 +10370,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10393,7 +10393,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10408,7 +10408,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -10421,7 +10421,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10444,7 +10444,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10467,7 +10467,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10482,7 +10482,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -10495,31 +10495,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -10530,7 +10530,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10543,13 +10543,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Munna Singh",
-                  "email": "munna.singh@galepartners.com"
+                  "email": "munna.singh@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -10563,7 +10563,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -10576,7 +10576,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Tayag",
-              "email": "mike@galepartners.com"
+              "email": "mike@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10591,7 +10591,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Michael Tayag",
-                  "email": "mike@galepartners.com"
+                  "email": "mike@abc.com"
                 }
               ]
             },
@@ -10604,7 +10604,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kim",
               "last_name": "Pitylak",
-              "email": "kim.pitylak@galepartners.com"
+              "email": "kim.pitylak@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10619,7 +10619,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10632,7 +10632,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10647,7 +10647,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -10660,7 +10660,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10683,13 +10683,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Harsha Ashok",
-                  "email": "harsha.ashok@galepartners.com"
+                  "email": "harsha.ashok@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -10703,7 +10703,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -10716,7 +10716,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jonathan",
               "last_name": "Spindel",
-              "email": "jonathan.spindel@galepartners.com"
+              "email": "jonathan.spindel@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10731,7 +10731,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10744,7 +10744,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jonathan",
               "last_name": "Spindel",
-              "email": "jonathan.spindel@galepartners.com"
+              "email": "jonathan.spindel@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10767,7 +10767,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10782,7 +10782,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10795,7 +10795,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10818,7 +10818,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10833,7 +10833,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10846,7 +10846,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10869,7 +10869,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10884,7 +10884,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10897,31 +10897,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -10932,7 +10932,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -10945,7 +10945,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10960,7 +10960,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Marsha Pautler",
-                  "email": "marsha.pautler@galepartners.com"
+                  "email": "marsha.pautler@abc.com"
                 }
               ]
             },
@@ -10973,7 +10973,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sophia",
               "last_name": "Zhang",
-              "email": "sophia.zhang@galepartners.com"
+              "email": "sophia.zhang@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -10988,7 +10988,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -11001,7 +11001,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sophia",
               "last_name": "Zhang",
-              "email": "sophia.zhang@galepartners.com"
+              "email": "sophia.zhang@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11016,7 +11016,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -11029,31 +11029,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -11064,7 +11064,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -11077,7 +11077,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11092,7 +11092,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -11105,7 +11105,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11120,7 +11120,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -11133,7 +11133,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11148,7 +11148,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -11161,7 +11161,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Elizabeth",
               "last_name": "Landreth",
-              "email": "ebie.landreth@galepartners.com"
+              "email": "ebie.landreth@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11176,7 +11176,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -11189,7 +11189,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11204,7 +11204,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -11217,7 +11217,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11232,7 +11232,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -11245,7 +11245,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11268,13 +11268,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Roshan George",
-                  "email": "roshan.george@galepartners.com"
+                  "email": "roshan.george@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -11288,7 +11288,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -11301,7 +11301,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11316,7 +11316,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -11329,7 +11329,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nadia ",
               "last_name": "English",
-              "email": "nadia.english@galepartners.com"
+              "email": "nadia.english@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11344,7 +11344,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nadia English",
-                  "email": "nadia.english@galepartners.com"
+                  "email": "nadia.english@abc.com"
                 }
               ]
             },
@@ -11357,7 +11357,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11372,7 +11372,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -11385,7 +11385,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11400,7 +11400,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -11413,31 +11413,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -11448,7 +11448,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -11461,7 +11461,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11476,7 +11476,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -11489,7 +11489,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Deborah",
               "last_name": "Korono",
-              "email": "deborah.korono@galepartners.com"
+              "email": "deborah.korono@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11504,7 +11504,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Heather Lanning",
-                  "email": "heather.lanning@galepartners.com"
+                  "email": "heather.lanning@abc.com"
                 }
               ]
             },
@@ -11517,7 +11517,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11532,7 +11532,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -11545,7 +11545,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11560,7 +11560,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -11573,7 +11573,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bryan",
               "last_name": "McKenzie",
-              "email": "bryan@galepartners.com"
+              "email": "bryan@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11588,7 +11588,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bryan McKenzie",
-                  "email": "bryan@galepartners.com"
+                  "email": "bryan@abc.com"
                 }
               ]
             },
@@ -11601,19 +11601,19 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vinu Thomas",
-                  "email": "vinu.thomas@galepartners.com"
+                  "email": "vinu.thomas@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Vu Pham-Tran",
-                  "email": "vu@galepartners.com"
+                  "email": "vu@abc.com"
                 }
               ],
               "new_york_approver": [],
@@ -11626,7 +11626,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Nitya Krishnamoorthy",
-                  "email": "nitya.krishnamoorthy@galepartners.com"
+                  "email": "nitya.krishnamoorthy@abc.com"
                 }
               ]
             },
@@ -11639,7 +11639,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11654,7 +11654,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bryan McKenzie",
-                  "email": "bryan@galepartners.com"
+                  "email": "bryan@abc.com"
                 }
               ]
             },
@@ -11667,7 +11667,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bryan",
               "last_name": "McKenzie",
-              "email": "bryan@galepartners.com"
+              "email": "bryan@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11682,7 +11682,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -11695,7 +11695,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11710,7 +11710,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -11723,7 +11723,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11738,7 +11738,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -11751,7 +11751,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11766,7 +11766,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -11779,13 +11779,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Mevin Chirayath",
-                  "email": "mevin.chirayath@galepartners.com"
+                  "email": "mevin.chirayath@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -11799,7 +11799,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -11812,7 +11812,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11827,7 +11827,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -11840,31 +11840,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -11875,7 +11875,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -11888,31 +11888,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -11923,7 +11923,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -11936,31 +11936,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -11971,7 +11971,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -11984,7 +11984,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Aastha",
               "last_name": "Agarwal",
-              "email": "aastha.agarwal@galepartners.com"
+              "email": "aastha.agarwal@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -11999,7 +11999,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -12012,7 +12012,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bryan",
               "last_name": "McKenzie",
-              "email": "bryan@galepartners.com"
+              "email": "bryan@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12027,7 +12027,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -12040,7 +12040,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Patrick",
               "last_name": "Craig",
-              "email": "patrick.craig@galepartners.com"
+              "email": "patrick.craig@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12063,31 +12063,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -12098,7 +12098,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -12111,7 +12111,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12134,31 +12134,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -12169,7 +12169,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -12182,7 +12182,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Holly",
               "last_name": "Hughes",
-              "email": "holly.hughes@galepartners.com"
+              "email": "holly.hughes@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12197,7 +12197,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -12210,29 +12210,29 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Dipti Vijay Kant",
-                  "email": "dipti.kant@galepartners.com"
+                  "email": "dipti.kant@abc.com"
                 },
                 {
                   "name": "Geetha  Shamanna",
-                  "email": "geetha.shamanna@galepartners.com"
+                  "email": "geetha.shamanna@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Sarah Quigley",
-                  "email": "sarah.quigley@galepartners.com"
+                  "email": "sarah.quigley@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Sarah Quigley",
-                  "email": "sarah.quigley@galepartners.com"
+                  "email": "sarah.quigley@abc.com"
                 }
               ],
               "singapore_approver": [],
@@ -12244,7 +12244,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Luana Pereira",
-                  "email": "luana.pereira@galepartners.com"
+                  "email": "luana.pereira@abc.com"
                 }
               ]
             },
@@ -12257,7 +12257,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kelly",
               "last_name": "DeRosa",
-              "email": "kelly.derosa@galepartners.com"
+              "email": "kelly.derosa@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12272,7 +12272,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kelly DeRosa",
-                  "email": "kelly.derosa@galepartners.com"
+                  "email": "kelly.derosa@abc.com"
                 }
               ]
             },
@@ -12285,7 +12285,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kelly",
               "last_name": "DeRosa",
-              "email": "kelly.derosa@galepartners.com"
+              "email": "kelly.derosa@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12300,7 +12300,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kelly DeRosa",
-                  "email": "kelly.derosa@galepartners.com"
+                  "email": "kelly.derosa@abc.com"
                 }
               ]
             },
@@ -12313,31 +12313,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -12348,7 +12348,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -12361,7 +12361,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Norah",
               "last_name": "Rahamim",
-              "email": "norah@galepartners.com"
+              "email": "norah@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12376,7 +12376,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Norah Rahamim",
-                  "email": "norah@galepartners.com"
+                  "email": "norah@abc.com"
                 }
               ]
             },
@@ -12389,7 +12389,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sophia",
               "last_name": "Zhang",
-              "email": "sophia.zhang@galepartners.com"
+              "email": "sophia.zhang@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12412,31 +12412,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -12447,7 +12447,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -12460,7 +12460,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12475,7 +12475,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -12488,7 +12488,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12503,7 +12503,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -12516,7 +12516,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sanjeev",
               "last_name": "Gosain",
-              "email": "sanjeev@galepartners.com"
+              "email": "sanjeev@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12531,7 +12531,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -12544,7 +12544,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bryan",
               "last_name": "McKenzie",
-              "email": "bryan@galepartners.com"
+              "email": "bryan@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12559,7 +12559,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bryan McKenzie",
-                  "email": "bryan@galepartners.com"
+                  "email": "bryan@abc.com"
                 }
               ]
             },
@@ -12572,7 +12572,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12587,7 +12587,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -12600,7 +12600,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12615,7 +12615,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -12628,7 +12628,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12643,7 +12643,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -12656,7 +12656,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12671,7 +12671,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -12684,7 +12684,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12699,7 +12699,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Robyn Cauchy",
-                  "email": "robyn.cauchy@galepartners.com"
+                  "email": "robyn.cauchy@abc.com"
                 }
               ]
             },
@@ -12712,7 +12712,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kara",
               "last_name": "Buckley",
-              "email": "kara.buckley@galepartners.com"
+              "email": "kara.buckley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12735,7 +12735,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12750,7 +12750,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -12763,7 +12763,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kara",
               "last_name": "Buckley",
-              "email": "kara.buckley@galepartners.com"
+              "email": "kara.buckley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12778,7 +12778,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Kara Buckley",
-                  "email": "kara.buckley@galepartners.com"
+                  "email": "kara.buckley@abc.com"
                 }
               ]
             },
@@ -12791,7 +12791,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12814,7 +12814,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12837,7 +12837,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12860,7 +12860,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12883,7 +12883,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12906,7 +12906,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12929,7 +12929,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "David",
               "last_name": "Norton",
-              "email": "david.norton@galepartners.com"
+              "email": "david.norton@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12944,7 +12944,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "David Norton",
-                  "email": "david.norton@galepartners.com"
+                  "email": "david.norton@abc.com"
                 }
               ]
             },
@@ -12957,7 +12957,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -12972,7 +12972,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -12985,7 +12985,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Jonathan",
               "last_name": "Spindel",
-              "email": "jonathan.spindel@galepartners.com"
+              "email": "jonathan.spindel@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13000,7 +13000,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13013,7 +13013,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13028,7 +13028,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13041,7 +13041,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kaitlyn",
               "last_name": "Czajkowski",
-              "email": "kaitlyn.czajkowski@galepartners.com"
+              "email": "kaitlyn.czajkowski@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13056,7 +13056,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13069,7 +13069,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13084,7 +13084,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13097,7 +13097,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13112,7 +13112,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -13125,7 +13125,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13148,7 +13148,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13171,7 +13171,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Nitya",
               "last_name": "Krishnamoorthy",
-              "email": "nitya.krishnamoorthy@galepartners.com"
+              "email": "nitya.krishnamoorthy@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13194,7 +13194,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13217,7 +13217,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Sarah",
               "last_name": "Quigley",
-              "email": "sarah.quigley@galepartners.com"
+              "email": "sarah.quigley@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13240,7 +13240,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13263,31 +13263,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -13298,7 +13298,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13311,7 +13311,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bradley",
               "last_name": "Nunn",
-              "email": "bradley.nunn@galepartners.com"
+              "email": "bradley.nunn@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13334,7 +13334,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13349,7 +13349,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -13362,7 +13362,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Olivia",
               "last_name": "Terceros",
-              "email": "olivia.terceros@galepartners.com"
+              "email": "olivia.terceros@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13377,7 +13377,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -13390,7 +13390,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Marsha",
               "last_name": "Pautler",
-              "email": "marsha.pautler@galepartners.com"
+              "email": "marsha.pautler@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13405,7 +13405,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Marsha Pautler",
-                  "email": "marsha.pautler@galepartners.com"
+                  "email": "marsha.pautler@abc.com"
                 }
               ]
             },
@@ -13418,31 +13418,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -13453,7 +13453,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13466,7 +13466,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13481,7 +13481,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -13494,7 +13494,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13509,7 +13509,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -13522,7 +13522,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Leo",
               "last_name": "Schnayer",
-              "email": "leo.schnayer@galepartners.com"
+              "email": "leo.schnayer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13537,7 +13537,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Leo Schnayer",
-                  "email": "leo.schnayer@galepartners.com"
+                  "email": "leo.schnayer@abc.com"
                 }
               ]
             },
@@ -13550,7 +13550,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Leo",
               "last_name": "Schnayer",
-              "email": "leo.schnayer@galepartners.com"
+              "email": "leo.schnayer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13565,7 +13565,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Leo Schnayer",
-                  "email": "leo.schnayer@galepartners.com"
+                  "email": "leo.schnayer@abc.com"
                 }
               ]
             },
@@ -13578,7 +13578,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Leo",
               "last_name": "Schnayer",
-              "email": "leo.schnayer@galepartners.com"
+              "email": "leo.schnayer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13601,7 +13601,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Leo",
               "last_name": "Schnayer",
-              "email": "leo.schnayer@galepartners.com"
+              "email": "leo.schnayer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13616,7 +13616,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13629,7 +13629,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Pelchovitz",
-              "email": "michael.pelchovitz@galepartners.com"
+              "email": "michael.pelchovitz@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13644,7 +13644,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -13657,7 +13657,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Michael",
               "last_name": "Pelchovitz",
-              "email": "michael.pelchovitz@galepartners.com"
+              "email": "michael.pelchovitz@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13672,7 +13672,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -13685,7 +13685,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13700,7 +13700,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13713,7 +13713,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13728,7 +13728,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -13741,7 +13741,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Kayla",
               "last_name": "Pele",
-              "email": "kayla.pele@galepartners.com"
+              "email": "kayla.pele@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13756,7 +13756,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13769,7 +13769,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "David",
               "last_name": "Norton",
-              "email": "david.norton@galepartners.com"
+              "email": "david.norton@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13784,7 +13784,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Jason McCann",
-                  "email": "jason.mccann@galepartners.com"
+                  "email": "jason.mccann@abc.com"
                 }
               ]
             },
@@ -13797,31 +13797,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -13832,7 +13832,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -13845,7 +13845,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Masood",
               "last_name": "Ahmed",
-              "email": "masood.ahmed@galepartners.com"
+              "email": "masood.ahmed@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13860,7 +13860,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -13873,13 +13873,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Masood",
               "last_name": "Ahmed",
-              "email": "masood.ahmed@galepartners.com"
+              "email": "masood.ahmed@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Harsha Ashok",
-                  "email": "harsha.ashok@galepartners.com"
+                  "email": "harsha.ashok@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -13893,7 +13893,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sanjeev Gosain",
-                  "email": "sanjeev@galepartners.com"
+                  "email": "sanjeev@abc.com"
                 }
               ]
             },
@@ -13906,7 +13906,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Andrew",
               "last_name": "Mcdougall",
-              "email": "andrew.mcdougall@galepartners.com"
+              "email": "andrew.mcdougall@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13921,7 +13921,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Aastha Agarwal",
-                  "email": "aastha.agarwal@galepartners.com"
+                  "email": "aastha.agarwal@abc.com"
                 }
               ]
             },
@@ -13934,7 +13934,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -13957,13 +13957,13 @@ module.exports = {
             "staff_manager": {
               "first_name": "Ryan",
               "last_name": "MacLean",
-              "email": "ryan.maclean@galepartners.com"
+              "email": "ryan.maclean@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Vadiraj Deshpande",
-                  "email": "vadiraj.deshpande@galepartners.com"
+                  "email": "vadiraj.deshpande@abc.com"
                 }
               ],
               "toronto_approver": [],
@@ -13977,11 +13977,11 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Deb Korono",
-                  "email": "deborah.korono@galepartners.com"
+                  "email": "deborah.korono@abc.com"
                 },
                 {
                   "name": "Pat Frend",
-                  "email": "pat.frend@galepartners.com"
+                  "email": "pat.frend@abc.com"
                 }
               ]
             },
@@ -13994,7 +13994,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bailey",
               "last_name": "Dougherty",
-              "email": "bailey.dougherty@galepartners.com"
+              "email": "bailey.dougherty@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14009,7 +14009,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bailey Dougherty",
-                  "email": "bailey.dougherty@galepartners.com"
+                  "email": "bailey.dougherty@abc.com"
                 }
               ]
             },
@@ -14022,7 +14022,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14037,7 +14037,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14050,31 +14050,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -14085,7 +14085,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -14098,7 +14098,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14113,7 +14113,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -14126,7 +14126,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14141,7 +14141,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14154,31 +14154,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -14189,7 +14189,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -14202,7 +14202,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14217,7 +14217,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14230,7 +14230,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14245,7 +14245,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14258,7 +14258,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14273,7 +14273,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14286,7 +14286,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14301,7 +14301,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -14314,7 +14314,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14329,7 +14329,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14342,7 +14342,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14357,7 +14357,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14370,7 +14370,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14385,7 +14385,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14398,7 +14398,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14413,7 +14413,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -14426,7 +14426,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14441,7 +14441,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14454,7 +14454,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Eleanor",
               "last_name": "Haeg",
-              "email": "eleanor.haeg@galepartners.com"
+              "email": "eleanor.haeg@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14469,7 +14469,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -14482,7 +14482,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14497,7 +14497,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Brian Niermeyer",
-                  "email": "brian.niermeyer@galepartners.com"
+                  "email": "brian.niermeyer@abc.com"
                 }
               ]
             },
@@ -14510,7 +14510,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14525,7 +14525,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
@@ -14538,31 +14538,31 @@ module.exports = {
             "staff_manager": {
               "first_name": "Bridget",
               "last_name": "Donnelly",
-              "email": "bridget.donnelly@galepartners.com"
+              "email": "bridget.donnelly@abc.com"
             },
             "project_approvers": {
               "india_approver": [
                 {
                   "name": "Sanjay Krishnamurthy",
-                  "email": "sanjay@galepartners.com"
+                  "email": "sanjay@abc.com"
                 }
               ],
               "toronto_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "new_york_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "singapore_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ],
               "austin_approver": [],
@@ -14573,7 +14573,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Bridget Donnelly",
-                  "email": "bridget.donnelly@galepartners.com"
+                  "email": "bridget.donnelly@abc.com"
                 }
               ]
             },
@@ -14586,7 +14586,7 @@ module.exports = {
             "staff_manager": {
               "first_name": "Brian",
               "last_name": "Niermeyer",
-              "email": "brian.niermeyer@galepartners.com"
+              "email": "brian.niermeyer@abc.com"
             },
             "project_approvers": {
               "india_approver": [],
@@ -14601,7 +14601,7 @@ module.exports = {
               "primary_approver": [
                 {
                   "name": "Sophia Zhang",
-                  "email": "sophia.zhang@galepartners.com"
+                  "email": "sophia.zhang@abc.com"
                 }
               ]
             },
