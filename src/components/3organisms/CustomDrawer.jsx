@@ -15,6 +15,8 @@ import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
 
+import { routeConfigObj } from 'config/routeConfig';
+
 const useStyles = makeStyles({
   list: {
     fontFamily: 'Rajdhani',
@@ -71,10 +73,13 @@ function CustomDrawer() {
           <React.Fragment>
             <List>
             {/* 'render-by-config', */}
-              {['repobrowser', 'bookstore', 'userjourney', 'pixelart', 'timesheet', 'priorityqueue'].map((text) => (
-                <div key={text}>
+              {Object
+              .keys(routeConfigObj)
+              .filter(key => routeConfigObj[key].rightPanel)
+              .map((key) => (
+                <div key={key}>
                   <Paper elevation={2} className="paper" >
-                    <Link to={`/${text}`}>{text}</Link>
+                    <Link to={routeConfigObj[key].path}>{routeConfigObj[key].displayName}</Link>
                   </Paper>
                 </div>
               ))}
@@ -102,7 +107,7 @@ function CustomDrawer() {
                 </div>
               ))}
             </List>
-            <div style={buttonWhiteTheme}>JavaScript</div>
+            {/* <div style={buttonWhiteTheme}>JavaScript</div>
             <List>
               {['async', 'react-code-patterns', 'webpack-essentials'].map((text) => (
                 <div key={text}>
@@ -111,7 +116,7 @@ function CustomDrawer() {
                   </Paper>
                 </div>
               ))}
-            </List>
+            </List> */}
           </React.Fragment>
       }
     </div>

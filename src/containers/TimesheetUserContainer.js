@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import TimesheetUserContext from 'context/timesheetUserContext';
-import TimesheetUser from 'components/4pages/TimesheetUser';
+import Timesheet from 'components/6micro-apps/timesheet';
 
 const TimesheetUserContainer = (props) => {
   return (
     <TimesheetUserContext.Wrapper {...props}>
-      <TimesheetUser />
+      <Timesheet />
     </TimesheetUserContext.Wrapper>
   );
 };

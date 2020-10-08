@@ -5,6 +5,7 @@ import BookStoreContainer from './BookStoreContainer';
 import PixelArtContainer from './PixelArtContainer';
 import UserJourneyContainer from './UserJourneyContainer';
 import RepoBrowserContainer from './RepoBrowserContainer';
+import ReactQueryContainer from './ReactQueryContainer';
 
 export {
 	TimesheetUserContainer,
@@ -13,5 +14,6 @@ export {
 	BookStoreContainer,
 	PixelArtContainer,
 	UserJourneyContainer,
-	RepoBrowserContainer
+	RepoBrowserContainer,
+	ReactQueryContainer
 };

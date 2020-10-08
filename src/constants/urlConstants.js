@@ -13,3 +13,10 @@ export const SAVE_TIMESHEET = `${BASE_URL}/timetracking/save_week/`;
 export const DELETE_TIMESHEET = `${BASE_URL}/timetracking/delete/`;
 export const SUBMIT_TIMESHEET = `${BASE_URL}/timetracking/submit_week/`;
 export const REQUEST_ALLOCATION = (id) => `${BASE_URL}/project_allocations/${id}/request_allocations/`;
+
+/* Permission Admin API URLS */
+export const ADMIN_META_DATA = `${BASE_URL}/everest-authorisation/meta/`;
+export const ROLES = `${BASE_URL}/everest-authorisation/roles/`;
+export const GET_MAPPED_ROLES = `${BASE_URL}/everest-authorisation/role-to-agency/`;
+export const PERMISSIONS = `${BASE_URL}/everest-authorisation/permissions/`;
+export const EMPLOYEES = `${BASE_URL}/everest-authorisation/employee-roles/`;

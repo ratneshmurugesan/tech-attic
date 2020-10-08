@@ -20,7 +20,7 @@ const RoutesComponent = _ => {
 					{
 						routeKeys.map(routeDatum => {
 							const routeObj = routeConfigObj[routeDatum];
-							console.log('routeObj', routeObj);
+							// console.log('routeObj', routeObj);
 							const path = routeObj.path;
 							const displayName = routeObj.displayName;
 							const container = routeObj.container || null;

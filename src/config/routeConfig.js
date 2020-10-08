@@ -6,6 +6,7 @@ import {
     PixelArtContainer,
     UserJourneyContainer,
     RepoBrowserContainer,
+    // ReactQueryContainer,
 } from 'containers';
 
 import AboutMe from 'components/4pages/AboutMe';
@@ -28,38 +29,51 @@ export const routeConfigObj = {
         path: '/timesheet',
         displayName: 'Timesheet App',
         container: TimesheetUserContainer,
-        key: 'timeSheet'
+        key: 'timeSheet',
+        rightPanel: true
     },
     bookStore: {
         path: '/bookstore',
         displayName: 'Book Store App',
         container: BookStoreContainer,
-        key: 'bookStore'
+        key: 'bookStore',
+        rightPanel: true
     },
     pixelArt: {
         path: '/pixelart',
         displayName: 'Pixel Art App',
         container: PixelArtContainer,
-        key: 'pixelArt'
+        key: 'pixelArt',
+        rightPanel: true
     },
     userJourney: {
         path: '/userjourney',
         displayName: 'User Journey App',
         container: UserJourneyContainer,
-        key: 'userJourney'
+        key: 'userJourney',
+        rightPanel: true
     },
     repoBrowser: {
         path: '/repobrowser',
         displayName: 'Repo Browser App',
         container: RepoBrowserContainer,
-        key: 'repoBrowser'
+        key: 'repoBrowser',
+        rightPanel: true
     },
     priorityQueue: {
         path: '/priorityqueue',
         displayName: 'Priority Queue App',
         container: PriorityQueueContainer,
-        key: 'priorityQueue'
+        key: 'priorityQueue',
+        rightPanel: true
     },
+    // reactQuery: {
+    //     path: '/reactquery',
+    //     displayName: 'React-Query App',
+    //     container: ReactQueryContainer,
+    //     key: 'reactQuery',
+    //     rightPanel: true
+    // },
     //Prototypes
     reverseLinkedList: {
         path: '/reversesinglylinkedlist',

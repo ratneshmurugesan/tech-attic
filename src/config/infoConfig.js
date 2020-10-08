@@ -9,8 +9,8 @@ const InfoConfig = {
     },
     'Pixel Art App': {
         alive: true,
-        details: `This App lets you draw things pixel by pixel`,
-        techs: `React Hooks, GraphQL, Hasura`,
+        details: `A Real time app lets you draw things pixel by pixel`,
+        techs: `React Hooks, GraphQL, Hasura, and Web Socket`,
         steps: `# Choose a color and utilize the boxes to fill in colors`,
         // codeLink: 'https://github.com/ratneshmurugesan/tech-attic/tree/master/src/apps/user-journey'
     },
@@ -37,10 +37,17 @@ const InfoConfig = {
     },
     'Priority Queue App': {
         alive: true,
-        details: `This prototype shows how to develop a simple priortized-todo task list,
+        details: `This App shows how to develop a simple priortized-todo task list,
         which pushes the high-priortized task to top of surface.`,
         techs: `Min/Max Binary Heap + Priority Queue, React-css-transition effects`,
         steps: `# Choose a todo-task and assign a value to it.`,
+        // codeLink: '#'
+    },
+    'React-Query App': {
+        alive: true,
+        details: `This App shows how to react-query is used to optimise api calls.`,
+        techs: `React-query, GraphQL, Hasura`,
+        steps: `# TBD`,
         // codeLink: '#'
     },
     //DSA
