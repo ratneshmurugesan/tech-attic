@@ -1,52 +1,52 @@
-$spinner: ".spinner";
+// $spinner: ".spinner";
 
-#{$spinner} {
-    display: grid;
-    place-items: center;
-    #{$spinner}__circle {
-        background-color: skyblue;
-        width: 200px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10%;
-        // opacity: 1;
-        // transition: opacity 5s;
+// #{$spinner} {
+//     display: grid;
+//     place-items: center;
+//     #{$spinner}__circle {
+//         background-color: skyblue;
+//         width: 200px;
+//         height: 200px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         border-radius: 10%;
+//         // opacity: 1;
+//         // transition: opacity 5s;
 
-        // & .hidden{
-        //     opacity: 0;
-        //     transition: opacity 5s;
-        // }
+//         // & .hidden{
+//         //     opacity: 0;
+//         //     transition: opacity 5s;
+//         // }
 
-        &::after {
-            content: "";
-            width: 70px;
-            height: 70px;
-            border-radius: 100%;
-            border: 3px dotted grey;
-            border-top: 3px solid red;
-            will-change: transform; //delegate to GPU
-            animation: spin 1s infinite linear;
-            position: fixed;
-        }
+//         &::after {
+//             content: "";
+//             width: 70px;
+//             height: 70px;
+//             border-radius: 100%;
+//             border: 3px dotted grey;
+//             border-top: 3px solid red;
+//             will-change: transform; //delegate to GPU
+//             animation: spin 1s infinite linear;
+//             position: fixed;
+//         }
 
-        // .first-icon, .second-icon{
-            & > .MuiSvgIcon-root {
-                font-size: 40px;
-                will-change: transform; //delegate to GPU
-                animation: spin 5s infinite linear;
-            }
-        // }
+//         // .first-icon, .second-icon{
+//             & > .MuiSvgIcon-root {
+//                 font-size: 40px;
+//                 will-change: transform; //delegate to GPU
+//                 animation: spin 5s infinite linear;
+//             }
+//         // }
 
-        @keyframes spin {
-            from {
-                transform: rotate(0deg);
-            }
+//         @keyframes spin {
+//             from {
+//                 transform: rotate(0deg);
+//             }
 
-            to {
-                transform: rotate(360deg);
-            }
-        }
-    }
-}
+//             to {
+//                 transform: rotate(360deg);
+//             }
+//         }
+//     }
+// }

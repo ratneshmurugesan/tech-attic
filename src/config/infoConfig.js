@@ -37,9 +37,9 @@ const InfoConfig = {
     },
     'Priority Queue App': {
         alive: true,
-        details: `This App shows how to develop a simple priortized-todo task list,
+        details: `This App shows how to develop a simple priortized-todo task list with the support of an efficient DS,
         which pushes the high-priortized task to top of surface.`,
-        techs: `Min/Max Binary Heap + Priority Queue, React-css-transition effects`,
+        techs: `DataStructures: Min/Max Binary Heap + Priority Queue, React-css-transition effects`,
         steps: `# Choose a todo-task and assign a value to it.`,
         // codeLink: '#'
     },

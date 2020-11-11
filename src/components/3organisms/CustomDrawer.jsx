@@ -58,6 +58,21 @@ function CustomDrawer() {
     setState({ ...state, [anchor]: open });
   };
 
+  const generateLinks = (side, category = null) => {
+    return (
+      Object
+      .keys(routeConfigObj)
+      .filter(key => routeConfigObj[key][side] && routeConfigObj[key].category === category)
+      .map((key) => (
+        <div key={key}>
+          <Paper elevation={2} className="paper" >
+            <Link to={routeConfigObj[key].path}>{routeConfigObj[key].displayName}</Link>
+          </Paper>
+        </div>
+      ))
+    )
+  }
+
   const list = (anchor) => (
     <div
       className={clsx(classes.list, {
@@ -71,52 +86,14 @@ function CustomDrawer() {
       {
         anchor === 'right' ?
           <React.Fragment>
-            <List>
-            {/* 'render-by-config', */}
-              {Object
-              .keys(routeConfigObj)
-              .filter(key => routeConfigObj[key].rightPanel)
-              .map((key) => (
-                <div key={key}>
-                  <Paper elevation={2} className="paper" >
-                    <Link to={routeConfigObj[key].path}>{routeConfigObj[key].displayName}</Link>
-                  </Paper>
-                </div>
-              ))}
-            </List>
+            <List>{generateLinks('rightPanel', 'micro-apps')}</List>
           </React.Fragment>
           :
           <React.Fragment>
-            <Button style={buttonWhiteTheme} disabled>DSA</Button>
-            <List>
-              {['reversesinglylinkedlist'].map((text) => (
-                <div key={text}>
-                  <Paper elevation={2} className="paper" >
-                    <Link to={`/${text}`}>{text}</Link>
-                  </Paper>
-                </div>
-              ))}
-            </List>
+            <div style={buttonWhiteTheme} disabled>DSA</div>
+            <List>{generateLinks('leftPanel', 'dsa')}</List>
             <div style={buttonWhiteTheme}>CSS</div>
-            <List>
-              {['css-layouts', 'css-shapes', 'css-clip-path', 'css-transitions'].map((text) => (
-                <div key={text}>
-                  <Paper elevation={2} className="paper" >
-                    <Link to={`/${text}`}>{text}</Link>
-                  </Paper>
-                </div>
-              ))}
-            </List>
-            {/* <div style={buttonWhiteTheme}>JavaScript</div>
-            <List>
-              {['async', 'react-code-patterns', 'webpack-essentials'].map((text) => (
-                <div key={text}>
-                  <Paper elevation={2} className="paper" >
-                    <Link to={`/${text}`}>{text}</Link>
-                  </Paper>
-                </div>
-              ))}
-            </List> */}
+            <List>{generateLinks('leftPanel', 'css')}</List>
           </React.Fragment>
       }
     </div>

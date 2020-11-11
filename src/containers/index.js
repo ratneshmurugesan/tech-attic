@@ -6,6 +6,10 @@ import PixelArtContainer from './PixelArtContainer';
 import UserJourneyContainer from './UserJourneyContainer';
 import RepoBrowserContainer from './RepoBrowserContainer';
 import ReactQueryContainer from './ReactQueryContainer';
+import CSSLayoutsContainer from './CSSLayoutsContainer';
+import CSSShapesContainer from './CSSShapesContainer';
+import CSSClipPathContainer from './CSSClipPathContainer';
+import CSSTransitionsContainer from './CSSTransitionsContainer';
 
 export {
 	TimesheetUserContainer,
@@ -15,5 +19,9 @@ export {
 	PixelArtContainer,
 	UserJourneyContainer,
 	RepoBrowserContainer,
-	ReactQueryContainer
+	ReactQueryContainer,
+	CSSLayoutsContainer,
+	CSSShapesContainer,
+	CSSClipPathContainer,
+	CSSTransitionsContainer,
 };

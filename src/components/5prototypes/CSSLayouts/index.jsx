@@ -23,9 +23,9 @@ const CSSLayouts = () => {
                     <div className="box--stretch">3</div>
                 </div>
                 <div className="parent2">
-                    <div className="box">1</div>
-                    <div className="box">2</div>
-                    <div className="box">3</div>
+                    <div className="box">A</div>
+                    <div className="box">B</div>
+                    <div className="box">C</div>
                 </div>
             </div>
             <div className="parent3">

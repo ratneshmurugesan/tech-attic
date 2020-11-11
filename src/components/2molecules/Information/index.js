@@ -1,15 +1,15 @@
 import React from 'react';
+
 import { makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
-import Accordion from '@material-ui/core/Accordion';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import Divider from '@material-ui/core/Divider';
-import AccordionActions from '@material-ui/core/AccordionActions';
-import Typography from '@material-ui/core/Typography';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-// import './index.scss'
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -49,42 +49,70 @@ const useStyles = makeStyles((theme) => ({
       textDecoration: 'underline',
     },
   },
+  wrapper: {
+    display: 'flex'
+  },
+  infoButton: {
+    display: 'flex',
+    justifyContent: 'flex-end'
+  }
 }));
 
 export default function Information({ details, techs, steps, alive, codeLink }) {
+  const [open, setOpen] = React.useState(false);
   const classes = useStyles();
 
-  return alive ? (
-    <div className={classes.root}>
-      <Accordion defaultExpanded>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1c-content"
-          id="panel1c-header"
-        >
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  return (
+    <div>
+      { alive ? <div className={classes.infoButton}>
+        <Button variant="outlined" onClick={handleClickOpen}> INFO </Button>
+        </div> : null }
+      <Dialog
+        fullWidth={true}
+        maxWidth={'md'}
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="responsive-dialog-title"
+      >
+        <DialogTitle id="responsive-dialog-title">
           <div className={classes.column}>
             <Typography className={classes.heading}>Implementation Details</Typography>
           </div>
-        </AccordionSummary>
-        <AccordionDetails className={classes.details}>
-          <div className={classes.column}>
-            <p>{details}</p>
-          </div>
-          <div className={clsx(classes.column, classes.helper)}>
-            <Typography variant="caption">
-              Powered by
-                <p>{techs}</p>
-            </Typography>
-          </div>
-        </AccordionDetails>
-        <Divider />
-        <AccordionActions>
-          <p>{steps}</p>
-        </AccordionActions>
-        <AccordionActions>
-          <a href={codeLink} rel="noopener noreferrer" target='_blank'>view code in github</a>
-        </AccordionActions>
-      </Accordion>
+        </DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            <div className={classes.wrapper}>
+              <div className={classes.column}>
+                <p>{details}</p>
+              </div>
+              <div className={clsx(classes.column, classes.helper)}>
+                <Typography variant="caption">
+                  Powered by <p>{techs}</p>
+                </Typography>
+              </div>
+              <div className={clsx(classes.column, classes.helper)}>
+                <Typography variant="caption">
+                  Steps   <p>{steps}</p>
+                </Typography>
+              </div>
+            </div>
+            <a href={codeLink} rel="noopener noreferrer" target='_blank'>view code in github</a>
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button autoFocus onClick={handleClose} color="primary">
+            Close
+          </Button>
+        </DialogActions>
+      </Dialog>
     </div>
-  ) : null;
+  );
 }
