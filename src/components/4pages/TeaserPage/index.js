@@ -62,7 +62,8 @@ const TeaserPage = () => {
 
   const handleClick = () => {
     setLoading((prevLoading) => !prevLoading);
-    setTimeout(() => window.location.href = '/aboutme', 5000);
+    // setTimeout(() => window.location.href = '/aboutme', 5000);
+    window.location.href = '/aboutme';
   };
 
   return (

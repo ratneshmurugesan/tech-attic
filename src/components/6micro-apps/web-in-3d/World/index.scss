@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#threedview {
+    position: absolute;
+    background-color: red;
+    width: 60%;
+    height: 60%;
+    left: 50%;  //  left: 50% is relative to the parent, 
+    transform: translate(-50%, 0);// translate transform is relative to the elements width/height.
+}
