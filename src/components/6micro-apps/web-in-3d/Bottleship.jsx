@@ -1,17 +1,21 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {
+  useEffect,
+  useRef,
+  //  useState
+} from "react";
 
-import InputLabel from "@material-ui/core/InputLabel";
-import MenuItem from "@material-ui/core/MenuItem";
-import FormControl from "@material-ui/core/FormControl";
-import Select from "@material-ui/core/Select";
+// import InputLabel from "@material-ui/core/InputLabel";
+// import MenuItem from "@material-ui/core/MenuItem";
+// import FormControl from "@material-ui/core/FormControl";
+// import Select from "@material-ui/core/Select";
 
 import {
   PerspectiveCamera,
   Scene,
   WebGLRenderer,
-  AmbientLight,
+  // AmbientLight,
   DirectionalLight,
-  PointLight,
+  // PointLight,
   // GLTFLoader,
 } from "three";
 
@@ -22,61 +26,61 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 const BottleShip = (_) => {
   const canvasMount = useRef(null);
-  const controls = useRef(null);
+  // const controls = useRef(null);
 
-  const [light, setLight] = useState("");
+  // const [light, setLight] = useState("");
 
-  const handleLightSwitch = (event) => {
-    let eventTargetValue = event.target.value;
+  // const handleLightSwitch = (event) => {
+  //   let eventTargetValue = event.target.value;
 
-    let selectedLight;
+  //   let selectedLight;
 
-    //LIGHTS
-    switch (eventTargetValue) {
-      case "a":
-        let ambientLight = new AmbientLight(0x404040, 3);
-        ambientLight.position.set(10, 10, 100);
-        selectedLight = ambientLight;
-        break;
-      case "d":
-        let directionLight = new DirectionalLight(0xffffff, 3);
-        directionLight && directionLight.position.set(10, 10, 100);
-        selectedLight = directionLight;
-        break;
-      case "p":
-        let pointLight = new PointLight(0x404040, 30);
-        pointLight && pointLight.position.set(50, 50, 50);
-        selectedLight = pointLight;
-        break;
-      default:
-        break;
-    }
-    controls && controls.current && controls.current.render();
-    setLight(selectedLight);
-  };
+  //   //LIGHTS
+  //   switch (eventTargetValue) {
+  //     case "a":
+  //       let ambientLight = new AmbientLight(0x404040, 3);
+  //       ambientLight.position.set(10, 10, 100);
+  //       selectedLight = ambientLight;
+  //       break;
+  //     case "d":
+  //       let directionLight = new DirectionalLight(0xffffff, 3);
+  //       directionLight && directionLight.position.set(10, 10, 100);
+  //       selectedLight = directionLight;
+  //       break;
+  //     case "p":
+  //       let pointLight = new PointLight(0x404040, 30);
+  //       pointLight && pointLight.position.set(50, 50, 50);
+  //       selectedLight = pointLight;
+  //       break;
+  //     default:
+  //       break;
+  //   }
+  //   controls && controls.current && controls.current.render();
+  //   setLight(selectedLight);
+  // };
 
   // useEffect(
   //   (_) => {
-      // // OBJECT / MODEL
-      // let ambientLight = new AmbientLight(0x404040, 3);
-      // let directionLight = new DirectionalLight(0xffffff, 3);
-      // let pointLight = new PointLight(0x404040, 30);
-      // switch (light) {
-      //   case "a":
-      //     ambientLight && ambientLight.position.set(10, 10, 100);
-      //     scene.add(ambientLight);
-      //     break;
-      //   case "d":
-      //     directionLight && directionLight.position.set(10, 10, 100);
-      //     scene.add(directionLight);
-      //     break;
-      //   case "p":
-      //     pointLight && pointLight.position.set(50, 50, 50);
-      //     scene.add(pointLight);
-      //     break;
-      //   default:
-      //     break;
-      // }
+  // // OBJECT / MODEL
+  // let ambientLight = new AmbientLight(0x404040, 3);
+  // let directionLight = new DirectionalLight(0xffffff, 3);
+  // let pointLight = new PointLight(0x404040, 30);
+  // switch (light) {
+  //   case "a":
+  //     ambientLight && ambientLight.position.set(10, 10, 100);
+  //     scene.add(ambientLight);
+  //     break;
+  //   case "d":
+  //     directionLight && directionLight.position.set(10, 10, 100);
+  //     scene.add(directionLight);
+  //     break;
+  //   case "p":
+  //     pointLight && pointLight.position.set(50, 50, 50);
+  //     scene.add(pointLight);
+  //     break;
+  //   default:
+  //     break;
+  // }
   //   },
   //   [ambientLight, directionLight, pointLight, light, scene]
   // );
@@ -86,7 +90,7 @@ const BottleShip = (_) => {
       (async (_) => {
         // // OBJECT / MODEL
         // let ambientLight = new AmbientLight(0x404040, 3);
-        // let directionLight = new DirectionalLight(0xffffff, 3);
+        let directionLight = new DirectionalLight(0xffffff, 3);
         // let pointLight = new PointLight(0x404040, 30);
         // SCENE
         let scene = new Scene();
@@ -113,7 +117,10 @@ const BottleShip = (_) => {
         renderer.setSize(1000, 450);
         renderer.setPixelRatio(window.devicePixelRatio);
 
-        scene.add(light);
+        directionLight && directionLight.position.set(10, 10, 100);
+        scene.add(directionLight);
+
+        // scene.add(light);
 
         const animate = (_) => {
           requestAnimationFrame(animate);
@@ -130,27 +137,26 @@ const BottleShip = (_) => {
         canvasMount.current.bottleShip = loadedData.scene.children[0];
         animate();
 
-        
         const render = (_) => {
           renderer.render(scene, camera);
         };
-        
+
         // const onWindowResize = (_) => {
-          //   camera.aspect = window.innerWidth / window.innerHeight;
+        //   camera.aspect = window.innerWidth / window.innerHeight;
         //   camera.updateProjectionMatrix();
         //   renderer.setSize(window.innerWidth, window.innerHeight);
         //   render();
         // };
-        
+
         controls.addEventListener("change", render); // use if there is no animation loop
         controls.minDistance = 700;
         controls.maxDistance = 1900;
         controls.target.set(0, 0, -0.2);
         controls.update();
-        
+
         // window.addEventListener("resize", onWindowResize, false);
         controls.current = { render };
-        
+
         console.log("UE", { rDom: renderer.domElement });
       })();
 
@@ -172,7 +178,7 @@ const BottleShip = (_) => {
     <>
       {/* three.js will create a canvas for us */}
       <div key={"3d"} ref={canvasMount} />
-      <FormControl>
+      {/* <FormControl>
         <InputLabel id="demo-simple-select-label">Lights</InputLabel>
         <Select
           labelId="demo-simple-select-label"
@@ -184,7 +190,7 @@ const BottleShip = (_) => {
           <MenuItem value={"d"}>Directional Light</MenuItem>
           <MenuItem value={"p"}>Point Light</MenuItem>
         </Select>
-      </FormControl>
+      </FormControl> */}
     </>
   );
 };
