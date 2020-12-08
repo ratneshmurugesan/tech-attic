@@ -7,6 +7,8 @@ import UserJourneyContainer from "./UserJourneyContainer";
 import RepoBrowserContainer from "./RepoBrowserContainer";
 import ReactQueryContainer from "./ReactQueryContainer";
 import WebIn3DContainer from "./WebIn3DContainer";
+import DashboardContainer from "./DashboardContainer";
+
 
 import CSSLayoutsContainer from "./CSSLayoutsContainer";
 import CSSShapesContainer from "./CSSShapesContainer";
@@ -23,6 +25,7 @@ export {
   RepoBrowserContainer,
   ReactQueryContainer,
   WebIn3DContainer,
+  DashboardContainer,
   
   CSSLayoutsContainer,
   CSSShapesContainer,
