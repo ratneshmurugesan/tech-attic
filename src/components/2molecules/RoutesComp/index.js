@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 import { Switch, Route, withRouter, Redirect } from "react-router-dom";
 
 import { BASE_DASHBOARD } from "constants/urlConstants";
-import { DASHBOARD_LINKS } from "constants/dashboardConstants";
+// import { DASHBOARD_LINKS } from "constants/dashboardConstants";
 
-import GridMenuExample from "components/2molecules/pgGridMenu";
-import SidebarMenu from "components/2molecules/SidebarMenu";
+// import GridMenuExample from "components/2molecules/pgGridMenu";
+// import SidebarMenu from "components/2molecules/SidebarMenu";
 
 function RoutesComp({ history }) {
   console.log({ BASE_DASHBOARD });
@@ -19,14 +19,14 @@ function RoutesComp({ history }) {
           path={"/"}
           component={() => <Redirect to={BASE_DASHBOARD} />}
         /> */}
-        <Route
+        {/* <Route
           exact
           path={BASE_DASHBOARD}
           component={() => (
             <GridMenuExample history={history} items={DASHBOARD_LINKS} />
           )}
-        />
-        {DASHBOARD_LINKS.map(
+        /> */}
+        {/* {DASHBOARD_LINKS.map(
           dashboardObj =>
             dashboardObj.isEnabled && (
               <Route
@@ -43,7 +43,7 @@ function RoutesComp({ history }) {
                 )}
               />
             )
-        )}
+        )} */}
       </Switch>
     </>
   );

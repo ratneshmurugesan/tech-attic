@@ -8,8 +8,8 @@ import ExecutiveContext from "context/ExecutiveContext";
 import TabularReport from "components/2molecules/TabularReport";
 import TabPanel from "components/1atoms/TabPanel";
 import ContainerLoader from "components/1atoms/ContainerLoader";
-import ChartWithFilters from "components/2molecules/pgChartWithFilters";
-import SimpleTable from "components/2molecules/SimpleTable";
+// import ChartWithFilters from "components/2molecules/pgChartWithFilters";
+// import SimpleTable from "components/2molecules/SimpleTable";
 
 import { DASHBOARD_DATA_MOCK } from "constants/urlConstants";
 
@@ -81,7 +81,7 @@ const ExecutiveChannels = ({ activeTabId }) => {
         />
       </Paper>
       <Paper className={classes.container}>
-        <ChartWithFilters
+        {/* <ChartWithFilters
           apiDetails={{
             apiUrl: DASHBOARD_DATA_MOCK,
             apiMethod: "GET",
@@ -121,10 +121,10 @@ const ExecutiveChannels = ({ activeTabId }) => {
               "cpva",
             ],
           }}
-        />
+        /> */}
       </Paper>
       <Paper className={classes.container}>
-        <SimpleTable
+        {/* <SimpleTable
           apiDetails={{
             apiUrl: DASHBOARD_DATA_MOCK,
             apiMethod: "GET",
@@ -162,7 +162,7 @@ const ExecutiveChannels = ({ activeTabId }) => {
               classes
             ),
           }}
-        />
+        /> */}
       </Paper>
     </TabPanel>
   );
