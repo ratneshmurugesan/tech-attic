@@ -62,7 +62,7 @@ async function handleErrors(response) {
 }
 
 const getFetchOptions = (method, body = null) => {
-    console.log('getFetchOptions - body', body);
+    // console.log('getFetchOptions - body', body);
     const options = {
         method: methodEnums[method],
         headers: {
@@ -76,11 +76,11 @@ const getFetchOptions = (method, body = null) => {
 
 export function dataCall(url, method, body) {
     const options = getFetchOptions(method, body);
-    console.log('dataCall - options', options);
+    // console.log('dataCall - options', options);
     return fetch(url, options)
         .then(handleErrors)
         .then(response => {
-            console.log('dataCall', response);
+            // console.log('dataCall', response);
             return response;
         })
         .catch(error => ({

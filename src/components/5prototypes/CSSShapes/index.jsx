@@ -33,7 +33,7 @@ const CSSShapes = () => {
     const [state, setSwitchState] = React.useState({ isTriangleChecked: false, isCircleChecked: false, isSquareChecked: false });
     const toggleSwitchState = (e) => {
         let eventTarget = e.target;
-        console.log('e', { name: eventTarget.name, check: eventTarget.checked });
+        // console.log('e', { name: eventTarget.name, check: eventTarget.checked });
         setSwitchState({ ...state, [eventTarget.name]: eventTarget.checked });
     };
 

@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Route, useLocation } from 'react-router-dom';
+import React from "react";
+import PropTypes from "prop-types";
+import { Route, useLocation } from "react-router-dom";
 
-import InfoComponent from 'components/2molecules/infoComponent';
+import InfoComponent from "components/2molecules/infoComponent";
 
 const PrivateRouteComponent = ({
   path,
@@ -10,6 +10,7 @@ const PrivateRouteComponent = ({
   exact,
   isPage,
   displayName,
+  appKey,
   CustomGrid,
 }) => {
   // console.log('PrivateRouteComponent', {
@@ -17,55 +18,49 @@ const PrivateRouteComponent = ({
   //   component,
   //   exact,
   //   isPage,
-  //   displayName
+  //   displayName,
+  //   appKey
   // });
   const Component = component;
   const queryParams = new URLSearchParams(useLocation().search);
-  if(isPage) {
-      return <Route
+  if (isPage) {
+    return (
+      <Route
         exact={exact}
         path={path}
         queryParams={queryParams}
-        render={props => {
-          return(
-          (
-            <Component {...props} queryParams={queryParams} />
-          ) 
-          )
-        }
-        }
+        render={(props) => {
+          return <Component {...props} queryParams={queryParams} />;
+        }}
       />
+    );
   } else {
-    return <Route
-      exact={exact}
-      path={path}
-      queryParams={queryParams}
-      render={_ => {
-        return (
-          <>
-          <CustomGrid />
-          <InfoComponent
-            displayName={displayName}
-              component={Component}
-              // {...props}
-          />
-          </>
-        )
-      }
-      }
-    />
-
+    return (
+      <Route
+        exact={exact}
+        path={path}
+        queryParams={queryParams}
+        render={(_) => {
+          return (
+            <>
+              <CustomGrid />
+              <InfoComponent
+                appKey={appKey}
+                displayName={displayName}
+                component={Component}
+              />
+            </>
+          );
+        }}
+      />
+    );
   }
-
 };
 
 PrivateRouteComponent.propTypes = {
   exact: PropTypes.bool,
   path: PropTypes.string.isRequired,
-  component: PropTypes.oneOfType([
-    PropTypes.element,
-    PropTypes.object
-  ])
+  component: PropTypes.oneOfType([PropTypes.element, PropTypes.object]),
 };
 
 export default PrivateRouteComponent;

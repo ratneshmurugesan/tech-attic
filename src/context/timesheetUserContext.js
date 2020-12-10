@@ -39,7 +39,7 @@ const TimesheetUserContextWrapper = ({ children }) => {
           getTimesheetUserWeekData(body).catch(err => { throw err })
         ]);
 
-        console.log('useEffect context', { timesheetMetaData, timesheetWeekData });
+        // console.log('useEffect context', { timesheetMetaData, timesheetWeekData });
 
         const filteredTsWeekData = getFilteredData(timesheetWeekData);
 

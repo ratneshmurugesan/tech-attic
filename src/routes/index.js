@@ -26,7 +26,7 @@ const RoutesComponent = _ => {
 							const container = routeObj.container || null;
 							const page = routeObj.page;
 							const key = routeObj.key;
-							return (
+							return routeObj.isEnabled ? (
 								<div key={key}>
 									<PrivateRouteComponent
 										path={path}
@@ -34,10 +34,11 @@ const RoutesComponent = _ => {
 										component={container || page}
 										isPage={container ? false : true}
 										displayName={displayName}
+										appKey={key}
 										CustomGrid={CustomGrid}
 									/>
 								</div>
-							)
+							) : null
 						})
 					}
 				</>

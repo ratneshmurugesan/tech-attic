@@ -12,7 +12,7 @@ import { loader, fetchRepos, fetchUser } from "../../actions/actions.js";
 class DropdownList extends React.Component {
 
     handleSelect(e) {
-        console.log("Resp : " + (e.item.props.children[1]));
+        // console.log("Resp : " + (e.item.props.children[1]));
         this.props.onChange(e.item.props.children[1]);
     }
 

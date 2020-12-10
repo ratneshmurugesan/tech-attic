@@ -16,7 +16,7 @@ const themeFontFamily = {
 		'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF',
 };
 
-const everest = createMuiTheme({
+const sonic = createMuiTheme({
 	palette: {
 		primary: {
 			main: 'rgb(5, 13, 158)',
@@ -248,4 +248,64 @@ const everest = createMuiTheme({
 	},
 });
 
-export default everest;
+const client = createMuiTheme({
+  spacing: 4,
+  borderLight: "1px solid rgba(0, 0, 0, 0.165)",
+  lineShadowRight: "inset -2px 0px 1px rgba(0, 0, 0, 0.165)",
+  palette: {
+    contentBg: "#f5f5f5",
+    primary: {
+      main: "#262626",
+      mainLight: "#ebebeb",
+      light: "#fdc20d",
+      dark: "#050d9e",
+      contrastText: "rgba(0, 0, 0, 0.87)",
+      black: "#000",
+      white: "#fff",
+      labelTextColor: "#0000008A",
+      lightBG: "#d5d5d5",
+      fontLight: "#515050",
+      hoverBG: "#f5f5f5",
+      fontLink: "#145cc7",
+    },
+    secondary: {
+      main: "#404040",
+      light: "rgb(102, 102, 102)",
+      dark: "rgb(44, 44, 44)",
+      contrastText: "#fff",
+      grey: "#cfcfcf",
+      yellow: "#fdc20d",
+    },
+    high: "#e53935",
+    medium: "#f57c00",
+    low: "#ffde00",
+    overdue: "#ef5350",
+    completed: "#81d4fa",
+    received: "#66bb6a",
+    open: "rgba(255, 222, 0, 1)",
+    published: "rgba(129, 199, 132, 1)",
+    draft: "rgba(249, 168, 37, 1)",
+    closed: "rgba(224, 224, 224, 1)",
+    archived: "rgba(58,58,58, 1)",
+    disabled: {
+      tab: "rgb(0 0 0 / 0.2)",
+    },
+  },
+  typography: {
+    h6: {
+      fontWeight: "bold",
+      color: "#404040",
+    },
+    button: {
+      fontSize: "0.875rem",
+    },
+  },
+});
+
+client.name = "Client Theme";
+client.color = "#122048";
+
+const theme = {...sonic, ...client};
+theme.palette = { ...sonic.palette, ...client.palette };
+
+export default theme;

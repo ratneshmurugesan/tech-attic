@@ -29,7 +29,7 @@ test('can open accordian items to see the contents', () => {
     // fireEvent.click(getByText(hats.title));
 
     // fireEvent.click(getByText(footware.title));
-    console.log('clg', getByText('button'));
+    // console.log('clg', getByText('button'));
     expect(getByText(footware.contents)).toBeInTheDocument();
     // expect(queryByText(hats.contents)).toBeNull();
 });

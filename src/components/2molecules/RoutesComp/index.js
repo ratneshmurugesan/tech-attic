@@ -10,7 +10,7 @@ import { BASE_DASHBOARD } from "constants/urlConstants";
 // import SidebarMenu from "components/2molecules/SidebarMenu";
 
 function RoutesComp({ history }) {
-  console.log({ BASE_DASHBOARD });
+  // console.log({ BASE_DASHBOARD });
   return (
     <>
       <Switch>

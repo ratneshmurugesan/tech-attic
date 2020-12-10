@@ -24,9 +24,9 @@ server.get('/api/mock/timetracking/meta-data/', (_, res) => {
 
 server.use(bodyParser.json());
 server.post('/api/mock/timetracking/week-data/', (req, res) => {
-    console.log("POST request listener");
+    // console.log("POST request listener");
     const body = req.body;
-    console.log("POST body", body);
+    // console.log("POST body", body);
     res.json(weekData);
 });
 

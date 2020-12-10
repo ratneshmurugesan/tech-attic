@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
 const AboutMe = () => {
     const { width } = ScreenResizer();
     // const gridDirection = `${width < 1024 ? 'column' : 'row'}`;
+    console.log({ScreenResizer, width});
     const gridSize = width < 620 ? 12 : 4;
 
     // const [areTwitterCardsReady, setTwitterCard] = useState(false);

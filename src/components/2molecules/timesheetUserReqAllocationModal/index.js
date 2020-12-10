@@ -98,7 +98,7 @@ const TimesheetUserReqAllocationModal = ({
   const handleMultilineChange = event => {
     const editedComment = event.target.value;
     setEditedComment(editedComment);
-    console.log('handleMultilineChange', editedComment);
+    // console.log('handleMultilineChange', editedComment);
   };
 
   return (

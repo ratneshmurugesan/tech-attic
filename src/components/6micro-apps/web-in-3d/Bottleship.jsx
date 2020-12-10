@@ -132,7 +132,7 @@ const BottleShip = (_) => {
           "assets/ship_in_a_bottle/scene.gltf"
         );
 
-        console.log("loadedData", loadedData);
+        // console.log("loadedData", loadedData);
         scene.add(loadedData.scene); // Add the Mesh to the Scene
         canvasMount.current.bottleShip = loadedData.scene.children[0];
         animate();
@@ -157,7 +157,7 @@ const BottleShip = (_) => {
         // window.addEventListener("resize", onWindowResize, false);
         controls.current = { render };
 
-        console.log("UE", { rDom: renderer.domElement });
+        // console.log("UE", { rDom: renderer.domElement });
       })();
 
       // return (_) => {

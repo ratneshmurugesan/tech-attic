@@ -113,7 +113,7 @@ const MapRoleComponent = ({ history }) => {
 					roles,
 					filteredRoles: filterRoles,
 				});
-				console.log('useEffect', {roles,roletable});
+				// console.log('useEffect', {roles,roletable});
 				setErr({ err: false, errMsg: '' });
 			} catch (err) {
 				setErr({ err: true, errMsg: 'Error Occurred while loading...' });
@@ -126,7 +126,7 @@ const MapRoleComponent = ({ history }) => {
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [getMappedRoles, getRoles]);
 
-	console.log('meta', meta_data);
+	// console.log('meta', meta_data);
 
 	// Function to change the agency from dropdown
 	const handleAgencyChange = event => {
@@ -161,7 +161,7 @@ const MapRoleComponent = ({ history }) => {
 
 	// function to select the roles from the list using checkbox
 	const handleRoleToMap = event => {
-		console.log('handleRoleToMap', {n:event.target.name, v: event.target.value,checked:event.target.checked});
+		// console.log('handleRoleToMap', {n:event.target.name, v: event.target.value,checked:event.target.checked});
 		event.target.checked
 			? setRoles([...selectedRoles, parseInt(event.target.value)])
 			: setRoles(selectedRoles.filter(f => (event.target.value && f !== parseInt(event.target.value))));
@@ -214,7 +214,7 @@ const MapRoleComponent = ({ history }) => {
 	
 	let searchRoles = excludeGlobalRoles;
 	
-	console.log('@', {searchRoles,selectedRoles,filteredRoles});
+	// console.log('@', {searchRoles,selectedRoles,filteredRoles});
 	// Filtering the table body data using search keyword
 	// searchRoles = searchRoles.filter(list =>
 	// 	list.role_name

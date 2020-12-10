@@ -27,7 +27,7 @@ const ExecutiveDashboard = _ => {
     ExecutiveContext
   );
 
-  console.log({ filters, selectedFilters, setSelectedFilters, dates });
+  // console.log({ filters, selectedFilters, setSelectedFilters, dates });
 
   const classes = useStyles();
 

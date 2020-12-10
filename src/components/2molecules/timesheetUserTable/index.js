@@ -354,16 +354,16 @@ const TimesheetUserTable = _ => {
       data: toBeSubmittedProjects,
       week: weekString,
     }
-    console.log('submitTimesheets', submitDataApiBody);
+    // console.log('submitTimesheets', submitDataApiBody);
     try {
       setAPILoading(true);
       const submitAPIResponse = await getTimesheetUserSubmitData(submitDataApiBody);
-      console.log('submitTimesheets', submitAPIResponse);
+      // console.log('submitTimesheets', submitAPIResponse);
 
       if (submitAPIResponse && submitAPIResponse.failure) {
-        console.log('submitAPIResponse FAIL', submitAPIResponse);
+        // console.log('submitAPIResponse FAIL', submitAPIResponse);
       } else {
-        console.log('submitAPIResponse', submitAPIResponse);
+        // console.log('submitAPIResponse', submitAPIResponse);
       }
       setAPILoading(false);
     } catch (err) {

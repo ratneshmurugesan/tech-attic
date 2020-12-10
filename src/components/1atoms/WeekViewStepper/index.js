@@ -58,7 +58,7 @@ const WeekViewStepper = () => {
       action: week,
       weekString: state.initialWeekString
     }
-    console.log('handleWeekChange');
+    // console.log('handleWeekChange');
     try {
       const nextWeekAPIData = await getTimesheetUserWeekData(weekDataApiBody);
       const filteredData = getFilteredData(nextWeekAPIData);
