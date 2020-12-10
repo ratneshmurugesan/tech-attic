@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 
-import { ScreenResizer } from "components/5prototypes/ScreenResizer";
+import ScreenResizerContext from "context/ScreenResizerContext";
 
 import clsx from "clsx";
 import Drawer from "@material-ui/core/Drawer";
@@ -42,7 +42,7 @@ const buttonWhiteTheme = {
 function CustomDrawer() {
   const classes = useStyles();
 
-  const { width } = ScreenResizer();
+  const { width } = useContext(ScreenResizerContext);
   const [state, setState] = React.useState({
     left: false,
     right: false,

@@ -11,7 +11,6 @@ ExecutiveContext.Wrapper = {};
 const Provider = ExecutiveContext.Provider;
 
 const ExecutiveContextWrapper = ({ children }) => {
-
   const [filters, selectedFilters, setSelectedFilters, dates] = useFilters(
     dashboardNames.EXECUTIVE,
     true
@@ -25,7 +24,7 @@ const ExecutiveContextWrapper = ({ children }) => {
     dates,
   };
 
-  return <Provider value={{...contextStateObj}}>{children}</Provider>;
+  return <Provider value={{ ...contextStateObj }}>{children}</Provider>;
 };
 
 ExecutiveContext.Wrapper = ExecutiveContextWrapper;

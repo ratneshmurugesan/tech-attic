@@ -1,25 +1,26 @@
-import React from 'react';
+import React from "react";
 import {
   BrowserRouter as Router,
   // Route,
   Switch,
-} from 'react-router-dom';
+} from "react-router-dom";
 
-import './App.scss';
+import "./App.scss";
 
-// import { ScreenResizer } from './prototypes/ScreenResizer/index.jsx';
-import RoutesComponent from 'routes';
+import ScreenResizerContext from "context/ScreenResizerContext";
+import RoutesComponent from "routes";
 
 function App() {
-  // ScreenResizer();
   return (
-    <div className="App">
-      <Router>
-        <Switch>
-          <RoutesComponent />
-        </Switch>
-      </Router>
-    </div>
+    <ScreenResizerContext.Wrapper>
+      <div className="App">
+        <Router>
+          <Switch>
+            <RoutesComponent />
+          </Switch>
+        </Router>
+      </div>
+    </ScreenResizerContext.Wrapper>
   );
 }
 
