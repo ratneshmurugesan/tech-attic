@@ -57,9 +57,9 @@ const InfoConfig = {
   productShowcase: {
     alive: true,
     key: "productShowcase",
-    details: `This App shows how to showcase the 3D objects as a client product which enhances user interaction and experience`,
+    details: `This App shows how to showcase the 3D objects as a client product which enhances user interaction and experience,  For instance, you can consider this ship in the bottle is a product I would like to show. A new perspective to showcase products`,
     techs: `React-hooks, Three.js, PBR Materials`,
-    steps: `# Hold the 3D Object and control the rotation to see it completly (360 deg)`,
+    steps: `# Hold the 3D Object and control the rotation to view it in other angles as well`,
     codeLink:
       "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/dashboard-app",
   },
