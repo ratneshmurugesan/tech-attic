@@ -14,7 +14,7 @@ const Controls = () => {
 
 extend({ OrbitControls });
 
-const WebIn3D = () => {
+const ProductShowcase = () => {
   return (
     <div>
       <Canvas>
@@ -35,4 +35,4 @@ const WebIn3D = () => {
   );
 };
 
-export default WebIn3D;
+export default ProductShowcase;

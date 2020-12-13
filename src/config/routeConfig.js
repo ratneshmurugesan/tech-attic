@@ -6,7 +6,7 @@ import {
   PixelArtContainer,
   UserJourneyContainer,
   RepoBrowserContainer,
-  WebIn3DContainer,
+  ProductShowcaseContainer,
   DashboardContainer,
   // ReactQueryContainer,
   CSSLayoutsContainer,
@@ -33,11 +33,11 @@ export const routeConfigObj = {
     isEnabled: true,
   },
   //Micro-apps
-  webIn3D: {
-    path: "/webin3d",
-    displayName: "Web In 3D App",
-    container: WebIn3DContainer,
-    key: "webIn3D",
+  productShowcase: {
+    path: "/product-showcase",
+    displayName: "Product Showcase App",
+    container: ProductShowcaseContainer,
+    key: "productShowcase",
     rightPanel: true,
     category: "micro-apps",
     isEnabled: true,

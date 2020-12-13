@@ -10,15 +10,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import ScreenResizerContext from "context/ScreenResizerContext";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    "& > *": {
-      margin: theme.spacing(1),
-    },
+  image: {
+    // background-color: "green",
+    display: "grid",
+    placeItems: "center",
   },
   large: {
-    width: theme.spacing(7),
-    height: theme.spacing(7),
+    width: "200px",
+    height: "200px",
   },
 }));
 
@@ -26,10 +25,10 @@ function ImageAvatars() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.image}>
       <Avatar
         alt="Ratnesh Murugesan"
-        src="public/assets/ratnesh-murugesan.jpg"
+        src="/assets/rm.jpg"
         className={classes.large}
       />
     </div>

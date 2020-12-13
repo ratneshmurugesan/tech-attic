@@ -6,7 +6,7 @@ import PixelArtContainer from "./PixelArtContainer";
 import UserJourneyContainer from "./UserJourneyContainer";
 import RepoBrowserContainer from "./RepoBrowserContainer";
 import ReactQueryContainer from "./ReactQueryContainer";
-import WebIn3DContainer from "./WebIn3DContainer";
+import ProductShowcaseContainer from "./ProductShowcaseContainer";
 import DashboardContainer from "./DashboardContainer";
 
 
@@ -24,7 +24,7 @@ export {
   UserJourneyContainer,
   RepoBrowserContainer,
   ReactQueryContainer,
-  WebIn3DContainer,
+  ProductShowcaseContainer,
   DashboardContainer,
   
   CSSLayoutsContainer,

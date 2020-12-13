@@ -54,9 +54,9 @@ const InfoConfig = {
     codeLink:
       "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/priority-queue",
   },
-  webIn3D: {
+  productShowcase: {
     alive: true,
-    key: "webIn3D",
+    key: "productShowcase",
     details: `This App shows how to showcase the 3D objects as a client product which enhances user interaction and experience`,
     techs: `React-hooks, Three.js, PBR Materials`,
     steps: `# Hold the 3D Object and control the rotation to see it completly (360 deg)`,
