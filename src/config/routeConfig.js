@@ -49,7 +49,7 @@ export const routeConfigObj = {
     key: "productShowcase",
     rightPanel: true,
     category: "micro-apps",
-    isEnabled: true,
+    isEnabled: window.innerWidth > 768 ? true : false,
   },
   dashboard: {
     path: "/dashboard",
@@ -76,7 +76,7 @@ export const routeConfigObj = {
     key: "pixelArt",
     rightPanel: true,
     category: "micro-apps",
-    isEnabled: true,
+    isEnabled: window.innerWidth > 768 ? true : false,
   },
   userJourney: {
     path: "/userjourney",
@@ -85,7 +85,7 @@ export const routeConfigObj = {
     key: "userJourney",
     rightPanel: true,
     category: "micro-apps",
-    isEnabled: true,
+    isEnabled: window.innerWidth > 768 ? true : false,
   },
   repoBrowser: {
     path: "/repobrowser",
@@ -94,7 +94,7 @@ export const routeConfigObj = {
     key: "repoBrowser",
     rightPanel: true,
     category: "micro-apps",
-    isEnabled: true,
+    isEnabled: window.innerWidth > 768 ? true : false,
   },
   timeSheet: {
     path: "/timesheet",
@@ -105,13 +105,6 @@ export const routeConfigObj = {
     category: "micro-apps",
     isEnabled: false,
   },
-  // reactQuery: {
-  //     path: '/reactquery',
-  //     displayName: 'React-Query App',
-  //     container: ReactQueryContainer,
-  //     key: 'reactQuery',
-  //     rightPanel: true
-  // },
   //Prototypes
   reverseLinkedList: {
     path: "/reversesinglylinkedlist",
@@ -120,7 +113,7 @@ export const routeConfigObj = {
     key: "reverseLinkedList",
     leftPanel: true,
     category: "dsa",
-    isEnabled: true,
+    isEnabled: window.innerWidth > 768 ? true : false,
   },
   priorityQueue: {
     path: "/priorityqueue",

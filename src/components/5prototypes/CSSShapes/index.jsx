@@ -8,10 +8,7 @@ const getContent = () => {
         <p>
             Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes
             in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes
-            in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS
-            Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes
-            in CSS Shapes in CSS Shapes in CSS
-            Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS
+            in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS Shapes in CSS.
         </p>
     );
 };

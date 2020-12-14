@@ -10,6 +10,8 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { useTheme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   rootBg: {
@@ -69,6 +71,8 @@ export default function Information({
 }) {
   const [open, setOpen] = React.useState(false);
   const classes = useStyles();
+  const theme = useTheme();
+  const fullScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -90,8 +94,7 @@ export default function Information({
       ) : null}
       <div className={classes.rootBg}>
         <Dialog
-          fullWidth={true}
-          maxWidth={"md"}
+        fullScreen={fullScreen}
           open={open}
           onClose={handleClose}
           aria-labelledby="responsive-dialog-title"

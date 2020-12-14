@@ -36,7 +36,7 @@ const WhyMe = () => {
                 - I try to avoid assigning style objects with styles directly to
                 an UI element or component, which consumes more{" "}
                 <strong>memory</strong> in creating objects if component
-                re-renders.
+                re-renders. (except some apps which I created 6 months back and before)
               </p>
               <p>
                 - I avoid descendant selector which is expensive as the browser
@@ -58,12 +58,24 @@ const WhyMe = () => {
               <p>
                 - I do not prefer prop-drilling or render-props; instead I
                 prefer CONTEXT API + useMemo as a design pattern for components 
-                <strong>communication(bi-directional)</strong> to avoid unnecessary rerendering
+                <strong> communication(bi-directional)</strong> to avoid unnecessary rerendering
                 of children/siblings.
               </p>
             </div>
           </Paper>
         </Grid>
+        <Grid item xs={11}>
+        <Paper elevation={4} className="paper">
+          <p> <strong>Node/Express App for all the APIs used for this Frontend App (tech-attic)</strong></p>
+          <a
+            href="https://github.com/ratneshmurugesan/tech-attic-node"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Node/Express Backend App (tech-attic-node)
+          </a>
+        </Paper>
+      </Grid>
         <Grid item xs={gridSize}>
           <Paper elevation={4} className="paper">
             <a

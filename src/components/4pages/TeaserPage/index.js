@@ -70,7 +70,7 @@ const TeaserPage = () => {
     <header className="App-header">
       <Card style={{ minWidth: 290, minHeight: 200, backgroundColor: '#424242' }}>
         <CardContent>
-          <h2 className='title'>RATNESH-MURUGESAN</h2>
+          <h2 className='title'>RATNESH MURUGESAN</h2>
           <p className='title' style={{ color: '#fff' }}>Tech Attic</p>
           <div className={classes.root}>
             <Fade in={loading}
