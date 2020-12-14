@@ -8,13 +8,19 @@ import ScreenResizerContext from "context/ScreenResizerContext";
 
 const useStyles = makeStyles((theme) => ({
   image: {
-    // background-color: "green",
-    display: "grid",
-    placeItems: "center",
+    borderRadius: "50%",
+    shapeOutside: "circle(39%)",
+    float: "left",
+    shapeMargin: "25px",
   },
   large: {
     width: "200px",
     height: "200px",
+  },
+  intro: {
+    display: "inline-block",
+    padding: "20px",
+    maxWidth: "850px",
   },
 }));
 
@@ -34,6 +40,7 @@ function ImageAvatars() {
 
 const AboutMe = () => {
   const { width } = useContext(ScreenResizerContext);
+  const classes = useStyles();
   const gridSize = width < 620 ? 12 : 3;
 
   return (
@@ -47,11 +54,51 @@ const AboutMe = () => {
     >
       <Grid item xs={11}>
         <Paper elevation={4} className="paper">
-          <p className="greeting">Hi, I am Ratnesh Murugesan</p>
-          <ImageAvatars />
-          <p>I really thank you for spending your time to know about me;</p>
-          <p>Please go ahead!</p>
-          <p>Enjoy Exploring!!</p>
+          <div className={classes.intro}>
+            <ImageAvatars />
+            <p style={{ fontSize: "32px" }}>Hi, I am Ratnesh Murugesan,</p>
+            <p>
+              <strong>
+                I really want to thank you for landing on this page to know
+                about me;
+              </strong>
+            </p>
+            <p>
+              I am professionally connected with the web development industry
+              and information technology for more than 10 years this includes my
+              academic experience as well;
+            </p>
+            <p>
+              Since college days I got complete interest in the entire web
+              spectrum and now working with ambitious projects and positive
+              people :-)
+            </p>
+            <p>
+              I am passoniate about web and game developement especially 3D
+              modelling and texturing with PBR materials which has become my
+              primary hobby these days;
+            </p>
+            <p>
+              <strong>WHY ME section</strong> does highlight about the technical
+              challenges I faced/facing everyday.
+            </p>
+            <p>
+              You can explore <strong>PROTOTYPES section</strong> and{" "}
+              <strong>MICRO-APPS section</strong> - to see my personal ideas and
+              projects that I developed with an positive indent to improve my
+              technical skills.
+            </p>
+            <hr />
+            <p>
+              If you feel that I can be a good fit for the
+              opprotunity you have; please give me a ring I am waiting to pick
+              up the call at the other side;
+            </p>
+            <p>
+              Let us create a<strong> WIN WIN</strong> situation!
+            </p>
+            <hr />
+          </div>
         </Paper>
       </Grid>
       <Grid item xs={gridSize}>
