@@ -26,6 +26,8 @@ $userJourney: ".user-journey";
         padding: 25px;
         border: 2px solid rgba(0, 0, 0, 0.5);
         // background-color: rosybrown;
+        display: grid;
+        place-items: center;
 
         // #{$userJourney}__playground div{
 

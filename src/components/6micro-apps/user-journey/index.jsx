@@ -2,24 +2,20 @@ import React, {
     useState,
     useEffect,
     useCallback,
-    // useRef,
-    // useComponentDidMount,
-    // useComponentWillMount
 } from 'react';
 import {
-    // useSpring, 
     animated,
     useTransition
 } from 'react-spring';
 
-// import Button from '@material-ui/core/Button';
+import makeStyles from '@material-ui/styles/makeStyles';
+
 import ChildFriendlyIcon from '@material-ui/icons/ChildFriendly';
 import AcUnitIcon from '@material-ui/icons/AcUnit';
 import ShutterSpeedIcon from '@material-ui/icons/ShutterSpeed';
 import QueuePlayNextIcon from '@material-ui/icons/QueuePlayNext';
 import OfflineBoltIcon from '@material-ui/icons/OfflineBolt';
 import MotorcycleIcon from '@material-ui/icons/Motorcycle';
-// import TwoWheelerIcon from '@material-ui/icons/TwoWheeler';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
 import HomeWorkIcon from '@material-ui/icons/HomeWork';
@@ -29,10 +25,31 @@ import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 
 // import ConnectElements from 'react-connect-elements';
 
-
 import './index.scss';
 
+
+const useStyles = makeStyles(_ => ({
+  forwardIconStyle: { color: "rgb(255 235 59 / 75%)", fontSize: 40 },
+  forwardIconWithTransformStyle: {
+    color: "rgba(0, 0, 0, 0.5)",
+    fontSize: 30,
+    transform: "rotate(180deg)",
+  },
+  forwardIconWithTransformSize30: {
+    color: "rgba(0, 0, 0, 0.5)",
+    fontSize: 30,
+  },
+  forwardIconWithTransformSize50: {
+    color: "rgba(0, 0, 0, 0.5)",
+    fontSize: 50,
+  },
+  iconStyle: { color: "rgb(255 235 59 / 75%)", fontSize: 40 },
+}));
+
+
 const UserJourneyWithHooks = () => {
+
+    const classes = useStyles();
 
     const initialTileProps = {
         tileID: 0,
@@ -60,15 +77,15 @@ const UserJourneyWithHooks = () => {
     };
 
     const icons = [
-        <span key="ChildFriendlyIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ChildFriendlyIcon"><ChildFriendlyIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
-        <span key="AcUnitIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="AcUnitIcon"><AcUnitIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
-        <span key="HomeWorkIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="HomeWorkIcon"><HomeWorkIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
-        <span key="MotorcycleIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="MotorcycleIcon"><MotorcycleIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
-        <span key="OfflineBoltIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="OfflineBoltIcon"><OfflineBoltIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
-        <span key="ShutterSpeedIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ShutterSpeedIcon"><ShutterSpeedIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
-        <span key="QueuePlayNextIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="QueuePlayNextIcon"><QueuePlayNextIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
-        <span key="WhatshotIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="WhatshotIcon"><WhatshotIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>,
-        <span key="SportsEsportsIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="SportsEsportsIcon"><SportsEsportsIcon style={{ color: 'rgb(255 235 59 / 75%)', fontSize: 40 }} /></span>
+        <span key="ChildFriendlyIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ChildFriendlyIcon"><ChildFriendlyIcon className={classes.iconStyle} /></span>,
+        <span key="AcUnitIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="AcUnitIcon"><AcUnitIcon className={classes.iconStyle} /></span>,
+        <span key="HomeWorkIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="HomeWorkIcon"><HomeWorkIcon className={classes.iconStyle} /></span>,
+        <span key="MotorcycleIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="MotorcycleIcon"><MotorcycleIcon className={classes.iconStyle} /></span>,
+        <span key="OfflineBoltIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="OfflineBoltIcon"><OfflineBoltIcon className={classes.iconStyle} /></span>,
+        <span key="ShutterSpeedIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="ShutterSpeedIcon"><ShutterSpeedIcon className={classes.iconStyle} /></span>,
+        <span key="QueuePlayNextIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="QueuePlayNextIcon"><QueuePlayNextIcon className={classes.iconStyle} /></span>,
+        <span key="WhatshotIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="WhatshotIcon"><WhatshotIcon className={classes.iconStyle} /></span>,
+        <span key="SportsEsportsIcon" draggable="true" onDragStart={drag} className="user-journey__icon" id="SportsEsportsIcon"><SportsEsportsIcon className={classes.iconStyle} /></span>
     ];
     /* 
         drop variable will have always the same function object of the useCallback function 
@@ -134,13 +151,13 @@ const UserJourneyWithHooks = () => {
                                 id: `tile__cancel${tileID}`,
                                 className: "tile__cancel--hidden",
                                 onClick: () => removeTile(tileID),
-                                children: <HighlightOffIcon style={{ color: 'grey', fontSize: 30 }} />
+                                children: <HighlightOffIcon className={classes.forwardIconWithTransformSize30} />
                             }),
                             React.createElement('span', {
                                 key: `tile__forward${tileID}`,
                                 id: `tile__forward${tileID}`,
                                 className: "tile__forward--hidden",
-                                children: <ForwardIcon style={{ color: 'grey', fontSize: 50 }} />
+                                children: <ForwardIcon className={classes.forwardIconWithTransformSize50} />
                             }),
                             React.createElement('div', {
                                 key: `tile__box${tileID}`,
@@ -174,15 +191,15 @@ const UserJourneyWithHooks = () => {
                                 id: `tile__cancel${tileID}`,
                                 className: "tile__cancel",
                                 onClick: () => removeTile(tileID),
-                                children: <HighlightOffIcon style={{ color: 'grey', fontSize: 30 }} />
+                                children: <HighlightOffIcon className={classes.forwardIconWithTransformSize30} />
                             }),
                             React.createElement('span', {
                                 key: `tile__forward${tileID}`,
                                 id: `tile__forward${tileID}`,
                                 className: "tile__forward",
                                 children: <div className="arrow-group">
-                                    <ForwardIcon style={{ color: 'rgba(0, 0, 0, 0.5)', fontSize: 30, transform: 'rotate(180deg)' }} />
-                                    <ForwardIcon style={{ color: 'rgba(0, 0, 0, 0.5)', fontSize: 30 }} />
+                                    <ForwardIcon className={classes.forwardIconWithTransformStyle} />
+                                    <ForwardIcon className={classes.forwardIconWithTransformSize30} />
                                 </div>
                             }),
                             React.createElement('div', {
@@ -217,7 +234,7 @@ const UserJourneyWithHooks = () => {
                 return ({ ...pState, tiles: [...modifiedTilesWithClose, createTiles(currentTilePropWithIcon)] });
             }
         });
-    }, [currentTileProps, addedIcon, drop]);
+    }, [currentTileProps, addedIcon, drop, classes]);
 
     // console.log('#state', superState);
 
@@ -231,30 +248,17 @@ const UserJourneyWithHooks = () => {
         <>
             <div className="user-journey">
                 <div className="user-journey__tray">
-                    <p>Tray</p>
+                    <h3><strong>Tray</strong></h3>
                     {icons}
                 </div>
                 <div className="user-journey__playground">
-                    <p>PlayGround</p>
                     <div>
-                        {/* {tiles} */}
                         {
                             transitions.map(({ item, key, props }) =>
                                 <animated.div key={key} style={props}>
                                     {item.ele}
                                 </animated.div>)
                         }
-                        {/* <div>
-                            <div className="elements">
-                                <div className="element element1">e1</div>
-                                <div className="element element2">e2</div>
-                            </div>
-                            <ConnectElements
-                                selector=".elements"
-                                overlay={2}
-                                elements={[{ from: '.element1', to: '.element2' }]}
-                            />
-                        </div> */}
                     </div>
                 </div>
             </div>

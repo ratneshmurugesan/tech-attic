@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
   rootBg: {
     backgroundColor: "red",
     // color: "#ffeb3b",
+    fontFamily: "Rajdhani",
   },
   heading: {
     fontWeight: "bold",
@@ -106,7 +107,7 @@ export default function Information({
             <DialogContentText>
               <div className={classes.wrapper}>
                 <div className={classes.column}>
-                  <p>{details}</p>
+                  <Typography>{details}</Typography>
                 </div>
                 <div className={clsx(classes.column, classes.helper)}>
                   <Typography>

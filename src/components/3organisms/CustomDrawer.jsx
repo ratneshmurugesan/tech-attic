@@ -121,6 +121,14 @@ function CustomDrawer() {
             About-Me
           </Link>
         </Button>
+        <Button style={buttonYellowTheme}>
+          <Link
+            to="/whyme"
+            style={{ color: "#ffeb3b", textDecoration: "none" }}
+          >
+            Why-Me
+          </Link>
+        </Button>
         <Button style={buttonYellowTheme} onClick={toggleDrawer("left", true)}>
           Prototypes
         </Button>

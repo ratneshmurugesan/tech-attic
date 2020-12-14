@@ -16,6 +16,8 @@ import {
 } from "containers";
 
 import AboutMe from "components/4pages/AboutMe";
+import WhyMe from "components/4pages/WhyMe";
+
 import TeaserPage from "components/4pages/TeaserPage";
 
 export const routeConfigObj = {
@@ -29,6 +31,13 @@ export const routeConfigObj = {
     path: "/aboutme",
     displayName: "About ME!",
     container: AboutMe,
+    key: "aboutme",
+    isEnabled: true,
+  },
+  whyMe: {
+    path: "/whyme",
+    displayName: "Why ME!",
+    container: WhyMe,
     key: "aboutme",
     isEnabled: true,
   },

@@ -1,3 +1,5 @@
+import React from "react";
+
 const InfoConfig = {
   //Micro-apps
   timeSheet: {
@@ -31,7 +33,12 @@ const InfoConfig = {
     key: "bookStore",
     details: `This App lets categorize books with respect to reading status`,
     techs: `React and Redux`,
-    steps: `# Drag and drop an icon from tray to create a journey .`,
+    steps: (
+      <div>
+        <p># Choose a book from book Shelve or search one from Search page.</p>
+        <p># Add/Remove a book from/to a category </p>
+      </div>
+    ),
     codeLink:
       "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/book-store",
   },

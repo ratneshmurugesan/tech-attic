@@ -62,7 +62,13 @@ const BottleShip = (_) => {
         );
 
         scene.add(loadedData.scene); // Add the Mesh to the Scene
+        // if (
+        //   canvasMount &&
+        //   canvasMount.current &&
+        //   canvasMount.current.bottleShip
+        // ) {
         canvasMount.current.bottleShip = loadedData.scene.children[0];
+        // }
         animate();
 
         const render = (_) => {
@@ -76,8 +82,8 @@ const BottleShip = (_) => {
         controls.update();
 
         controls.current = { render };
-
         return (_) => {
+          console.log("renderer disposed");
           renderer.dispose();
         };
       } catch (err) {
@@ -86,7 +92,12 @@ const BottleShip = (_) => {
     })();
   }, []);
 
-  return <div key={"3d"} ref={canvasMount} />;
+  return (
+    <>
+      <div key={"3d"} ref={canvasMount} />
+      <h2><strong>Please wait for a while to load the 3D object</strong></h2>
+    </>
+  );
 };
 
 export default BottleShip;
