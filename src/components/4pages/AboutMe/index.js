@@ -70,14 +70,11 @@ const AboutMe = () => {
             <p style={{ fontSize: "32px" }}>Hi, I am Ratnesh Murugesan,</p>
             <p>
               <strong>
-                I really want to thank you for landing on this page to know
-                about me;
+I want to thank you for landing on this page to know about me.
               </strong>
             </p>
             <p>
-              I am professionally connected with the web development industry
-              and information technology for more than 10 years this includes my
-              academic experience as well;
+             I am professionally connected with the web development industry and information technology for more than 10 years this includes my academic experience as well.
             </p>
             <p>
               Since college days I got complete interest in the entire web
@@ -85,28 +82,26 @@ const AboutMe = () => {
               people :-)
             </p>
             <p>
-              I am passionate about web and game development especially 3D
-              modelling and texturing with PBR materials which has become my
-              primary hobby these days;
+              I am passionate about web and game development especially 3D modelling and texturing with PBR materials which have become my primary hobby these days.
             </p>
             <p>
-              <strong>WHY ME section</strong> does highlight about the technical
+              <strong>WHY ME section</strong> does highlight the technical
               challenges I faced/facing everyday.
             </p>
             <p>
               You can explore <strong>PROTOTYPES section</strong> and{" "}
               <strong>MICRO-APPS section</strong> - to see my personal ideas and
-              projects that I developed with an positive indent to improve my
+              projects that I developed with a positive indent to improve my
               technical skills.
             </p>
             <hr />
             <p>
               If you feel that I can be a good fit for the opportunity you have;
-              please give me a ring I am waiting to pick up the call at the
+              please give me a ring I am waiting to pick up the call on the
               other side;
             </p>
             <p>
-              Let us create a<strong> WIN WIN</strong> situation!
+              Let us create a<strong> WIN-WIN</strong> situation!
             </p>
             <hr />
           </div>

@@ -34,13 +34,13 @@ const WhyMe = () => {
               </p>
               <p>
                 - I try to avoid assigning style objects with styles directly to
-                an UI element or component, which consumes more{" "}
+                a UI element or component, which consumes more{" "}
                 <strong>memory</strong> in creating objects if component
                 re-renders. (except the apps I created 6 months back and before)
               </p>
               <p>
                 - I avoid descendant selector which is expensive as the browser
-                reads selectors from right to left if there are n number of elements, and keeps searching until it
+                reads selectors from the right to left if there are n number of elements, and keeps searching until it
                 finds the element, a performance hit; instead I
                 specify exact class-name of an element.
               </p>
@@ -51,9 +51,9 @@ const WhyMe = () => {
               </p>
               <p>
                 - I had to redeploy tech-attic three times in different
-                environments, first on github-pages where I had routing issues,
-                second on heroku where initial load was slow, third netlify; now
-                i am quite satisfied.
+                environments, first on Github-Pages where I had routing issues,
+                second on Heroku where the initial load was slow, third Netlify; now
+                I am quite satisfied.
               </p>
               <p>
                 - I do not prefer prop-drilling or render-props; instead I
