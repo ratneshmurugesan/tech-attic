@@ -246,7 +246,7 @@ const PriorityQueue = () => {
                 <Button onClick={setTaskAndPriority}>Add item with priority</Button>
             </div>
             <div className="button">
-                <Button onClick={getPriorityItem}>Show item with highest priority</Button>
+                <Button onClick={getPriorityItem}>Remove item that is done</Button>
             </div>
         </React.Fragment>
 

@@ -12,6 +12,12 @@ const useStyles = makeStyles((theme) => ({
     shapeOutside: "circle(39%)",
     float: "left",
     shapeMargin: "25px",
+    [theme.breakpoints.down("sm")]: {
+      float: "unset",
+      borderRadius: "unset",
+      shapeOutside: "unset",
+      shapeMargin: "unset",
+    },
   },
   large: {
     width: "200px",
@@ -21,6 +27,11 @@ const useStyles = makeStyles((theme) => ({
     display: "inline-block",
     padding: "20px",
     maxWidth: "850px",
+    [theme.breakpoints.down("sm")]: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+    },
   },
 }));
 
@@ -74,7 +85,7 @@ const AboutMe = () => {
               people :-)
             </p>
             <p>
-              I am passoniate about web and game developement especially 3D
+              I am passionate about web and game development especially 3D
               modelling and texturing with PBR materials which has become my
               primary hobby these days;
             </p>
@@ -90,9 +101,9 @@ const AboutMe = () => {
             </p>
             <hr />
             <p>
-              If you feel that I can be a good fit for the
-              opprotunity you have; please give me a ring I am waiting to pick
-              up the call at the other side;
+              If you feel that I can be a good fit for the opportunity you have;
+              please give me a ring I am waiting to pick up the call at the
+              other side;
             </p>
             <p>
               Let us create a<strong> WIN WIN</strong> situation!
@@ -101,6 +112,37 @@ const AboutMe = () => {
           </div>
         </Paper>
       </Grid>
+      {/* <Grid item xs={11}>
+        <Paper elevation={4} className="paper">
+          <div>
+            <p>
+              <strong><h1 className="page__title">SKILLS</h1></strong>
+            </p>
+            <p><strong>Languages</strong> JavaScript (ES6+), HTML5, CSS3 (SASS/LESS).</p>
+            <p><strong>Environment</strong> NodeJs.</p>
+            <p>
+            <strong>Frameworks and Libraries</strong> ReactJs (Hooks), ExpressJs, React-query, Apache
+              superset, ECharts, ThreeJs, and Material UI.
+            </p>
+            <p><strong>Testing tools</strong> Jest, Enzyme and React-Testing-Library.</p>
+            <p><strong>Web APIs</strong> Storage, DOM, Drag and Drop.</p>
+            <p><strong>Design Patterns</strong> Microservices, DRY, and KISS.</p>
+            <p>
+            <strong>Performance monitors(DevTools)</strong> Debugging, Networking, and
+              Animation(style, layout, paint and composite).
+            </p>
+            <p><strong>Miscellaneous</strong> BEM, JWT, Nginx, REST APIs, and JSON.</p>
+            <p>
+            <strong>Tool chains</strong> Git, Yarn/Webpack, Npm scripts, VS Code, JIRA,
+              Postman, Zeplin, OhMyZsh, and Docker.
+            </p>
+            <p>Familiar with Data Structures and Algorithms.</p>
+            <p>
+              Good exposure to Agile-Scrum processes, concepts and workflows.
+            </p>
+          </div>
+        </Paper>
+      </Grid> */}
       <Grid item xs={gridSize}>
         <Paper elevation={4} className="paper">
           <a
@@ -108,7 +150,7 @@ const AboutMe = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            My Linkedin Profile
+            My LinkedIn Profile
           </a>
         </Paper>
       </Grid>

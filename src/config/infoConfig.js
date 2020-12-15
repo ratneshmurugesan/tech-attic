@@ -45,8 +45,8 @@ const InfoConfig = {
   userJourney: {
     alive: true,
     key: "userJourney",
-    details: `This App lets you create a clear roadmap structure to show things involved in the journey`,
-    techs: `HTML Drag & Drop, React-spring(transistions)`,
+    details: `This App lets you create a clear road-map structure to show things involved in the journey`,
+    techs: `HTML Drag & Drop, React-spring(transitions)`,
     steps: `# Drag and drop an icon from tray to create a journey .`,
     codeLink:
       "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/user-journey",
@@ -54,8 +54,8 @@ const InfoConfig = {
   priorityQueue: {
     alive: true,
     key: "priorityQueue",
-    details: `This App shows how to develop a simple priortized-todo task list with the support of an efficient DS,
-        which pushes the high-priortized task to top of surface.`,
+    details: `This App shows how to develop a simple priority-todo task list with the support of an efficient DS,
+        which pushes the high-priority task to top of surface.`,
     techs: `DataStructures: Min/Max Binary Heap + Priority Queue, React-css-transition effects`,
     steps: `# Choose a todo-task and assign a value to it.`,
     codeLink:
@@ -73,7 +73,7 @@ const InfoConfig = {
   dashboard: {
     alive: true,
     key: "dashboard",
-    details: `A Data visualisation app - shows different data in differnt components but consolidated onto a single page;
+    details: `A Data visualization app - shows different data in different components but consolidated onto a single page;
      with filters as DIMENSIONS and api result as METRICS shown on different components`,
     techs: `React-hooks, Node/Express, Date-FNS `,
     steps: `# Choose a value from the filters (select / dropdown)`,

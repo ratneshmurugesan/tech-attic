@@ -85,7 +85,7 @@ export const routeConfigObj = {
     key: "userJourney",
     rightPanel: true,
     category: "micro-apps",
-    isEnabled: window.innerWidth > 768 ? true : false,
+    isEnabled: true,
   },
   repoBrowser: {
     path: "/repobrowser",

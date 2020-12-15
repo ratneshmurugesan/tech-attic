@@ -23,26 +23,26 @@ const WhyMe = () => {
               <p>
                 <strong>
                   Things I follow while coding and technical challenges
-                  faced/facing all these days; and how I overcome.
+                  faced/facing these days; and how I overcome.
                 </strong>
               </p>
               <p>
-                - I Avoid, nested loops or nested iterators(ForEach, Map,
-                Filter, etc..) which does have an impact on performance related
-                to <strong>runtime O(n2)</strong>, instead I chain/curry
-                functions one by one which will take O(n)
+                - I avoid nested loops or nested iterators(ForEach, Map,
+                Filter, etc..) where these functions have an impact on performance 
+                and runtime takes <strong>O(n2)</strong>, instead I chain/curry
+                functions one below other improving runtime to <strong>O(n)</strong>
               </p>
               <p>
                 - I try to avoid assigning style objects with styles directly to
                 an UI element or component, which consumes more{" "}
                 <strong>memory</strong> in creating objects if component
-                re-renders. (except some apps which I created 6 months back and before)
+                re-renders. (except the apps I created 6 months back and before)
               </p>
               <p>
                 - I avoid descendant selector which is expensive as the browser
-                reads selectors from right to left, and keeps searching until it
-                finds the element, once again a performance hit; instead I
-                specify exact classname of an element.
+                reads selectors from right to left if there are n number of elements, and keeps searching until it
+                finds the element, a performance hit; instead I
+                specify exact class-name of an element.
               </p>
               <p>
                 - I avoid properties like width, height, top, left <strong>(“geometric
@@ -58,7 +58,7 @@ const WhyMe = () => {
               <p>
                 - I do not prefer prop-drilling or render-props; instead I
                 prefer CONTEXT API + useMemo as a design pattern for components 
-                <strong> communication(bi-directional)</strong> to avoid unnecessary rerendering
+                <strong> communication(bi-directional)</strong> to avoid unnecessary re-rendering
                 of children/siblings.
               </p>
             </div>
@@ -66,13 +66,13 @@ const WhyMe = () => {
         </Grid>
         <Grid item xs={11}>
         <Paper elevation={4} className="paper">
-          <p> <strong>Node/Express App for all the APIs used for this Frontend App (tech-attic)</strong></p>
+          <p> <strong>Node+Express App for all the APIs used for this Frontend App (tech-attic)</strong></p>
           <a
             href="https://github.com/ratneshmurugesan/tech-attic-node"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Node/Express Backend App (tech-attic-node)
+            Node+Express Backend App (tech-attic-node)
           </a>
         </Paper>
       </Grid>
@@ -83,7 +83,7 @@ const WhyMe = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              My Linkedin Profile
+              My LinkedIn Profile
             </a>
           </Paper>
         </Grid>

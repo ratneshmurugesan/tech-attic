@@ -71,7 +71,7 @@ const TeaserPage = () => {
       <Card style={{ minWidth: 290, minHeight: 200, backgroundColor: '#424242' }}>
         <CardContent>
           <h2 className='title'>RATNESH MURUGESAN</h2>
-          <p className='title' style={{ color: '#fff' }}>Tech Attic</p>
+          <p className='title' style={{ fontSize: "20px", color: '#fff' }}>Tech Attic</p>
           <div className={classes.root}>
             <Fade in={loading}
               style={{ transitionDelay: loading ? '1ms' : '0ms' }}
