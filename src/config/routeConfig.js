@@ -8,6 +8,9 @@ import {
   RepoBrowserContainer,
   ProductShowcaseContainer,
   DashboardContainer,
+  CricketTeamIndiaContainer,
+  MockStackOverflowContainer,
+
   // ReactQueryContainer,
   CSSLayoutsContainer,
   CSSShapesContainer,
@@ -38,10 +41,19 @@ export const routeConfigObj = {
     path: "/whyme",
     displayName: "Why ME!",
     container: WhyMe,
-    key: "aboutme",
+    key: "whyme",
     isEnabled: true,
   },
   //Micro-apps
+  "mock-stackoverflow": {
+    path: "/mock-stackoverflow",
+    displayName: "Mock StackOverflow",
+    container: MockStackOverflowContainer,
+    key: "mock-stackoverflow",
+    rightPanel: true,
+    category: "micro-apps",
+    isEnabled: true,
+  },
   productShowcase: {
     path: "/product-showcase",
     displayName: "Product Showcase App",
@@ -104,6 +116,15 @@ export const routeConfigObj = {
     rightPanel: true,
     category: "micro-apps",
     isEnabled: false,
+  },
+  cricketTeamIndia: {
+    path: "/cricketteamindia",
+    displayName: "CricketTeamIndia App",
+    container: CricketTeamIndiaContainer,
+    key: "cricketTeamIndia",
+    rightPanel: true,
+    category: "micro-apps",
+    isEnabled: true,
   },
   //Prototypes
   reverseLinkedList: {
