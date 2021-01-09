@@ -1,4 +1,18 @@
 .title{
     cursor: pointer;
-    color: black
+    color: black;
+}
+
+.white-text{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.question-body{
+    background-color: seagreen;
+    margin: 5px;
+    padding: 10px;
+}
+.question-body+a{
+    background-color: black;
 }
