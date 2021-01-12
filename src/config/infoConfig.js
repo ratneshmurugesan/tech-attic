@@ -80,6 +80,15 @@ const InfoConfig = {
     codeLink:
       "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/dashboard-app",
   },
+  "mock-stackoverflow": {
+    alive: true,
+    key: "mock-stackoverflow",
+    details: `A micro-app clone of Stackoverflow  with lazy-load feature loads questions on-the-fly when users scroll-down`,
+    techs: `React-hooks, Infinite-scroll lazy loader, Stackoverflow API and TypeScript`,
+    steps: `# Scroll-down to lazy load the page `,
+    codeLink:
+      "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/mock-stackoverflow",
+  },
   //DSA
   "Reverse a Singly Linked List": {},
   //CSS

@@ -8,9 +8,9 @@ import { TPopUpProps } from "./interface";
 import "./index.scss";
 
 const PopUp: React.FC<TPopUpProps> = ({ item, index, openStateObj, handleClose }) => {
-    const itemTitle = item.title;
-    const itemBody = item.body;
-    const itemLink = item.link;
+    const itemTitle: string = item.title;
+    const itemBody: object = item.body;
+    const itemLink: string = item.link;
 
     return (
         <tr key={index}>

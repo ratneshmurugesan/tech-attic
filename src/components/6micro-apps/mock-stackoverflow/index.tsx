@@ -12,7 +12,7 @@ import { TErrorObj, TOpenStateObj, TQuestionItem } from "./interface";
 
 import "./index.scss";
 
-const MockStackOverflow = () => {
+const MockStackOverflow = (): JSX.Element => {
   const [apiDataItems, setApiData] = useState<TQuestionItem[]>([]);
   const [errorObj, setErrorObj] = useState<TErrorObj>({
     error_id: null,
@@ -50,9 +50,9 @@ const MockStackOverflow = () => {
           error_status: true,
         });
       } else {
-        setApiData((apiDataItems) => [...apiDataItems, ...apiData.items]);
+        setApiData((apiDataItems: TQuestionItem[]) => [...apiDataItems, ...apiData.items]);
       }
-      setPage((pageState) => pageState + 1);
+      setPage((pageState: number) => pageState + 1);
     } catch (err) {
       setErrorObj({
         error_id: err.error_id,
