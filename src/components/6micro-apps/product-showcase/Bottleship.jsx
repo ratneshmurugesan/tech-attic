@@ -95,7 +95,7 @@ const BottleShip = (_) => {
   return (
     <>
       <div key={"3d"} ref={canvasMount} />
-      <h2><strong>3D objects takes a little more time to load... </strong></h2>
+      <h2><strong>3D objects take a little more time to load... </strong></h2>
     </>
   );
 };
