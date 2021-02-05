@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -38,45 +38,60 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const total = 10;
-
-const appliedLeaveObj = {
-  sick: { applied: 0, total },
-  maternity: { applied: 0, total },
-  compensatory: { applied: 0, total },
-  casual: { applied: 0, total },
-  paternity: { applied: 0, total },
-  publicHoliday: { applied: 10, total },
-};
-
 const AppliedList = ({ storeState }) => {
   const classes = useStyles();
 
-  const updatedLeaveObj = storeState.data.reduce((memo, obj) => {
-    memo[obj.leaveType.toLowerCase()].applied += 1;
-    return memo;
-  }, appliedLeaveObj);
+  const [appliedLeaveObj, setAppliedLeaveObj] = useState({});
+
+  useEffect(
+    (_) => {
+      console.log("useEffect", storeState);
+      const defaultAppliedLeaveObj = {
+        Sick: 0,
+        Maternity: 7,
+        Compensatory: 0,
+        Casual: 0,
+        paternity: 0,
+        PublicHoliday: 10,
+      };
+      let updatedLeaveObj = defaultAppliedLeaveObj;
+      storeState.data.forEach((obj) => {
+        const leaveTypeInLower = obj.leaveType;
+        updatedLeaveObj = {
+          ...updatedLeaveObj,
+          ...{ [leaveTypeInLower]: updatedLeaveObj[leaveTypeInLower] + 1 },
+        };
+      });
+
+      setAppliedLeaveObj(updatedLeaveObj);
+    },
+    [storeState, setAppliedLeaveObj]
+  );
+
+  console.log({ appliedLeaveObj });
 
   return (
     <div className={classes.appliedList}>
-      {Object.keys(updatedLeaveObj).map((key, i) => {
-        const appliedValue = updatedLeaveObj[key].applied;
-        return (
-          <span
-            key={i}
-            className={
-              appliedValue < 10
-                ? classes.appliedContainer
-                : classes.appliedContainerMax
-            }
-          >
-            <span className={classes.appliedLabel}>{key}</span>
-            <div
-              className={classes.appliedValue}
-            >{`${appliedValue} of ${total}`}</div>
-          </span>
-        );
-      })}
+      {appliedLeaveObj
+        ? Object.keys(appliedLeaveObj).map((key, i) => {
+            const appliedValue = appliedLeaveObj[key];
+            return (
+              <span
+                key={i}
+                className={
+                  appliedValue < 10
+                    ? classes.appliedContainer
+                    : classes.appliedContainerMax
+                }
+              >
+                <span className={classes.appliedLabel}>{key}</span>
+                <div
+                  className={classes.appliedValue}
+                >{`${appliedValue} of 10`}</div>
+              </span>
+            );
+          })
+        : null}
     </div>
   );
 };
