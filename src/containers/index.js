@@ -10,7 +10,7 @@ import ProductShowcaseContainer from "./ProductShowcaseContainer";
 import DashboardContainer from "./DashboardContainer";
 import CricketTeamIndiaContainer from "./CricketTeamIndiaContainer";
 import MockStackOverflowContainer from "./MockStackOverflowContainer";
-
+import ApplyLeaveContainer from "./ApplyLeaveContainer";
 
 import CSSLayoutsContainer from "./CSSLayoutsContainer";
 import CSSShapesContainer from "./CSSShapesContainer";
@@ -30,6 +30,7 @@ export {
   DashboardContainer,
   CricketTeamIndiaContainer,
   MockStackOverflowContainer,
+  ApplyLeaveContainer,
 
   CSSLayoutsContainer,
   CSSShapesContainer,

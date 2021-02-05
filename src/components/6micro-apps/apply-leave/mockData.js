@@ -1,0 +1,83 @@
+import { format } from "date-fns";
+
+const DATE_FORMAT = "dd/MM/yyyy";
+const CARD_SECTION_DATE_FORMAT = "MMMM yyyy";
+
+const mockData = [
+  {
+    id: 0,
+    from_date: format(new Date(2019, 4, 1, 0), DATE_FORMAT),
+    to_date: format(new Date(2019, 4, 1, 0), DATE_FORMAT),
+    unformatted_from_date: new Date(2019, 4, 1, 0),
+    unformatted_to_date: new Date(2019, 4, 1, 0),
+    sectionDate: format(new Date(2019, 4, 1, 0), CARD_SECTION_DATE_FORMAT),
+    halfDay: true,
+    description: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit.",
+    leaveType: "Casual",
+    status: "Rejected",
+  },
+  {
+    id: 1,
+    from_date: format(new Date(2019, 7, 1, 0), DATE_FORMAT),
+    to_date: format(new Date(2019, 7, 3, 0), DATE_FORMAT),
+    unformatted_from_date: new Date(2019, 7, 1, 0),
+    unformatted_to_date: new Date(2019, 7, 3, 0),
+    sectionDate: format(new Date(2019, 7, 3, 0), CARD_SECTION_DATE_FORMAT),
+    halfDay: false,
+    description: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit.",
+    leaveType: "Maternity",
+    status: "Approved",
+    comment: ["Comment on wrong description"],
+  },
+  {
+    id: 2,
+    from_date: format(new Date(2020, 11, 21, 0), DATE_FORMAT),
+    to_date: format(new Date(2020, 11, 21, 0), DATE_FORMAT),
+    unformatted_from_date: new Date(2020, 11, 21, 0),
+    unformatted_to_date: new Date(2020, 11, 21, 0),
+    sectionDate: format(new Date(2020, 11, 21, 0), CARD_SECTION_DATE_FORMAT),
+    halfDay: false,
+    description: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit.",
+    leaveType: "Compensatory",
+    status: "Pending",
+  },
+  {
+    id: 3,
+    from_date: format(new Date(2021, 1, 1, 0), DATE_FORMAT),
+    to_date: format(new Date(2021, 1, 1, 0), DATE_FORMAT),
+    unformatted_from_date: new Date(2021, 1, 1, 0),
+    unformatted_to_date: new Date(2021, 1, 1, 0),
+    sectionDate: format(new Date(2021, 1, 1, 0), CARD_SECTION_DATE_FORMAT),
+    halfDay: false,
+    description: "Please do not reject this leave",
+    leaveType: "Compensatory",
+    status: "Rejected",
+    comment: ["Comment 1", "Comment 2"],
+  },
+  {
+    id: 4,
+    from_date: format(new Date(2021, 1, 2, 0), DATE_FORMAT),
+    to_date: format(new Date(2021, 1, 2, 0), DATE_FORMAT),
+    unformatted_from_date: new Date(2021, 1, 2, 0),
+    unformatted_to_date: new Date(2021, 1, 2, 0),
+    sectionDate: format(new Date(2021, 1, 2, 0), CARD_SECTION_DATE_FORMAT),
+    halfDay: true,
+    description: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit.",
+    leaveType: "Maternity",
+    status: "Pending",
+  },
+  {
+    id: 5,
+    from_date: format(new Date(2021, 1, 4, 0), DATE_FORMAT),
+    to_date: format(new Date(2021, 1, 4, 0), DATE_FORMAT),
+    unformatted_from_date: new Date(2021, 1, 4, 0),
+    unformatted_to_date: new Date(2021, 1, 4, 0),
+    sectionDate: format(new Date(2021, 1, 4, 0), CARD_SECTION_DATE_FORMAT),
+    halfDay: false,
+    description: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit.",
+    leaveType: "Maternity",
+    status: "Pending",
+  },
+];
+
+export default mockData;

@@ -10,7 +10,7 @@ import {
   DashboardContainer,
   CricketTeamIndiaContainer,
   MockStackOverflowContainer,
-
+  ApplyLeaveContainer,
   // ReactQueryContainer,
   CSSLayoutsContainer,
   CSSShapesContainer,
@@ -45,6 +45,15 @@ export const routeConfigObj = {
     isEnabled: true,
   },
   //Micro-apps
+  "applyLeave":{
+    path: "/apply-leave",
+    displayName: "Apply Leave",
+    container: ApplyLeaveContainer,
+    key: "applyLeave",
+    rightPanel: true,
+    category: "micro-apps",
+    isEnabled: true,
+  },
   "mock-stackoverflow": {
     path: "/mock-stackoverflow",
     displayName: "Mock StackOverflow",

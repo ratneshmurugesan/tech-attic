@@ -43,7 +43,7 @@ const PrivateRouteComponent = ({
         render={(_) => {
           return (
             <>
-              <CustomGrid />
+              {appKey !== "applyLeave" ? <CustomGrid />  : null}
               <InfoComponent
                 appKey={appKey}
                 displayName={displayName}
