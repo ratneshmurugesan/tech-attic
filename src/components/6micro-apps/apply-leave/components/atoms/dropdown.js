@@ -28,9 +28,12 @@ export default function CustomDropdown({ handleChange, leaveType }) {
         onChange={handleChange}
       >
         <MenuItem value="">Choose</MenuItem>
-        <MenuItem value={"Casual"}>Casual</MenuItem>
-        <MenuItem value={"Maternity"}>Maternity</MenuItem>
-        <MenuItem value={"Compensatory"}>Compensatory</MenuItem>
+        <MenuItem value={"casual"}>Casual</MenuItem>
+        <MenuItem value={"maternity"}>Maternity</MenuItem>
+        <MenuItem value={"compensatory"}>Compensatory</MenuItem>
+        <MenuItem value={"sick"}>Sick</MenuItem>
+        <MenuItem value={"publicHoliday"}>Public Holiday</MenuItem>
+        <MenuItem value={"paternity"}>Paternity</MenuItem>
       </Select>
     </FormControl>
   );

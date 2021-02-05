@@ -83,7 +83,7 @@ const SideNav = ({
           isPersistentDrawerOpen && classes.sideNavMainShift
         )}
       >
-        <SideNavList />
+        <SideNavList storeState={storeState} />
       </div>
     </>
   );

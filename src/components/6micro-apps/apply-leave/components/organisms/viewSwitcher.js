@@ -50,7 +50,7 @@ const ViewSwitcher = ({ storeState }) => {
   return (
     <div className={classes.viewSwitcher}>
       {sectionKeys.map((sectionName, i) => {
-        console.log({ sectionName, i });
+        // console.log({ sectionName, i });
         return (
           <span
             key={`${whichView}-${sectionName}${i}`}

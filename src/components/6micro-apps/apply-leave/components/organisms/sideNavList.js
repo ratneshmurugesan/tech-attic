@@ -3,16 +3,20 @@ import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
+import AppliedList from "./appliedList";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
     minWidth: 250,
     backgroundColor: theme.palette.background.paper,
+    justifyContent: "space-between",
+    display: "flex",
+    flexDirection: "column",
   },
 }));
 
-const SideNavList = () => {
+const SideNavList = ({ storeState }) => {
   const classes = useStyles();
 
   return (
@@ -25,6 +29,7 @@ const SideNavList = () => {
           <ListItemText primary="New Comments" />
         </ListItem>
       </List>
+      <AppliedList storeState={storeState} />
     </div>
   );
 };
