@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     display: "flex",
     flexDirection: "column",
+    boxShadow: " 10px 0 15px -2px rgba(0, 0, 0, 0.06)",
   },
 }));
 

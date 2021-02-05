@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-
 const useStyles = makeStyles((theme) => ({
   formControl: {
     padding: theme.spacing(1),
@@ -36,6 +35,13 @@ const useStyles = makeStyles((theme) => ({
     borderLeft: "none",
     borderRight: "none",
   },
+  appliedTitle: {
+    textAlign: "left",
+    padding: 15,
+    fontWeight: "bold",
+    margin: 0,
+    marginLeft: 15,
+  },
 }));
 
 const AppliedList = ({ storeState }) => {
@@ -45,10 +51,9 @@ const AppliedList = ({ storeState }) => {
 
   useEffect(
     (_) => {
-      console.log("useEffect", storeState);
       const defaultAppliedLeaveObj = {
         Sick: 0,
-        Maternity: 7,
+        Maternity: 0,
         Compensatory: 0,
         Casual: 0,
         paternity: 0,
@@ -68,10 +73,9 @@ const AppliedList = ({ storeState }) => {
     [storeState, setAppliedLeaveObj]
   );
 
-  console.log({ appliedLeaveObj });
-
   return (
     <div className={classes.appliedList}>
+      <h2 className={classes.appliedTitle}>{"Applied"}</h2>
       {appliedLeaveObj
         ? Object.keys(appliedLeaveObj).map((key, i) => {
             const appliedValue = appliedLeaveObj[key];

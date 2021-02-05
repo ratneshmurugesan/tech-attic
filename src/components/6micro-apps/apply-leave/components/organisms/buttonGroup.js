@@ -35,7 +35,6 @@ export default function MainButtonGroup({ storeState, dispatch }) {
     });
   };
 
-  console.log({ storeState });
   const { viewCard, sortAsc } = storeState;
 
   return (
