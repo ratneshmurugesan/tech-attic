@@ -1,69 +1,152 @@
-.parent1 {
-    height: 300px;
-    background-color: green;
-    display: grid;
-    place-items: center;
-    
-    & .input_text {
-        font-size: 24px;
-        color: ivory;
-        background-color: lighten($color: orange, $amount: 0);
-    }
-}
+// .parent1 {
+//     height: 300px;
+//     background-color: green;
+//     display: grid;
+//     place-items: center;
 
-.pancakes{
-    background-color: blueviolet;
-}
-.parent2{
-    height: 300px;
+//     & .input_text {
+//         font-size: 24px;
+//         color: ivory;
+//         background-color: lighten($color: orange, $amount: 0);
+//     }
+// }
 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: blueviolet;
+// .pancakes{
+//     background-color: blueviolet;
+// }
+// .parent2{
+//     height: 300px;
 
-    & .box--stretch {
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     background-color: blueviolet;
+
+//     & .box--stretch {
+//         display: grid;
+//         place-items: center;
+//         flex: 1 1 150px;    // streching
+//         margin: 5px;
+//         border-radius: 5%;
+//         background-color: palegreen;
+//     }
+//     & .box {
+//         display: grid;
+//         place-items: center;
+//         flex: 0 1 150px; // no streching
+//         margin: 5px;
+//         border-radius: 5%;
+//         background-color: paleturquoise;
+//     }
+// }
+
+// .parent3{
+//     height: 300px;
+//     display: grid;
+//     place-items: center;
+
+//     & .card {
+//         background-color: black;
+//         width: clamp(23ch, 50%, 46ch);
+//         display: flex;
+//         flex-direction: column;
+//         padding: 1rem;
+//         justify-content: space-between;
+
+//     }
+
+//     .title{
+//         color: white
+//     }
+
+//     .image{
+//         background-color: cornflowerblue;
+//     }
+
+//     .desc {
+//         background-color: crimson;
+//     }
+// }
+
+// GRID - TEMPLATE-COLUMNS and GAPS
+// .wrapper-level-1 {
+//     display: grid;
+//     grid-template-columns: 70% 30%;
+//     // grid-column-gap: 1em;
+//     // grid-row-gap: 1em;
+//     grid-gap: 1em;
+//   & > div {
+//     background-color: blanchedalmond;
+//     padding: 1em;
+//   }
+//   & > div:nth-child(odd) {
+//     background-color: #ddd;
+//   }
+// }
+
+// GRID - GRID ITEM HEIGHT and NESTED ITEMS
+// .wrapper-level-2 {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 1ch;
+//     grid-auto-rows: minmax(100px, auto); //height for a grid item
+
+//     & .nested {
+//         display: grid;
+//         grid-template-columns: repeat(3, 1fr);
+//         grid-auto-rows: 70px;  //height for a grid item
+//         grid-gap: 1em;
+//        & > div {
+//             border: 1px solid #333;
+//             padding: 1em;
+//         }
+//     }
+
+//   & > div {
+//     background-color: blanchedalmond;
+//     padding: 1em;
+//   }
+//   & > div:nth-child(odd) {
+//     background-color: #ddd;
+//   }
+// }
+
+/*
+GRID  - GRID-COLUMN + GRID-ROW
+POWER of 2D
+*/
+.wrapper-level-4 {
         display: grid;
-        place-items: center;
-        flex: 1 1 150px;    // streching
-        margin: 5px;
-        border-radius: 5%;
-        background-color: palegreen;
-    }
-    & .box {
-        display: grid;
-        place-items: center;
-        flex: 0 1 150px; // no streching
-        margin: 5px;
-        border-radius: 5%;
-        background-color: paleturquoise;
-    }
-}
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows: 100px;
+        grid-gap: 1em;
+        justify-items: stretch;
+        align-items: stretch;
 
-.parent3{
-    height: 300px;
-    display: grid;
-    place-items: center;
+        .box1 {
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+        .box2 {
+            grid-row: 2/4;
+            justify-self: center;
+            align-self:center;
+        }
+        .box3 {
+        }
+        .box4 {
+            //overlapping box
+                grid-row: 2;
+                grid-column: 1;   
+                border: 2px solid #333;
+                outline: 2px solid red;
+        }
     
-    & .card {
-        background-color: black;
-        width: clamp(23ch, 50%, 46ch);
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        justify-content: space-between;
-
+      & > div {
+        background-color: blanchedalmond;
+        padding: 1em;
+      }
+      & > div:nth-child(odd) {
+        background-color: #ddd;
+      }
     }
-    
-    .title{
-        color: white
-    }
-
-    .image{
-        background-color: cornflowerblue;
-    }
-
-    .desc {
-        background-color: crimson;
-    }
-}
