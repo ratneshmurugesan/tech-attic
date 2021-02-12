@@ -205,7 +205,6 @@ GRID  - GRID-AREA
       }
     }
   }
-
   .top-container {
     display: grid;
     grid-gap: 20px;
@@ -214,7 +213,6 @@ GRID  - GRID-AREA
       "showcase showcase top-box-b";
     grid-auto-rows: 200px;
   }
-
   .showcase {
     background-image: url(https://source.unsplash.com/200x200/?nature);
     background-size: cover;
@@ -236,7 +234,6 @@ GRID  - GRID-AREA
   .top-box-b {
     grid-area: top-box-b;
   }
-
   .boxes {
     display: grid;
     grid-gap: 20px;
@@ -248,7 +245,6 @@ GRID  - GRID-AREA
       box-shadow: var(--shadow);
     }
   }
-
   .info {
     background: var(--primary);
     box-shadow: var(--shadow);
@@ -257,7 +253,6 @@ GRID  - GRID-AREA
     grid-template-columns: repeat(2, 1fr);
     padding: 1.5rem 2rem;
   }
-
   .portfolio {
     display: grid;
     grid-gap: 20px;
@@ -268,7 +263,6 @@ GRID  - GRID-AREA
       box-shadow: var(--shadow);
     }
   }
-
   footer {
     margin-top: 2rem;
     background-color: var(--dark);
