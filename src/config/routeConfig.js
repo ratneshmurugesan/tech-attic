@@ -133,7 +133,7 @@ export const routeConfigObj = {
     key: "cricketTeamIndia",
     rightPanel: true,
     category: "micro-apps",
-    isEnabled: true,
+    isEnabled: false,
   },
   //Prototypes
   reverseLinkedList: {
