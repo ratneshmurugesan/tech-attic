@@ -47,7 +47,7 @@ export const routeConfigObj = {
   //Micro-apps
   "applyLeave":{
     path: "/apply-leave",
-    displayName: "Apply Leave",
+    displayName: "Apply Leave App",
     container: ApplyLeaveContainer,
     key: "applyLeave",
     rightPanel: true,
@@ -56,7 +56,7 @@ export const routeConfigObj = {
   },
   "mock-stackoverflow": {
     path: "/mock-stackoverflow",
-    displayName: "Mock StackOverflow",
+    displayName: "Mock StackOverflow App",
     container: MockStackOverflowContainer,
     key: "mock-stackoverflow",
     rightPanel: true,

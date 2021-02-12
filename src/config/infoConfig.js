@@ -6,7 +6,7 @@ const InfoConfig = {
     alive: false,
     key: "timeSheet",
     details: `This App lets you customize timesheets`,
-    techs: `React Hooks, Material UI`,
+    techs: `React-hooks, Material UI`,
     steps: `# Add Row will let you add a new timesheet and so on`,
     // codeLink: 'https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/user-journey'
   },
@@ -14,7 +14,7 @@ const InfoConfig = {
     alive: true,
     key: "pixelArt",
     details: `A Real time app lets you draw things pixel by pixel`,
-    techs: `React Hooks, GraphQL, Hasura, and Web Socket`,
+    techs: `React-hooks, GraphQL, Hasura, and Web Socket`,
     steps: `# Choose a color and utilize the boxes to fill in colors`,
     codeLink:
       "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/pixel-art",
@@ -23,7 +23,7 @@ const InfoConfig = {
     alive: true,
     key: "repoBrowser",
     details: `This App lets you browse github repos`,
-    techs: `React and Redux`,
+    techs: `React & Redux`,
     steps: `# Choose a user from dropdown.`,
     codeLink:
       "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/repo-browser",
@@ -32,7 +32,7 @@ const InfoConfig = {
     alive: true,
     key: "bookStore",
     details: `This App lets categorize books with respect to reading status`,
-    techs: `React and Redux`,
+    techs: `React & Redux`,
     steps: (
       <div>
         <p># Choose a book from book Shelve or search one from Search page.</p>
@@ -88,6 +88,15 @@ const InfoConfig = {
     steps: `# Scroll-down to lazy load the page `,
     codeLink:
       "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/mock-stackoverflow",
+  },
+  "applyLeave": {
+    alive: true,
+    key: "applyLeave",
+    details: `A Leave-apply app with sortBy date and multiple views options`,
+    techs: `React-hooks & Redux`,
+    steps: `# Change view, sort by date, apply new leave plan`,
+    codeLink:
+      "https://github.com/ratneshmurugesan/tech-attic/tree/master/src/components/6micro-apps/apply-leave",
   },
   //DSA
   "Reverse a Singly Linked List": {},

@@ -4,7 +4,11 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 import ScreenResizerContext from "context/ScreenResizerContext";
+
+import { routeConfigObj as appObject } from "config/routeConfig";
+import infoObject from "config/infoConfig";
 
 const useStyles = makeStyles((theme) => ({
   image: {
@@ -33,6 +37,24 @@ const useStyles = makeStyles((theme) => ({
       alignItems: "center",
     },
   },
+  appTechSummary: {
+    color: "whitesmoke",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  appTechSummaryTable: {
+    display: "grid",
+    border: "1px solid rgba(255,255,255,0.2)",
+    gridTemplateColumns: "1fr 2fr",
+    width: 500,
+    "& a[href]": {
+      color: "whitesmoke",
+    },
+    [theme.breakpoints.down(700)]: {
+      width: "100%",
+    },
+  },
 }));
 
 function ImageAvatars() {
@@ -45,6 +67,17 @@ function ImageAvatars() {
         src="/assets/rm.jpg"
         className={classes.large}
       />
+    </div>
+  );
+}
+
+function AppTechStackTable({ appName, appUrlPath, appTechStack }) {
+  const classes = useStyles();
+
+  return (
+    <div key={appName} className={classes.appTechSummaryTable}>
+      <Link to={appUrlPath}>{appName}</Link>
+      <span>{appTechStack}</span>
     </div>
   );
 }
@@ -70,11 +103,13 @@ const AboutMe = () => {
             <p style={{ fontSize: "32px" }}>Hi, I am Ratnesh Murugesan,</p>
             <p>
               <strong>
-I want to thank you for landing on this page to know about me.
+                I want to thank you for landing on this page to know about me.
               </strong>
             </p>
             <p>
-             I am professionally connected with the web development industry and information technology for more than 10 years this includes my academic experience as well.
+              I am professionally connected with the web development industry
+              and information technology for more than 10 years this includes my
+              academic experience as well.
             </p>
             <p>
               Since college days I got complete interest in the entire web
@@ -82,7 +117,9 @@ I want to thank you for landing on this page to know about me.
               people :-)
             </p>
             <p>
-              I am passionate about web and game development especially 3D modelling and texturing with PBR materials which have become my primary hobby these days.
+              I am passionate about web and game development especially 3D
+              modelling and texturing with PBR materials which have become my
+              primary hobby these days.
             </p>
             <p>
               <strong>WHY ME section</strong> does highlight the technical
@@ -138,6 +175,32 @@ I want to thank you for landing on this page to know about me.
           </div>
         </Paper>
       </Grid> */}
+      <Grid item xs={11}>
+        <div className={classes.appTechSummary}>
+          <Paper elevation={4} className="paper">
+            <div className={classes.appTechSummaryTable}>
+              <strong>MICRO-APPS</strong>
+              <strong>USED TECH STACK</strong>
+            </div>
+            {Object.keys(appObject).map((key) => {
+              const appName = appObject[key].displayName;
+              const appUrlPath = appObject[key].path;
+              const appTechStack =
+                infoObject && infoObject[key] && infoObject[key].techs
+                  ? infoObject[key].techs
+                  : "";
+              return appObject[key].isEnabled &&
+                appObject[key].category === "micro-apps" ? (
+                <AppTechStackTable
+                  appName={appName}
+                  appUrlPath={appUrlPath}
+                  appTechStack={appTechStack}
+                />
+              ) : null;
+            })}
+          </Paper>
+        </div>
+      </Grid>
       <Grid item xs={gridSize}>
         <Paper elevation={4} className="paper">
           <a
