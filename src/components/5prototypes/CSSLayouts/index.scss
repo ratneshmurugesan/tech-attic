@@ -208,9 +208,10 @@ GRID  - GRID-AREA
   .top-container {
     display: grid;
     grid-gap: 20px;
+    grid-template-columns: 1fr 200px 1fr 1fr;
     grid-template-areas:
-      "showcase showcase top-box-a"
-      "showcase showcase top-box-b";
+      ". showcase top-box-a ."
+      ". showcase top-box-b .";
     grid-auto-rows: 200px;
   }
   .showcase {
@@ -284,31 +285,32 @@ GRID  - GRID-AREA
 
   @media (max-width: 700px) {
     .top-container {
+      grid-template-columns: 1fr 1fr;
       grid-template-areas:
         "showcase showcase"
         "top-box-a top-box-b";
-        grid-auto-rows: 1fr;
+      grid-auto-rows: 1fr;
     }
 
     .showcase h1 {
-        font-size: 2.5rem;
+      font-size: 2.5rem;
     }
 
-    .main-nav ul{
-        grid-template-columns: 1fr;
+    .main-nav ul {
+      grid-template-columns: 1fr;
     }
 
-    .info{
-        grid-template-columns: 1fr;
+    .info {
+      grid-template-columns: 1fr;
     }
   }
 
-  @media (max-width: 500px){
+  @media (max-width: 500px) {
     .top-container {
-        grid-template-areas:
-          "showcase"
-          "top-box-a"
-          "top-box-b";
-      }
+      grid-template-areas:
+        "showcase"
+        "top-box-a"
+        "top-box-b";
+    }
   }
 }
