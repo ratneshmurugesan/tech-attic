@@ -219,6 +219,11 @@ GRID  - GRID-AREA
     background-position: center;
     grid-area: showcase;
     color: var(--light);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
   }
   .top-box {
     background-color: var(--primary);
@@ -252,6 +257,12 @@ GRID  - GRID-AREA
     grid-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     padding: 1.5rem 2rem;
+    & div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
   }
   .portfolio {
     display: grid;
@@ -273,10 +284,10 @@ GRID  - GRID-AREA
 
   @media (max-width: 700px) {
     .top-container {
-      background-color: black;
       grid-template-areas:
         "showcase showcase"
         "top-box-a top-box-b";
+        grid-auto-rows: 1fr;
     }
 
     .showcase h1 {
@@ -294,7 +305,6 @@ GRID  - GRID-AREA
 
   @media (max-width: 500px){
     .top-container {
-        background-color: black;
         grid-template-areas:
           "showcase"
           "top-box-a"
