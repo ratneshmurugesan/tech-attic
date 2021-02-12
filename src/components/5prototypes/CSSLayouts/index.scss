@@ -208,7 +208,7 @@ GRID  - GRID-AREA
   .top-container {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 200px 1fr 1fr;
+    grid-template-columns: 1fr 300px 1fr 1fr;
     grid-template-areas:
       ". showcase top-box-a ."
       ". showcase top-box-b .";
