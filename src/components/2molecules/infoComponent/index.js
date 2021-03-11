@@ -9,7 +9,7 @@ import Container from "@material-ui/core/Container";
 
 import Information from "components/2molecules/Information";
 
-const useStyles_grid = makeStyles((theme) => ({
+const useStyles_grid = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     top: "10px",
@@ -26,7 +26,6 @@ const useStyles_grid = makeStyles((theme) => ({
 const InfoComponent = ({ component, appKey, displayName }) => {
   const classes = useStyles_grid();
   const { details, techs, steps, alive, codeLink } = InfoConfig[appKey] || "";
-//   console.log('InfoComponent', { details, techs, steps, alive, codeLink, component, appKey, displayName });
   const Component = component;
   return (
     <Container maxWidth="xl" style={{ backgroundColor: "#333" }}>

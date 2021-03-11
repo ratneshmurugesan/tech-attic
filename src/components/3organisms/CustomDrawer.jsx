@@ -16,27 +16,25 @@ import { makeStyles } from "@material-ui/core/styles";
 import { routeConfigObj } from "config/routeConfig";
 
 const useStyles = makeStyles({
-  list: {
-    fontFamily: "Rajdhani",
-  },
+  list: {},
   fullList: {
     width: "auto",
-    fontFamily: "Rajdhani",
   },
 });
 
 const buttonYellowTheme = {
   color: "#ffeb3b",
-  fontFamily: "Rajdhani",
   fontSize: "20px",
   letterSpacing: "7px",
   padding: "0px 30px",
+  fontFamily: "inherit",
 };
 
 const buttonWhiteTheme = {
   ...buttonYellowTheme,
   color: "#fff",
   padding: "20px 0px 0px 0px",
+  fontFamily: "inherit",
 };
 
 function CustomDrawer() {
@@ -48,7 +46,7 @@ function CustomDrawer() {
     right: false,
   });
 
-  const toggleDrawer = (anchor, open) => (event) => {
+  const toggleDrawer = (anchor, open) => event => {
     if (
       event.type === "keydown" &&
       (event.key === "Tab" || event.key === "Shift")
@@ -62,10 +60,10 @@ function CustomDrawer() {
   const generateLinks = (side, category = null) => {
     return Object.keys(routeConfigObj)
       .filter(
-        (key) =>
+        key =>
           routeConfigObj[key][side] && routeConfigObj[key].category === category
       )
-      .map((key) => {
+      .map(key => {
         // console.log({ key, obj: routeConfigObj[key] });
         return routeConfigObj[key]["isEnabled"] ? (
           <div key={key}>
@@ -79,7 +77,7 @@ function CustomDrawer() {
       });
   };
 
-  const list = (anchor) => (
+  const list = anchor => (
     <div
       className={clsx(classes.list, {
         [classes.fullList]: anchor === "top" || anchor === "bottom",
@@ -87,7 +85,6 @@ function CustomDrawer() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
-      style={{ fontFamily: "Paprika" }}
     >
       {anchor === "right" ? (
         <React.Fragment>

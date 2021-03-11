@@ -5,7 +5,6 @@ export default makeStyles(() => ({
     width: "100%",
     display: "flex",
     overflow: "auto",
-    fontFamily: "calibri",
     fontSize: "14px",
   },
 }));

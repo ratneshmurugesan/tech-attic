@@ -8,7 +8,6 @@ body {
 
 body {
   background: white;
-  font-family: monospace;
   font-size: 18px;
   text-align: center;
 }
@@ -16,26 +15,25 @@ body {
 .logo {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: "Pacifico", cursive;
   font-size: 5rem;
-//   background: linear-gradient(
-//     to right,
-//     #ef5350,
-//     #f48fb1,
-//     #7e57c2,
-//     #2196f3,
-//     #26c6da,
-//     #43a047,
-//     #eeff41,
-//     #f9a825,
-//     #ff5722
-//   );
+  //   background: linear-gradient(
+  //     to right,
+  //     #ef5350,
+  //     #f48fb1,
+  //     #7e57c2,
+  //     #2196f3,
+  //     #26c6da,
+  //     #43a047,
+  //     #eeff41,
+  //     #f9a825,
+  //     #ff5722
+  //   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .content {
-//   max-width: 320px;
+  //   max-width: 320px;
   margin: 0 auto;
 }
 
@@ -57,7 +55,7 @@ body {
 
 .palette {
   height: 32px;
-//   outline: 1px solid white;
+  //   outline: 1px solid white;
   display: flex;
   justify-content: center;
 }

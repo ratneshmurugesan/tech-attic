@@ -5,6 +5,13 @@
 		},
 		{
 			"path": "..\\tech-attic-node"
+		},
+		{
+			"path": "..\\react-profiling"
 		}
-	]
+	],
+	"settings": {
+		"prettier.arrowParens": "avoid",
+		"editor.formatOnSave": true
+	}
 }

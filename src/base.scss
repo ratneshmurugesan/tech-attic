@@ -1,6 +1,5 @@
 //Fonts
 $font-family-primary: "Rajdhani";
-$font-family-fallback: "sans-serif";
 
 //Colors
 $yellowText: #ffeb3b;
@@ -8,31 +7,30 @@ $whiteText: whitesmoke;
 $GreyBg: #333;
 
 .MuiPaper-root.paper {
-    padding: 16px;
-    text-align: center;
-    color: $yellowText;
-    background-color: #424242;
-    margin-top: 20px;
-    font-family: $font-family-primary;
+  padding: 16px;
+  text-align: center;
+  color: $yellowText;
+  background-color: #424242;
+  margin-top: 20px;
 }
 
 a:not([href="/aboutme"]):not([href="/whyme"]) {
+  color: $yellowText;
+  // border-top: 0px solid $yellowText;
+  // border-right: 0px solid $yellowText;
+  padding: 2px;
+  // transition: border-top 1s linear 0.5s, border-right 500ms linear 0.5s;
+  &:hover {
     color: $yellowText;
-    // border-top: 0px solid $yellowText;
-    // border-right: 0px solid $yellowText;
-    padding: 2px;
-    // transition: border-top 1s linear 0.5s, border-right 500ms linear 0.5s;
-    &:hover {
-        color: $yellowText;
-        font-weight: bold;
-        // border-top: 1px solid $yellowText;
-        // border-right: 1px solid $yellowText;
-        // transition: border-top 500ms linear 100ms, border-right 1s linear 100ms;
-        text-decoration: none;
-    }
+    font-weight: bold;
+    // border-top: 1px solid $yellowText;
+    // border-right: 1px solid $yellowText;
+    // transition: border-top 500ms linear 100ms, border-right 1s linear 100ms;
+    text-decoration: none;
+  }
 }
 
 #chartdiv {
-    width: 100%;
-    height: 550px;
+  width: 100%;
+  height: 550px;
 }

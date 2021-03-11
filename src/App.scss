@@ -1,15 +1,21 @@
-@import './base.scss';
+@import "./base.scss";
 
-html{
+html {
   height: 100%;
-  & body{ //Increasing specificity value for good.
-    min-height: inherit;
-    background-color: $GreyBg;
-  }
+}
+body {
+  //Increasing specificity value for good.
+  min-height: inherit;
+  background-color: $GreyBg;
+  font-family: $font-family-primary;
+}
+/* Use [[webfont]] when [[webfont]] gets loaded*/
+.fonts-loaded body {
+  font-family: $font-family-primary;
 }
 .App {
   text-align: center;
-  font-family: $font-family-primary, $font-family-fallback;
+  // font-family: $font-family-primary, $font-family-fallback;
   & a {
     text-decoration: none;
   }
@@ -24,7 +30,7 @@ html{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  font-family: $font-family-primary, $font-family-fallback;
+  // font-family: $font-family-primary, $font-family-fallback;
   font-weight: 200;
 }
 
@@ -46,7 +52,7 @@ html{
   display: flex;
   justify-content: left;
   font-size: 16px;
-  font-family: $font-family-primary, $font-family-fallback;
+  // font-family: $font-family-primary, $font-family-fallback;
 }
 
 .page__title {
@@ -56,5 +62,5 @@ html{
   color: $yellowText;
   margin: 20px;
   padding: 0;
-  font-family: $font-family-primary, $font-family-fallback;
+  // font-family: $font-family-primary, $font-family-fallback;
 }

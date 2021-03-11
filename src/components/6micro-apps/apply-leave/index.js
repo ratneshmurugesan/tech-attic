@@ -10,9 +10,7 @@ import useStyles from "./style";
 import { reducerFn, initialState } from "./store";
 
 const theme = createMuiTheme({
-  typography: {
-    fontFamily: "calibri",
-  },
+  typography: {},
 });
 
 const App = () => {
