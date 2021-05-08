@@ -1,0 +1,66 @@
+@import "./base.scss";
+
+html {
+  height: 100%;
+}
+body {
+  //Increasing specificity value for good.
+  min-height: inherit;
+  background-color: $GreyBg;
+  font-family: $font-family-primary;
+}
+/* Use [[webfont]] when [[webfont]] gets loaded*/
+.fonts-loaded body {
+  font-family: $font-family-primary;
+}
+.App {
+  text-align: center;
+  // font-family: $font-family-primary, $font-family-fallback;
+  & a {
+    text-decoration: none;
+  }
+  font-size: 14px;
+}
+
+.App-header {
+  background-color: #4b4b4b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  // font-family: $font-family-primary, $font-family-fallback;
+  font-weight: 200;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.title {
+  color: $yellowText;
+  margin: 15px 15px;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 7px;
+}
+
+.drawer__list__item {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+  // font-family: $font-family-primary, $font-family-fallback;
+}
+
+.page__title {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 7px;
+  color: $yellowText;
+  margin: 20px;
+  padding: 0;
+  // font-family: $font-family-primary, $font-family-fallback;
+}

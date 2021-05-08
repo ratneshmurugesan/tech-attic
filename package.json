@@ -24,6 +24,7 @@
     "date-fns": "^2.16.1",
     "echarts": "^4.8.0",
     "echarts-for-react": "^2.0.16",
+    "eslint-plugin-import": "^2.22.1",
     "graphql": "^14.6.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
@@ -40,14 +41,16 @@
     "redux": "^4.0.5",
     "subscriptions-transport-ws": "^0.9.16",
     "three": "^0.122.0",
-    "typescript": "^4.1.3"
+    "typescript": "^4.1.3",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pushtogit": "git push origin master"
+    "pushtogit": "git push origin master",
+    "lint": "eslint --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -71,17 +74,24 @@
     "@react-mock/fetch": "^0.3.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "24.9.0",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.3",
     "enzyme-to-json": "^3.5.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
     "faker": "^5.1.0",
     "http-proxy-middleware": "^1.0.5",
     "jest": "24.9.0",
     "json-server": "^0.16.2",
     "nodemon": "^2.0.4",
+    "prettier": "^2.2.1",
     "prop-types": "^15.7.2",
     "react-connect-elements": "^0.1.1",
     "react-mock": "^6.0.1",

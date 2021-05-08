@@ -8,6 +8,15 @@
 		},
 		{
 			"path": "..\\react-profiling"
+		},
+		{
+			"path": "..\\react-query-example-master"
+		},
+		{
+			"path": "..\\nextjs-blog"
+		},
+		{
+			"path": "..\\react-interval-setstate-unmounted-component-performance"
 		}
 	],
 	"settings": {
