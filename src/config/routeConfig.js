@@ -79,7 +79,7 @@ export const routeConfigObj = {
     key: "dashboard",
     rightPanel: true,
     category: "micro-apps",
-    isEnabled: true,
+    isEnabled: false,
   },
   bookStore: {
     path: "/bookstore",
