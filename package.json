@@ -19,7 +19,7 @@
     "antd-init": "^2.0.7",
     "apollo-boost": "^0.4.7",
     "apollo-link-ws": "^1.0.19",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "clsx": "^1.1.1",
     "date-fns": "^2.16.1",
     "echarts": "^4.8.0",
